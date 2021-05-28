@@ -1,0 +1,264 @@
+"aa" = (/turf/simulated/floor/colored/snow,/area)
+"ab" = (/turf/simulated/wall/rock/indestructable,/area)
+"ac" = (/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"ad" = (/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"ae" = (/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"af" = (/turf/simulated/wall/metal,/area/hellscape/interior/caves/syndicate)
+"ag" = (/obj/decal/hazard{dir = 6},/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"ah" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"ai" = (/obj/decal/hazard{dir = 10},/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"aj" = (/obj/structure/smooth/wall/brick,/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"ak" = (/obj/structure/smooth/wall/brick,/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"al" = (/obj/decal/hazard{dir = 8},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"am" = (/turf/simulated/wall/shuttle,/area/hellscape/interior/caves/syndicate)
+"an" = (/obj/structure/smooth/window/shuttle/middle{icon_state = "single"; dir = 4},/turf/simulated/floor/plating/shuttle,/area/hellscape/interior/caves/syndicate)
+"ao" = (/obj/structure/smooth/window/shuttle/end_02{dir = 8},/turf/simulated/floor/plating/shuttle,/area/hellscape/interior/caves/syndicate)
+"ap" = (/obj/structure/smooth/window/shuttle,/turf/simulated/floor/plating/shuttle,/area/hellscape/interior/caves/syndicate)
+"aq" = (/obj/structure/smooth/window/shuttle/end_02{dir = 4},/turf/simulated/floor/plating/shuttle,/area/hellscape/interior/caves/syndicate)
+"ar" = (/obj/decal/hazard{dir = 4},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"as" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"at" = (/obj/structure/interactive/crate/loot,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"au" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/shuttle,/area/hellscape/interior/caves/syndicate)
+"av" = (/obj/structure/smooth/table,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"aw" = (/obj/structure/interactive/computer/console,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"ax" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"ay" = (/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"az" = (/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aA" = (/obj/structure/interactive/crate/engineering,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"aB" = (/obj/structure/interactive/lighting/fixture/tube/station{dir = 8},/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aC" = (/obj/structure/smooth/window/shuttle/middle,/turf/simulated/floor/plating/shuttle,/area/hellscape/interior/caves/syndicate)
+"aD" = (/mob/living/advanced/npc/unique/hostage/assistant,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aE" = (/obj/structure/smooth/table/rack/steel,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"aF" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aG" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"aH" = (/mob/living/advanced/npc/unique/hostage/scientist{icon_state = "directional"; dir = 8},/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aI" = (/obj/decal/hazard{dir = 8},/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"aJ" = (/obj/structure/interactive/crate/secure,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aK" = (/mob/living/advanced/npc/unique/hostage/clown{icon_state = "directional"; dir = 4},/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aL" = (/obj/decal/hazard{dir = 4},/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"aM" = (/obj/structure/interactive/crate/medical,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"aN" = (/obj/structure/sign/no_smoking,/turf/simulated/wall/metal,/area/hellscape/interior/caves/syndicate)
+"aO" = (/obj/structure/interactive/construction/girder,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"aP" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aQ" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aR" = (/obj/structure/smooth/table/rack/grey,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aS" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aT" = (/obj/structure/smooth/table/reinforced/dark,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aU" = (/obj/marker/antag/doc,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aV" = (/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aW" = (/obj/marker/antag/tachanka,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aX" = (/obj/structure/interactive/door/airlock/shuttle,/turf/simulated/floor/tile/shuttle,/area/hellscape/interior/caves/syndicate)
+"aY" = (/obj/structure/interactive/chair,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"aZ" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ba" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bb" = (/obj/structure/smooth/table/reinforced/dark,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bc" = (/obj/structure/shuttle_engine/burst,/turf/simulated/floor/tile/shuttle/red,/area/hellscape/interior/caves/syndicate)
+"bd" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"be" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bf" = (/obj/structure/smooth/table/wood/poor,/obj/structure/interactive/misc/tv,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bg" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bh" = (/obj/marker/antag/katanazero,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bi" = (/turf/simulated/floor/tile/dark/er,/area/hellscape/interior/caves/syndicate)
+"bj" = (/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bk" = (/obj/decal/hazard,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bl" = (/obj/decal/hazard{dir = 9},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bm" = (/turf/simulated/floor/carpet,/area/hellscape/interior/caves/syndicate)
+"bn" = (/obj/marker/antag/dwizard,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bo" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bp" = (/obj/decal/hazard{icon_state = "corner"},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bq" = (/obj/decal/hazard,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"br" = (/obj/decal/hazard,/obj/marker/antag/turretman,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bs" = (/obj/decal/hazard,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bt" = (/obj/decal/hazard{dir = 5},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bu" = (/obj/structure/interactive/crate/engineering,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bv" = (/obj/structure/interactive/misc/dresser,/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"bw" = (/obj/structure/smooth/table/wood/poor,/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"bx" = (/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"by" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"bz" = (/obj/structure/smooth/table/reinforced/dark,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bA" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bB" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bC" = (/obj/decal/hazard{dir = 4},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bD" = (/obj/structure/interactive/conveyor{dir = 5},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bE" = (/obj/structure/interactive/conveyor{dir = 8},/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bF" = (/obj/structure/interactive/conveyor{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bG" = (/obj/structure/interactive/conveyor{dir = 8},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bH" = (/obj/structure/interactive/conveyor{dir = 8},/obj/structure/interactive/crate/closet,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bI" = (/obj/decal/hazard{icon_state = "line"; dir = 8},/obj/structure/interactive/crate/engineering,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bJ" = (/obj/structure/interactive/crate,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bK" = (/obj/structure/interactive/chair/wood{dir = 4},/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"bL" = (/obj/structure/interactive/chair/wood{dir = 8},/turf/simulated/floor/carpet,/area/hellscape/interior/caves/syndicate)
+"bM" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bN" = (/obj/structure/interactive/conveyor,/obj/structure/interactive/plastic_flaps,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bO" = (/obj/structure/sign/shock,/turf/simulated/wall/metal,/area/hellscape/interior/caves/syndicate)
+"bP" = (/obj/decal/hazard{dir = 5},/obj/decal/hazard{dir = 1},/obj/structure/interactive/crate/engineering,/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bQ" = (/obj/decal/hazard,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/plating,/area/hellscape/interior/caves/syndicate)
+"bR" = (/obj/structure/interactive/crate,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bS" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bT" = (/obj/structure/interactive/vending/junk/full,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bU" = (/obj/structure/interactive/conveyor,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bV" = (/obj/structure/interactive/crate/medical,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bW" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bX" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/carpet,/area/hellscape/interior/caves/syndicate)
+"bY" = (/obj/structure/interactive/conveyor,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"bZ" = (/obj/structure/interactive/conveyor{icon_state = "conveyor_broken"},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ca" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"cb" = (/obj/decal/hazard{dir = 9},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cc" = (/obj/structure/interactive/conveyor,/obj/structure/interactive/crate/closet,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cd" = (/obj/structure/interactive/crate/loot,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ce" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cf" = (/obj/structure/interactive/light_switch,/turf/simulated/wall/metal,/area/hellscape/interior/caves/syndicate)
+"cg" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/wood/rich,/area/hellscape/interior/caves/syndicate)
+"ch" = (/obj/structure/interactive/conveyor{icon_state = "conveyor"; dir = 10},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ci" = (/obj/structure/interactive/crate,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cj" = (/obj/structure/smooth/table/reinforced/dark,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ck" = (/obj/structure/interactive/lighting/fixture/bulb,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cl" = (/obj/structure/interactive/conveyor{icon_state = "conveyor_broken"},/obj/structure/interactive/plastic_flaps,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cm" = (/obj/structure/interactive/conveyor,/obj/structure/interactive/crate/engineering,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cn" = (/obj/decal/hazard{icon_state = "line"; dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"co" = (/obj/structure/interactive/crate,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cp" = (/obj/structure/interactive/crate/medical,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cq" = (/obj/structure/interactive/crate/closet,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cr" = (/obj/structure/interactive/vending/coffee,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cs" = (/obj/structure/interactive/vending/security/attachment,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"ct" = (/obj/structure/smooth/table/rack/grey,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cu" = (/obj/structure/interactive/conveyor{icon_state = "conveyor"; dir = 10},/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cv" = (/obj/structure/interactive/conveyor{dir = 8},/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cw" = (/obj/structure/interactive/crate/engineering,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cx" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cy" = (/obj/decal/hazard{dir = 1},/obj/decal/hazard{icon_state = "corner"},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cz" = (/obj/decal/hazard{dir = 1},/obj/decal/hazard,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cA" = (/obj/structure/smooth/table/rack/grey,/obj/decal/hazard,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cB" = (/obj/decal/hazard{dir = 6},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cC" = (/obj/structure/smooth/table/reinforced/dark,/obj/decal/hazard{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cD" = (/obj/structure/interactive/crate/engineering,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cE" = (/obj/structure/interactive/conveyor{dir = 8},/obj/structure/interactive/crate/engineering,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cF" = (/obj/structure/interactive/conveyor{dir = 8},/obj/structure/interactive/plastic_flaps,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cG" = (/obj/structure/interactive/misc/dresser,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cH" = (/obj/structure/interactive/chair,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cI" = (/turf/simulated/floor/brick/grey/dark,/area/lz_001/snow)
+"cJ" = (/turf/simulated/floor/grass,/area/lz_001/snow)
+"cK" = (/turf/simulated/wall/plastic/office,/area/hellscape/interior/caves/syndicate)
+"cL" = (/turf/simulated/floor/plating,/area/transit/dropship/alpha/landing)
+"cM" = (/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cN" = (/obj/structure/smooth/table/reinforced/dark,/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cO" = (/obj/structure/smooth/table/reinforced/dark,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cP" = (/obj/structure/interactive/computer/console/remote_flight/alpha{icon_state = "computer"; dir = 4},/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cQ" = (/turf/simulated/floor/tile/grey/single,/area/hellscape/interior/caves/syndicate)
+"cR" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cS" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark/single,/area/hellscape/interior/caves/syndicate)
+"cT" = (/obj/structure/interactive/tree/pine,/turf/simulated/floor/colored/snow,/area/lz_001/snow)
+"cU" = (/turf/simulated/floor/colored/snow,/area/lz_001/snow)
+"cV" = (/obj/structure/smooth/wall/brick,/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey,/area/lz_001/snow)
+"cW" = (/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey/dark,/area/lz_001/snow)
+"cX" = (/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/floor/brick/grey/dark,/area/lz_001/snow)
+"cY" = (/obj/marker/antag/builder,/turf/simulated/floor/tile/dark/ish,/area/hellscape/interior/caves/syndicate)
+"cZ" = (/obj/structure/interactive/tree/pine,/obj/effect/fog_of_war,/turf/simulated/floor/colored/snow,/area/lz_001/snow)
+"da" = (/obj/effect/fog_of_war,/turf/simulated/floor/grass,/area/lz_001/snow)
+"db" = (/obj/effect/fog_of_war,/turf/simulated/floor/colored/snow,/area/lz_001/snow)
+"dc" = (/obj/effect/fog_of_war,/obj/effect/fog_of_war,/turf/simulated/floor/grass,/area/lz_001/snow)
+"dd" = (/obj/structure/interactive/lighting/fixture/floor/strong,/turf/simulated/floor/plating,/area/lz_001/snow)
+"de" = (/turf/simulated/floor/plating,/area/lz_001/snow)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacadadadadadadadadadadadadadadadadadadadadadadadadadacaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabajakakakakcIcIafagahahahahahahahahahaiafcIcIaeaeaeaeadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabajcJcTcJakcIcIafalamanamaoapaqamanamarafcIcIakakakakajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabajcUcJcJakcIcIasalamatauavawavauatamarascIcIakcJcJcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabajcJcJcJakcIcIasalamaxayazazazaAaBamarascIcIakcJcTcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabajcJcJcUakcIcIasalaCaDaEaFaEazaEazaCarascIcIakcJcUcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababajcUcUcTakcIcIasalamazaGazaGazaGaHamarascIcIakcJcJcUajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababaeaeaeaeaeaeaeaeaeaeaeaeajcUcUcJakcIcIafaIamaJaEaKaEazaEazamaLafcIcIakcTcJcTajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababaeaeaeaeaeaeaeaeaeaeaeaeajcTcUcJakcIcIasalamazaEazaEaFaEazamarascIcIakcJcJcTajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababaeacadadadadadadadadadadcVakakakakcIcIasalamazaGazaGaMaGazamarascIcIakcUcUcUajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaeaeaeaeaeaeaeaeaecWcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIafalaCazaEazaEaMaEazaCarafcIcIakcUcUcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIcIcIcIcIcIcIcWcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIafalamaxayazazazayaBamarafcIcIakcTcJcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcXcWcWcWcWcWcWcXcIafafasasafafafasafafasasasafafafafaIamazayayayayayazamaLafcIcIakakakakajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafafafaNafaOaOafafaPaPaPaQafaRaSaPaTaUaVaWaTaVaSafalamamamaXauaXamamamarafcIcIaeaeaeaeadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafaYaYaVaZaVaVaVbaaVaVaVaVbaaVaVaVbbaVaVaVbbcYaSafalbcbcbcazazazbcbcbcarafcIcIcIcIcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafbdbdaVaVaVbebfafbgaVaVaVafaVbhaVbbbbaVbbbbaVaVbialbjbjbjbjbjbjbjbjbkblafcIcIcIcIcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafaVaVbmbmbmaVbdafaVaVaVaVafaVaVaVaVaVaVbnaVaVaVbialbjbjbjbjbjbjbjaLafafafafafafafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafaVbobmbmbmboaVbaaVaVaVaVbaaVaVbpbqbqbrbqbqbsafafbtbkbkbububjbjbjarafbvbwbxbybyafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWafasafbaafbaafasafbzbAaVaVafbBaVbCbDbEbFbFbFbFaObDbGbGbHbIbJbjbjbjarafbKbwbLbmbmafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWcIcIcIcIcIcIcIcIafafbMbibiafbMbMaObNafafafbOafafbNafafbPbkbkbkbQbkblafbxbwbLbmbmafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcWcIcIcIcIcIcIcIcIafbRaVaVaVaZbSbTbCbUafbbaTaVaVbCbUafbVbVaVaVbWafbgaVafbxbxbmbmbXafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaeaeadaeaeaeaeaeaecIcIasaVaVaVaVaVaVaVbCbYafbbbeaVaVbCbZafaPbVaVaVaVaZaVaVafcabxbmbmbmafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakakajakakaeaeaeaecIcIasaVaVaVafaVafaVbCbUafaVaVaVbpcbccbOcdaVboaVaVafceceafcfbMbMafcgafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcZcUakcIcIcIcIcIcIasaVaVaVaVaVbpbqcbbUaObeaVaVbCbDchafbVbWafbgaVbMaVaVaVaVaVaVaVaVafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdacJaecIcIcIcIcIcIafaPciaVaVbobCbDbFchafcjbbbObCbYafafaVaVckaVaVceaVaVboaVaVboaVaVafcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdacJaecIcIafafasafafafafbaafafafclafafafbMbMafbCcmcnafaVbWafbgaVafaVaVafbMbMafaVaVafcIcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTdacUakcIcIafcoaPcpbVaPcqaVaSaRbCbZafaVaZaVaVaVbCbZcnaVaVaVaZaVaVafceafafbbbbafafceafcIcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdbcTakcIcIascocococqbVaVaVaVaVbCbUbiaVaVaVaVaVbCbZcnaVaVaVaVaVaVafaVaZcrbebecsaZaVafafcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdbcUakcIcIasaVaVaVaVaVbpbqbqbqcbbZbiaVaVafafbMafbNafbaafbMafbaafafbBaVaVaVaVaVaVaVctafcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdaakakcIcIafbgaVaVaVaVbCbFbFbFbFcuafafafafbDbFcvchcnaVaRaSaSaVafaVaVaVaVaVaVaVaVaVaSafcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdaakcIcIcIascocoaVcwcwaVcxcxcxcyczbqcAafbDchcBcCcCaVaVaVaVaVaVceaVboaVaVaSbbbbbbboafafcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTdaakcIcIcIasbVcocDcwcwcwaVboaVbCcEbFbFcFchcBaVaVaVaVaVaVaVaVaVafafafafaOafafafafafafcIcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTdaakcIcIafafaOafafafafasasafasasafafafafafbbaVaVaVbebeaVaVaVbWafcIcIcIcIcIcIcIcIcIcIcIcIcWaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdbakcIcIceaVcGafcIcIcIcIcIcIcIcIcIcIcIcIaOaVaVaVaSbbbzbbaVaVbBafcIcIcIcIcIcIcIcIcIcIcIcIadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdaakcIcIasaVcHafcIcIcIcIcIcIcIcIcIcIcIcIaOaVbWafafafafafafasasafcIcIakakaeaeakakakakakakajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdaakcIcIasbbbbafcIcIakakaeakaeakakaecIcIafbbaVascIcIcIcIcIcIcIcIcIcIakcJcJcUcJcJcJcJcTcUajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcZakcIcIafasasafcIcIakcJcTcUcUcJakcIcIcIafbbbeascIcIcIcIcIcIcIcIcIcIakcJcJcJcJcJcJcUcUcUadaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdbakcIcIcIcIcIcIcIcIaecJcJcJcJcJaecIcIcIafbzbbafcIcIakakakakakakakakakcJcTcUcJcJcJcJcJcJajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJdaakcIcIcIcIcIcIcIcIakcJcJcUcJcTakcIcIafafafafafcIcIakcJcTcUcUcJcJcJcJcJcUcTcJcJcJcJcJcTajaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUdcajadcVajcWcWadadadaddbdbdbdadaadcWcWcWcWcWcWcWcWcWaddbdbcZdadadadadadadadadadacZdbdadacVaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcJcJcJcUakcIcIaeaeaeakcJcUcTcJcJakcIcIcIcIcIcIcIcIcIakcTcUcUcUcJcTcUcUcJcJcJcJcJcUcTcJcJakaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcJcUcUcTakcIcIaeaeaeakakaeakaeakakcIcIaeaeaeaeaeaeaeakakakakakakakakakakakakakakakakakakakaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcTcUcUcJakcIcIcIcIcIcIcIcIcIcIcIcIcIcIaeabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcJcJcUcJakcIcIcIcIcIcIcIcIcIcIcIcIcIcIaeabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcJcJcUcJakcIcIakakakakakaeakakakakakakakabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcJcJcJcUakcIcIakcJcTcUcUcJcJcJcTcUcUcUakabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTcJcJcJcJakcIcIakcJcJcJcUcUcJcJcJcUcUcTakabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcUcJcTcJakcIcIakcJcUcJcUcJcJcJcJcJcUcUakabababababaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcUcJcUcUakcIcIakcJcUcJcJcJcUcTcUcJcUcUakabababababaedddedededededededededdaeaecKcKcKcKcKcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTcUcJcUcUakcIcIakcTcUcJcJcJcUcUcUcTcUcUakabababababaedecLcLcLcLcLcLcLcLcLdeaeaecKcMcMcNcOcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcUcUcJcTakcIcIakcUcUcUcJcJcJcUcUcJcUcUakabababababaedecLcLcLcLcLcLcLcLcLdeaeaeascPcQcQcNcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcJcJcJcJaecIcIaecUcTcJcJcTcJcJcJcJcUcTakabababababaedecLcLcLcLcLcLcLcLcLdeaeaeascNcQcQcMcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcUcJcJcJaecIcIakcJcUcUcJcJcJcUcTcUcUcUakabababababaedecLcLcLcLcLcLcLcLcLdeaeaecKcRcMcMcMcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcTcJcJcJcUakcIcIakakakakakaeaeakakakakakakadaeaeaeaeaedecLcLcLcLcLcLcLcLcLdeaeaecKcKcKcScKcKaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcJcJcTcUcUakcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcWcIcIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaeaecIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakcUcJcUcUcUakcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcWcIcIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabakakakakakakakaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababababababababababababaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaedecLcLcLcLcLcLcLcLcLdeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaedddedededededededededdaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaecIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaecIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIcIaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
