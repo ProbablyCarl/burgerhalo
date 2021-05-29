@@ -12,7 +12,7 @@ var/global/world_state = STATE_STARTING
 	map_format = TOPDOWN_MAP
 	sleep_offline = TRUE
 
-	name = "Rainbow6 13"
+	name = "BurgerHalo 13"
 	hub = "Exadv1.spacestation13"
 	hub_password = "kMZy3U5jJHSiBQjr"
 
@@ -37,8 +37,8 @@ var/global/world_state = STATE_STARTING
 	if(world_state == STATE_STARTING)
 		return FALSE
 
-	var/server_name = CONFIG("SERVER_NAME","Unofficial Burgerstation 13 Server")
-	var/server_link = CONFIG("SERVER_DISCORD","https://discord.gg/a2wHSqu")
+	var/server_name = CONFIG("SERVER_NAME","Official BurgerHalo 13 Server")
+	var/server_link = CONFIG("SERVER_DISCORD","https://discord.gg/s72MARfXr6")
 	var/github_name = "SS13 <b>FROM SCRATCH</b>"
 
 	var/minutes = FLOOR(world.time / 600, 1)
