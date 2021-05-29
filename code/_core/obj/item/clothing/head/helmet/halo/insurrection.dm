@@ -26,6 +26,6 @@
 
 /obj/item/clothing/head/helmet/halo/insurrection/commander
 	name = "URF commander turban"
-	icon = 'icons/obj/item/clothing/hats/ins.dmi'
+	icon = 'icons/obj/item/clothing/hats/ins_c.dmi'
 	desc = "Don't mess with guys in that helmet!"
 	desc_extended = "Literally turban with armor"

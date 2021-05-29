@@ -10,7 +10,7 @@
 
 	footstep = /footstep/carpet
 
-	destruction_turf = /turf/simulated/floor/plating
+	destruction_turf = /turf/simulated/floor/cave_dirt
 
 /turf/simulated/floor/carpet/office
 	name = "road"

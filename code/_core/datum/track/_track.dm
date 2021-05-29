@@ -210,3 +210,8 @@
 	name = "New Year"
 	path = 'sound/music/New Year.ogg'
 	length = 2*60 + 30
+
+/track/halo //Menu Music
+	name = "Halo OST"
+	path = 'sound/music/Halo Theme Song Original.ogg'
+	length = 3*60 + 30

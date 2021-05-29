@@ -2,7 +2,7 @@
 	name = "portable pointing device"
 	desc = "When you need things delivered."
 	desc_extended = "A special remote designed to burn the battlefield."
-	icon = 'icons/obj/item/supply_remote.dmi'
+	icon = 'icons/obj/item/supply_remote_mech.dmi'
 	icon_state = "inventory"
 
 	var/charges = 6
@@ -43,7 +43,7 @@
 	var/amount_multiplier = FLOOR(10 + 20, 1)
 
 	for(var/i=1,i<=amount_multiplier,i++)
-		new/obj/effect/temp/ash_drake/target/(T)
+		new/obj/effect/temp/target/(T)
 		new/obj/effect/falling_fireball(T)
 
 	return TRUE

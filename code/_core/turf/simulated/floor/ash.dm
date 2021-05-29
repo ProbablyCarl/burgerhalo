@@ -31,6 +31,8 @@
 	name = "road"
 	color = "#3F3F3F"
 
+	destruction_turf = /turf/simulated/floor/cave_dirt
+
 /turf/simulated/floor/colored/ash/rocky
 	name = "rocky ash"
 	color = "#3F3F3F"

@@ -9,6 +9,7 @@ var/global/list/all_fog = list()
 	plane = PLANE_AREA
 	layer = 100
 	alpha = 255
+	opacity = 1
 
 	collision_flags = FLAG_COLLISION_WALL
 	collision_bullet_flags = FLAG_COLLISION_BULLET_ORGANIC
@@ -30,4 +31,5 @@ var/global/list/all_fog = list()
 /obj/effect/fog_of_war/proc/remove()
 	animate(src,alpha = 0)
 	density = FALSE
+	opacity = 0
 	mouse_opacity = 0

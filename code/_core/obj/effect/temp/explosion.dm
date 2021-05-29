@@ -12,3 +12,9 @@
 	animate(src,transform = M,time = desired_time)
 	return ..()
 
+/obj/effect/temp/target/
+	name = "swoop up effect"
+	icon = 'icons/halo/icons/HUD/crosshair.dmi'
+	icon_state = "missileret_locked"
+	duration = SECONDS_TO_DECISECONDS(2)
+	mouse_opacity = 0
