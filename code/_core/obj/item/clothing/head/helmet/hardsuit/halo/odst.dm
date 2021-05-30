@@ -5,6 +5,7 @@
 	icon = 'icons/obj/item/clothing/hats/odst.dmi'
 	rarity = RARITY_UNCOMMON
 	blocks_clothing = SLOT_FACE_WRAP | SLOT_HEAD
+	loyalty_tag = "NanoTrasen"
 
 	defense_rating = list(
 		BLADE = 20,

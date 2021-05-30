@@ -5,6 +5,7 @@
 	icon = 'icons/obj/item/clothing/hats/soe.dmi'
 	rarity = RARITY_UNCOMMON
 	blocks_clothing = SLOT_FACE_WRAP | SLOT_HEAD
+	loyalty_tag = "Syndicate"
 
 	defense_rating = list(
 		BLADE = 20,

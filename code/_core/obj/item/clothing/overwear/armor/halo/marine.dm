@@ -3,6 +3,7 @@
 	desc = "Military. In space!"
 	desc_extended = "An armored protective vest worn by the members of the UNSC Marine Corps."
 	icon = 'icons/obj/item/clothing/suit/marine.dmi'
+	loyalty_tag = "NanoTrasen"
 
 	rarity = RARITY_MYTHICAL
 

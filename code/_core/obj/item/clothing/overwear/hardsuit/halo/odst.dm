@@ -5,6 +5,8 @@
 	icon = 'icons/obj/item/clothing/suit/odst.dmi'
 	rarity = RARITY_UNCOMMON
 
+	loyalty_tag = "NanoTrasen"
+
 	defense_rating = list(
 		BLADE = 20,
 		BLUNT = 40,

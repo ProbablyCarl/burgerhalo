@@ -3,6 +3,7 @@
 	desc = "Don't mess with guys in that armor!"
 	desc_extended = "The V12L Body Armor is composed of materials salvaged from a wide array of UNSC equipment for a lightweight design based off the M22L Body Armor crafted by X-52 for the new armor series being rolled out from Eridanus Secundus."
 	icon = 'icons/obj/item/clothing/suit/ins.dmi'
+	loyalty_tag = "Syndicate"
 
 	rarity = RARITY_MYTHICAL
 

@@ -19,9 +19,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/cqb,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/cqb,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -36,9 +36,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/medic,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/medic,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -53,9 +53,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/rifleman,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/rifleman,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -70,9 +70,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/sl,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/sl,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -87,9 +87,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/engineer,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/engineer,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -104,9 +104,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/nt/halo/odst/sharpshooter,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/nt/halo/odst/sharpshooter,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -122,9 +122,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/cqb,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/cqb,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -140,9 +140,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/medic,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/medic,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -158,9 +158,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/rifleman,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/rifleman,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -176,9 +176,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/sl,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/sl,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -194,9 +194,9 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/engineer,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/engineer,TRUE)
+	qdel(src)
 
 	return TRUE
 
@@ -212,8 +212,8 @@
 
 	var/mob/living/advanced/A = caller
 
-	if(!length(A.worn_objects))
-		A.equip_loadout(/loadout/syndicate/halo/soe/sharpshooter,TRUE)
-		qdel(src)
+//	if(!length(A.worn_objects))
+	A.equip_loadout(/loadout/syndicate/halo/soe/sharpshooter,TRUE)
+	qdel(src)
 
 	return TRUE

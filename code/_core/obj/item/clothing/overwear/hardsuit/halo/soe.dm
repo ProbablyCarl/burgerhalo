@@ -4,6 +4,7 @@
 	desc_extended = "Standart model of SOE suit."
 	icon = 'icons/obj/item/clothing/suit/soe.dmi'
 	rarity = RARITY_UNCOMMON
+	loyalty_tag = "Syndicate"
 
 	defense_rating = list(
 		BLADE = 20,

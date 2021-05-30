@@ -3,6 +3,7 @@
 	icon = 'icons/obj/item/clothing/hats/marine.dmi'
 	desc = "Military. In space!"
 	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+	loyalty_tag = "NanoTrasen"
 
 	defense_rating = list(
 		BLADE = AP_SWORD,
