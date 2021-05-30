@@ -4,7 +4,7 @@
 	desc_extended = "A light machine gun, made by Insurrection forces."
 	icon = 'icons/obj/item/weapons/ranged/rifle/halo/30cal.dmi'
 
-	shoot_delay = 2
+	shoot_delay = 1
 
 	automatic = TRUE
 

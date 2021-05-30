@@ -4,7 +4,7 @@
 	desc_extended = "Contains ammunition for a ranged weapon. Make sure you're trying to use the right caliber."
 	icon = 'icons/obj/item/magazine/m7.dmi'
 	icon_state = "m7mag"
-	bullet_count_max = 60
+	bullet_count_max = 30
 
 	bullet_length_min = 25
 	bullet_length_best = 32

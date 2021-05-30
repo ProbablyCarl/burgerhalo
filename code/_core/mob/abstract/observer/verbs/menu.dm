@@ -105,27 +105,27 @@
 		src.to_chat(span("danger","You don't have any antag tokens! To earn antag tokens, play the game normally and purchase them in a secret location in maintenance."))
 		return FALSE*/
 
-/*	if(world_state != STATE_RUNNING)
+	if(world_state != STATE_RUNNING)
 		src.to_chat(span("warning","The game has not loaded yet!"))
 		return FALSE
 
-	if(!SSgamemode || !SSgamemode.active_gamemode)
-		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-		return FALSE
+//	if(!SSgamemode || !SSgamemode.active_gamemode)
+//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
+//		return FALSE
 
 	var/gamemode_state = SSgamemode.active_gamemode.state
 
-	if(gamemode_state <= GAMEMODE_WAITING)
-		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-		return FALSE
+//	if(gamemode_state <= GAMEMODE_WAITING)
+//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
+//		return FALSE
 
 	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
 		return FALSE
 
-	if(gamemode_state >= GAMEMODE_BREAK)
-		src.to_chat(span("warning","The round is currently ending!"))
-		return FALSE*/
+//	if(gamemode_state >= GAMEMODE_BREAK)
+//		src.to_chat(span("warning","The round is currently ending!"))
+//		return FALSE*/
 
 	if(length(all_nt_markers) <= 0)
 		src.to_chat(span("warning","There are no available roles!"))
@@ -205,27 +205,27 @@
 		src.to_chat(span("danger","You don't have any antag tokens! To earn antag tokens, play the game normally and purchase them in a secret location in maintenance."))
 		return FALSE*/
 
-/*	if(world_state != STATE_RUNNING)
-		src.to_chat(span("warning","The game has not loaded yet!"))
-		return FALSE
+//	if(world_state != STATE_RUNNING)
+//		src.to_chat(span("warning","The game has not loaded yet!"))
+//		return FALSE
 
-	if(!SSgamemode || !SSgamemode.active_gamemode)
-		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-		return FALSE
+//	if(!SSgamemode || !SSgamemode.active_gamemode)
+//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
+//		return FALSE
 
 	var/gamemode_state = SSgamemode.active_gamemode.state
 
-	if(gamemode_state <= GAMEMODE_WAITING)
-		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-		return FALSE
+//	if(gamemode_state <= GAMEMODE_WAITING)
+//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
+//		return FALSE
 
 	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
 		return FALSE
 
-	if(gamemode_state >= GAMEMODE_BREAK)
-		src.to_chat(span("warning","The round is currently ending!"))
-		return FALSE*/
+//	if(gamemode_state >= GAMEMODE_BREAK)
+//		src.to_chat(span("warning","The round is currently ending!"))
+//		return FALSE*/
 
 	if(length(all_antag_markers) <= 0)
 		src.to_chat(span("warning","There are no available roles!"))

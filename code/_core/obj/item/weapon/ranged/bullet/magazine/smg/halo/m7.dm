@@ -68,11 +68,11 @@
 	firing_pin = /obj/item/firing_pin/electronic/iff/nanotrasen
 
 /obj/item/weapon/ranged/bullet/magazine/smg/halo/m7/get_static_spread()
-	return 0.001
+	return 0.005
 
 /obj/item/weapon/ranged/bullet/magazine/smg/halo/m7/get_skill_spread(var/mob/living/L)
 	if(!heat_current) return 0
-	return max(0,0.02 - (0.04 * L.get_skill_power(SKILL_RANGED)))
+	return max(0,0.04 - (0.06 * L.get_skill_power(SKILL_RANGED)))
 
 /obj/item/weapon/ranged/bullet/magazine/smg/halo/m7/insurrection
 	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate

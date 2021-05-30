@@ -70,7 +70,7 @@
 "br" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 1},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "bs" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
 "bt" = (/obj/structure/interactive/computer/console,/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
-"bu" = (/obj/structure/interactive/telecomms,/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
+"bu" = (/obj/structure/interactive/telecomms/station,/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
 "bv" = (/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "bw" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 4},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "bx" = (/turf/simulated/wall/metal/reinforced,/area/burgerstation/armory/shooting_range)

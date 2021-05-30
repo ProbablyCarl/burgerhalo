@@ -6,7 +6,7 @@
 
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 30
+	shoot_delay = 20
 
 	automatic = FALSE
 
@@ -71,6 +71,7 @@
 	desc_extended = "Special Applications Rifle, system 99 Anti-Matériel. Deadly at extreme range.  Takes 14.5mm calibre magazines. Made from SRS99 by Insurrection engineers."
 	icon = 'icons/obj/item/weapons/ranged/rifle/halo/srs_i.dmi'
 
+	shoot_delay = 15
 	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate
 
 /obj/item/weapon/ranged/bullet/magazine/rifle/halo/srs/insurrection/get_static_spread()

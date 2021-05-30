@@ -4,7 +4,7 @@
 	desc_extended = "Standard-issue squad automatic weapon, designed for use in heavy engagements. Takes 7.62mm calibre ordinary and box type magazines."
 	icon = 'icons/obj/item/weapons/ranged/rifle/halo/m739.dmi'
 
-	shoot_delay = 2
+	shoot_delay = 1
 
 	automatic = TRUE
 
