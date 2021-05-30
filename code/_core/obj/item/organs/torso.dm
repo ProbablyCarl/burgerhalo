@@ -107,7 +107,19 @@
 
 	defense_rating = SKELETON_ARMOR
 
+/obj/item/organ/torso/halo/unggoy
+	name = "unggoy torso"
+	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
+	desc = "An organ."
+	inventories = list(
+		/obj/hud/inventory/organs/torso,
+		/obj/hud/inventory/organs/torso_o
+	)
 
+	health_base = 80
+
+/obj/item/organ/torso/halo/unggoy/female
+	icon_state = BODY_TORSO_FEMALE
 
 /obj/item/organ/torso/monkey
 	name = "monkey torso"

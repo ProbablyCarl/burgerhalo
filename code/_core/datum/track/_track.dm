@@ -214,4 +214,4 @@
 /track/halo //Menu Music
 	name = "Halo OST"
 	path = 'sound/music/Halo Theme Song Original.ogg'
-	length = 2*60 + 30
+	length = 5*60 + 30

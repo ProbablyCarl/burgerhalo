@@ -102,3 +102,10 @@
 
 /obj/item/organ/groin/monkey/female
 	icon_state = BODY_GROIN_FEMALE
+
+/obj/item/organ/groin/halo/unggoy
+	name = "unggoy groin"
+	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
+
+/obj/item/organ/groin/halo/unggoy/female
+	icon_state = BODY_GROIN_FEMALE
