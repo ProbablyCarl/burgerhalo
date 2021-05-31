@@ -17,6 +17,16 @@
 	default_color_detail = "#FFFFFF"
 	default_color_glow = "#FFFFFF"
 
+	emote_sounds_male = list(
+		"pain" = list('sound/voice/unggoy/gruntscream_1.ogg','sound/voice/unggoy/gruntscream_2.ogg','sound/voice/unggoy/gruntscream_3.ogg','sound/voice/unggoy/gruntscream_4.ogg','sound/voice/unggoy/gruntscream_5.ogg','sound/voice/unggoy/gruntscream_6.ogg','sound/voice/unggoy/gruntscream_7.ogg'),
+		"scream" = list('sound/voice/unggoy/gruntscream_1.ogg','sound/voice/unggoy/gruntscream_2.ogg','sound/voice/unggoy/gruntscream_3.ogg','sound/voice/unggoy/gruntscream_4.ogg','sound/voice/unggoy/gruntscream_5.ogg','sound/voice/unggoy/gruntscream_6.ogg','sound/voice/unggoy/gruntscream_7.ogg')
+	)
+
+	emote_sounds_female = list(
+		"pain" = list('sound/voice/unggoy/gruntscream_1.ogg','sound/voice/unggoy/gruntscream_2.ogg','sound/voice/unggoy/gruntscream_3.ogg','sound/voice/unggoy/gruntscream_4.ogg','sound/voice/unggoy/gruntscream_5.ogg','sound/voice/unggoy/gruntscream_6.ogg','sound/voice/unggoy/gruntscream_7.ogg'),
+		"scream" = list('sound/voice/unggoy/gruntscream_1.ogg','sound/voice/unggoy/gruntscream_2.ogg','sound/voice/unggoy/gruntscream_3.ogg','sound/voice/unggoy/gruntscream_4.ogg','sound/voice/unggoy/gruntscream_5.ogg','sound/voice/unggoy/gruntscream_6.ogg','sound/voice/unggoy/gruntscream_7.ogg')
+	)
+
 	spawning_organs_male = list(
 		BODY_TORSO = /obj/item/organ/torso/halo/unggoy,
 		BODY_HEAD = /obj/item/organ/head/halo/unggoy,

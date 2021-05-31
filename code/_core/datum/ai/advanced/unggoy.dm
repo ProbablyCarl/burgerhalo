@@ -11,7 +11,7 @@
 
 	. = ..()
 
-	if(damage_amount >= 10 && . && prob(50))
+	if(damage_amount >= 10 && . && prob(60))
 		if(prob(10) && get_dist(owner,attacker) >= 3)
 			var/attack_dir = dir2text(get_dir(owner,attacker))
 			owner.do_say("Taking fire from the [attack_dir]!")
@@ -27,7 +27,9 @@
 				"This is a biblical kind of doom!",
 				"I just wet myself!",
 				"Well this suck i'm going north!",
-				"Me little! But very, VERY angry!!!"
+				"Me little! But very, VERY angry!!!",
+				"Why are humans been showing in groups of four or more? I miss good old days, when just one young guy and little blue lady!",
+				"YOU GIANT BULLYING MONSTERRRR!"
 			)
 			owner.do_say(pick(responses),language_to_use = language_to_use)
 
@@ -38,7 +40,7 @@
 
 	. = ..()
 
-	if(. && prob(50))
+	if(. && prob(70))
 		var/list/responses = list()
 		if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_CAUTION)
 			responses = list(
@@ -46,13 +48,14 @@
 				"Why is he chasing me?",
 				"He's undead!",
 				"Quick question! Have we ever wondered off to go look for the enemy? And not ended up dead!",
-				"Shh! Me hunting herwatics!"
+				"Shh! Me hunting herwatics!",
+				"Green - good camouflage. SHINY green? Not so musch!"
 			)
 		else if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_NONE)
 			responses = list(
 				"Here comes the grunty punishment!",
 				"His boots are mine.",
-				"That's the last of them.",
+				"It's safe to come out?",
 				"Any more?"
 			)
 		else if(old_alert_level == ALERT_LEVEL_CAUTION && new_alert_level == ALERT_LEVEL_COMBAT)
@@ -65,7 +68,9 @@
 				"Please enjoy my BRIGHT. BLUE. BALLS.",
 				"Hey look he's here! I thought he was just a piece of scenery, but not it's him!",
 				"Bad guy, 12 o'clock! Is anybody wearing a watch?",
-				"Heres one for yo mama!"
+				"Heres one for yo mama!",
+				"Because of you, MY kids can't get enough gas. OR NIPPLE!",
+				"Take off suit, get on knees, THEN see who's tough!"
 			)
 		else if(old_alert_level == ALERT_LEVEL_NONE && new_alert_level == ALERT_LEVEL_NOISE)
 			responses = list(

@@ -198,7 +198,7 @@
 	target_bounds_y_max = 8
 
 /obj/item/organ/leg/halo/unggoy
-	name = "right unggoy leg"
+	name = "right leg"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 
 	damage_coefficient = 0.20
@@ -206,7 +206,7 @@
 	flags_organ = FLAG_ORGAN_COVENANT
 
 /obj/item/organ/leg/halo/unggoy/left
-	name = "left unggoy leg"
+	name = "left leg"
 	id = BODY_LEG_LEFT
 	icon_state = BODY_LEG_LEFT
 

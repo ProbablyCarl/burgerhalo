@@ -1,8 +1,8 @@
-/obj/item/weapon/ranged/energy/halo/cov_pistol
-	name = "Type-25 Directed Energy Pistol"
+/obj/item/weapon/ranged/energy/halo/cov_rifle
+	name = "Type-25 Directed Energy Rifle"
 	desc = "Pew pew pew!"
-	desc_extended = "A dual funtionality pistol: It fires bolts of plasma, and when overcharged is capable of emitting a small emp burst at the point of impact."
-	icon = 'icons/obj/item/weapons/ranged/laser/cov_pistol.dmi'
+	desc_extended = "Also known as the \"Plasma Rifle\", this weapon fires 3-shot bursts of superheated plasma."
+	icon = 'icons/obj/item/weapons/ranged/laser/cov_rifle.dmi'
 
 	projectile = /obj/projectile/bullet/laser/strong
 	ranged_damage_type = /damagetype/ranged/laser/rifle/hardlight
@@ -10,23 +10,24 @@
 	bullet_color = "#00FF00"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 3
+	shoot_delay = 1
+	max_bursts = 3
 
 	automatic = TRUE
 
-	charge_cost = CELL_SIZE_BASIC / 60
+	charge_cost = CELL_SIZE_BASIC / 120
 
 	view_punch = 16
 
 	shoot_sounds = list('sound/weapons/laser_rifle/shoot.ogg')
 
 	heat_per_shot = 0.01
-	heat_max = 0.04
+	heat_max = 0.08
 
-	size = SIZE_2
-	weight = 3
+	size = SIZE_3
+	weight = 6
 
-	value = 1500
+	value = 2000
 
 	attachment_whitelist = list(
 		/obj/item/attachment/barrel/charger = FALSE,
@@ -63,12 +64,9 @@
 
 	firing_pin = /obj/item/firing_pin/electronic/iff/covenant
 
-/obj/item/weapon/ranged/energy/halo/cov_pistol/get_static_spread()
+/obj/item/weapon/ranged/energy/halo/cov_rifle/get_static_spread()
 	if(wielded) return 0
-	return 0.0005
+	return 0.005
 
-/obj/item/weapon/ranged/energy/halo/cov_pistol/get_skill_spread(var/mob/living/L)
-	return max(0,0.005 - (0.02 * L.get_skill_power(SKILL_RANGED)))
-
-/obj/item/weapon/ranged/energy/halo/cov_pistol/insurrection
-	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate
+/obj/item/weapon/ranged/energy/halo/cov_rifle/get_skill_spread(var/mob/living/L)
+	return max(0,0.02 - (0.04 * L.get_skill_power(SKILL_RANGED)))

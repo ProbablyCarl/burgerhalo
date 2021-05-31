@@ -208,11 +208,11 @@
 	target_bounds_y_max = 22
 
 /obj/item/organ/arm/halo/unggoy
-	name = "unggoy right arm"
+	name = "right arm"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 
 /obj/item/organ/arm/halo/unggoy/left
-	name = "unggoy left arm"
+	name = "left arm"
 	id = BODY_ARM_LEFT
 	icon_state = BODY_ARM_LEFT
 	flags_organ = FLAG_ORGAN_COVENANT

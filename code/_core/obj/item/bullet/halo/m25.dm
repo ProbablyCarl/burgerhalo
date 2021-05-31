@@ -11,7 +11,7 @@
 	bullet_length = 50
 	bullet_diameter = 45
 
-	projectile = /obj/projectile/bullet/HE_40M
+	projectile = /obj/projectile/bullet/rocket
 	damage_type_bullet = /damagetype/ranged/bullet/gyrojet/
 
 	misfire_chance = 15

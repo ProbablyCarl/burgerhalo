@@ -193,7 +193,7 @@
 	stored_types = list(
 		/obj/item/weapon/ranged/bullet/revolver/halo/acl55,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/cal30,
-		/obj/item/weapon/ranged/energy/halo/cov_pistol,
+		/obj/item/weapon/ranged/energy/halo/cov_pistol/insurrection,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/srs/insurrection,
 
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/insurrection,

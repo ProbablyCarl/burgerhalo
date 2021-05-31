@@ -276,7 +276,7 @@
 	target_bounds_y_max = 3
 
 /obj/item/organ/foot/halo/unggoy
-	name = "right unggoy foot"
+	name = "right foot"
 	flags_organ = FLAG_ORGAN_COVENANT
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 
@@ -285,7 +285,7 @@
 	inventories = list()
 
 /obj/item/organ/foot/halo/unggoy/left
-	name = "left unggoy foot"
+	name = "left foot"
 	id = BODY_FOOT_LEFT
 	icon_state = BODY_FOOT_LEFT
 

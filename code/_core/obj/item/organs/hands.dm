@@ -384,7 +384,7 @@
 	target_bounds_y_max = 14
 
 /obj/item/organ/hand/halo/unggoy
-	name = "right unggoy hand"
+	name = "right hand"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 	inventories = list(
 		/obj/hud/inventory/organs/right_hand_held
@@ -395,7 +395,7 @@
 	flags_organ = FLAG_ORGAN_COVENANT
 
 /obj/item/organ/hand/halo/unggoy/left
-	name = "left unggoy hand"
+	name = "left hand"
 	id = BODY_HAND_LEFT
 	icon_state = BODY_HAND_LEFT
 	inventories = list(

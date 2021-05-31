@@ -241,8 +241,8 @@ var/global/list/all_clients = list() //Assoc list
 	return TRUE
 
 /client/proc/welcome()
-	to_chat("<title>Welcome to BurgerHalo 13</title><p>Welcome to the actively (un) development server in the mombassa universe. Absolutely nothing can be changed and removed. If you want to join the discord server, please: https://discord.gg/s72MARfXr6</p>")
-//	to_chat(span("notice","<h1>Please be sure to read the rules <a href='https://docs.google.com/document/d/1dbUCqnu7k5gRsSTCZECbst0XuV8grelQB9Z95PpyvLc/edit?usp=sharing'>here</a> before playing!</h1>"))
+	to_chat("<title>Welcome to BurgerHalo 13</title><p>Welcome to the actively development server in the Halo universe. Everything you see for now - can be changed in the future. If you want to join the discord server, please: https://discord.gg/EFWzuycgwV</p>")
+	to_chat(span("notice","<h1>Also be sure to read the rules before playing!</h1>"))
 	return TRUE
 
 /*

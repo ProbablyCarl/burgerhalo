@@ -106,3 +106,8 @@
 		explode(get_turf(hit_atom),2,owner,src,iff_tag)
 
 	return .
+
+/obj/projectile/bullet/needler
+	name = "bolt"
+	icon = 'icons/obj/projectiles/bolt.dmi'
+	icon_state = "needler"

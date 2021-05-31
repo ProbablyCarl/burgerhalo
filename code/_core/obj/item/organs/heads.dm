@@ -121,7 +121,7 @@
 	icon_state = BODY_HEAD_FEMALE
 
 /obj/item/organ/head/halo/unggoy
-	name = "unggoy head"
+	name = "head"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 	desc = "An organ."
 

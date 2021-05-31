@@ -105,7 +105,7 @@
 	icon_state = BODY_GROIN_FEMALE
 
 /obj/item/organ/groin/halo/unggoy
-	name = "unggoy groin"
+	name = "groin"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 
 	flags_organ = FLAG_ORGAN_COVENANT

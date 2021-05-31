@@ -109,7 +109,7 @@
 	defense_rating = SKELETON_ARMOR
 
 /obj/item/organ/torso/halo/unggoy
-	name = "unggoy torso"
+	name = "torso"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 	desc = "An organ."
 	inventories = list(
