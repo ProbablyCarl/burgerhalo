@@ -15,6 +15,7 @@
 
 	attach_flag = BODY_TORSO
 
+	flags_organ = FLAG_ORGAN_HUMAN
 	enable_wounds = TRUE
 
 	hud_id = "body_head"
@@ -123,6 +124,8 @@
 	name = "unggoy head"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 	desc = "An organ."
+
+	flags_organ = FLAG_ORGAN_COVENANT
 
 /obj/item/organ/head/halo/unggoy/female
 	icon_state = BODY_HEAD_FEMALE

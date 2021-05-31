@@ -215,6 +215,7 @@
 	name = "unggoy left arm"
 	id = BODY_ARM_LEFT
 	icon_state = BODY_ARM_LEFT
+	flags_organ = FLAG_ORGAN_COVENANT
 
 	hud_id = "body_arm_left"
 

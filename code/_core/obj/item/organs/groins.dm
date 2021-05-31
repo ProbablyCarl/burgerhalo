@@ -16,6 +16,7 @@
 
 	attach_flag = BODY_TORSO
 
+	flags_organ = FLAG_ORGAN_HUMAN
 	enable_wounds = TRUE
 
 	hud_id = "body_groin"
@@ -106,6 +107,8 @@
 /obj/item/organ/groin/halo/unggoy
 	name = "unggoy groin"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
+
+	flags_organ = FLAG_ORGAN_COVENANT
 
 /obj/item/organ/groin/halo/unggoy/female
 	icon_state = BODY_GROIN_FEMALE

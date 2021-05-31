@@ -1,5 +1,5 @@
 /ai/advanced/halo/urf
-	enemy_tags = list("NanoTrasen")
+	enemy_tags = list("NanoTrasen","Covenant")
 	should_find_weapon = TRUE
 	roaming_distance = 8
 	aggression = 1

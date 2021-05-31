@@ -555,6 +555,10 @@
 							if(messages)
 								owner.to_chat(span("warning","You cannot seem to fit \the [I.name] on your non-human head..."))
 							return FALSE
+						if(C.flags_clothing & FLAG_CLOTHING_NOHUMAN && O.flags_organ & FLAG_ORGAN_HUMAN)
+							if(messages)
+								owner.to_chat(span("warning","You cannot seem to fit \the [I.name] on your human body..."))
+							return FALSE
 				if(C.item_slot)
 					var/list/list_to_check = C.ignore_other_slots ? src.contents : A.worn_objects
 					for(var/obj/item/clothing/C2 in list_to_check)

@@ -11,6 +11,7 @@
 	break_threshold = 15
 	//health_max = 25
 
+	flags_organ = FLAG_ORGAN_HUMAN
 	damage_type = /damagetype/unarmed/fists/
 
 	attach_flag = BODY_ARM_RIGHT
@@ -391,6 +392,7 @@
 
 	damage_coefficient = 0.2
 	defense_rating = UNGGOY_ARMOR
+	flags_organ = FLAG_ORGAN_COVENANT
 
 /obj/item/organ/hand/halo/unggoy/left
 	name = "left unggoy hand"

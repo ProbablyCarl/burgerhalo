@@ -64,6 +64,12 @@
 
 	return TRUE
 
+/obj/item/firing_pin/electronic/iff/covenant
+	name = "electronic firing pin"
+	desc_extended = "Acts as a trigger mechanism for the gun. The gun can only be fired by those with a registered Covenant IFF implant, and prevents firing at those with one."
+	iff_tag = "Covenant"
+	icon_state = "nanotrasen"
+
 /obj/item/firing_pin/electronic/iff/syndicate
 	name = "syndicate firing pin"
 	desc_extended = "Acts as a trigger mechanism for the gun. The gun can only be fired by those with a registered Syndicate IFF implant, and prevents firing at those with one."

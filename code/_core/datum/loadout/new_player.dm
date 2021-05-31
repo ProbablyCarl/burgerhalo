@@ -368,3 +368,15 @@
 		/obj/item/container/syringe/medipen/bicaridine,
 		/obj/item/container/syringe/medipen/kelotane
 	)
+
+/loadout/nt/halo/covenant/unggoyminor
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/unggoy,
+		/obj/item/clothing/overwear/armor/halo/covenant/unggoy,
+		/obj/item/clothing/mask/gas/halo/unggoy,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/energy/halo/cov_pistol,
+		/obj/item/powercell/advanced,
+		/obj/item/powercell/advanced,
+		/obj/item/powercell/advanced
+	)

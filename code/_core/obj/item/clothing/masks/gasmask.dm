@@ -154,6 +154,7 @@
 	desc = "Oxygen not included."
 	desc_extended = "An advanced gas mask. Filters out most forms of gas."
 	rarity = RARITY_RARE
+	flags_clothing = FLAG_CLOTHING_NOHUMAN
 
 	defense_rating = list(
 		BLADE = AP_CLUB,

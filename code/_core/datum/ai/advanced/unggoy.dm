@@ -1,61 +1,71 @@
-/ai/advanced/nanotrasen
-	enemy_tags = list("Syndicate","Covenant")
+/ai/advanced/halo/unggoy
+	enemy_tags = list("NanoTrasen","Syndicate")
 	should_find_weapon = TRUE
 	roaming_distance = 8
-	aggression = 1
+	aggression = 2
 	assistance = 1
 
 	var/language_to_use = LANGUAGE_BASIC
 
-/ai/advanced/nanotrasen/on_damage_received(var/atom/atom_damaged,var/atom/attacker,var/atom/weapon,var/list/damage_table,var/damage_amount,var/critical_hit_multiplier,var/stealthy=FALSE)
+/ai/advanced/halo/unggoy/on_damage_received(var/atom/atom_damaged,var/atom/attacker,var/atom/weapon,var/list/damage_table,var/damage_amount,var/critical_hit_multiplier,var/stealthy=FALSE)
 
 	. = ..()
 
-	if(damage_amount >= 10 && . && prob(25))
+	if(damage_amount >= 10 && . && prob(50))
 		if(prob(10) && get_dist(owner,attacker) >= 3)
 			var/attack_dir = dir2text(get_dir(owner,attacker))
 			owner.do_say("Taking fire from the [attack_dir]!")
 		else
 			var/list/responses = list(
-				"I'm hit!",
-				"Taking fire!",
-				"They got me!",
+				"A-ah don't let him near the nipple!",
+				"STOP molesting me!",
+				"You big bastards!",
 				"They got my [atom_damaged.name]!",
 				"They hit me in the [atom_damaged.name]!",
-				"Taking fire, need assistance!",
-				"Fuck! I'm hit!"
+				"We suck as one! We fight as one!",
+				"You'll kill us!",
+				"This is a biblical kind of doom!",
+				"I just wet myself!",
+				"Well this suck i'm going north!",
+				"Me little! But very, VERY angry!!!"
 			)
 			owner.do_say(pick(responses),language_to_use = language_to_use)
 
 	return .
 
 
-/ai/advanced/nanotrasen/on_alert_level_changed(var/old_alert_level,var/new_alert_level,var/atom/alert_source)
+/ai/advanced/halo/unggoy/on_alert_level_changed(var/old_alert_level,var/new_alert_level,var/atom/alert_source)
 
 	. = ..()
 
-	if(. && prob(25))
+	if(. && prob(50))
 		var/list/responses = list()
 		if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_CAUTION)
 			responses = list(
-				"I don't see them...",
-				"Lost sight of them.",
-				"No enemy in sight.",
-				"They there?"
+				"Not there!",
+				"Why is he chasing me?",
+				"He's undead!",
+				"Quick question! Have we ever wondered off to go look for the enemy? And not ended up dead!",
+				"Shh! Me hunting herwatics!"
 			)
 		else if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_NONE)
 			responses = list(
-				"Enemy down.",
-				"They're dead.",
+				"Here comes the grunty punishment!",
+				"His boots are mine.",
 				"That's the last of them.",
 				"Any more?"
 			)
 		else if(old_alert_level == ALERT_LEVEL_CAUTION && new_alert_level == ALERT_LEVEL_COMBAT)
 			responses = list(
-				"Found you!",
-				"I knew I heard something!",
-				"Confirmed enemy!",
-				"Found the enemy!"
+				"Told yah, chicken!",
+				"Stick together nipple mates!",
+				"Oh my stars and gardens, there he is!",
+				"You are unfit for nipple!",
+				"JERKS! YOU! ALL OF YAH!",
+				"Please enjoy my BRIGHT. BLUE. BALLS.",
+				"Hey look he's here! I thought he was just a piece of scenery, but not it's him!",
+				"Bad guy, 12 o'clock! Is anybody wearing a watch?",
+				"Heres one for yo mama!"
 			)
 		else if(old_alert_level == ALERT_LEVEL_NONE && new_alert_level == ALERT_LEVEL_NOISE)
 			responses = list(

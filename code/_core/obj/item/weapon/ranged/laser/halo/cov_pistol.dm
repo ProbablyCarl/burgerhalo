@@ -10,7 +10,7 @@
 	bullet_color = "#00FF00"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 4
+	shoot_delay = 3
 
 	automatic = TRUE
 
@@ -23,8 +23,8 @@
 	heat_per_shot = 0.01
 	heat_max = 0.04
 
-	size = SIZE_4
-	weight = 14
+	size = SIZE_2
+	weight = 3
 
 	value = 1500
 
@@ -60,6 +60,8 @@
 
 	attachment_undermount_offset_x = 29 - 16
 	attachment_undermount_offset_y = 12 - 16
+
+	firing_pin = /obj/item/firing_pin/electronic/iff/covenant
 
 /obj/item/weapon/ranged/energy/halo/cov_pistol/get_static_spread()
 	if(wielded) return 0

@@ -22,6 +22,7 @@
 
 	size = SIZE_5
 
+	flags_clothing = FLAG_CLOTHING_NOHUMAN
 	protected_limbs = list(BODY_TORSO,BODY_GROIN,BODY_ARM_LEFT,BODY_ARM_RIGHT,BODY_LEG_LEFT,BODY_LEG_RIGHT)
 
 	value = 300

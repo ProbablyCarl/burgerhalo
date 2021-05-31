@@ -11,6 +11,7 @@
 
 	attach_flag = BODY_LEG_RIGHT
 
+	flags_organ = FLAG_ORGAN_HUMAN
 	enable_wounds = TRUE
 
 	hud_id = "body_foot_right"
@@ -276,10 +277,10 @@
 
 /obj/item/organ/foot/halo/unggoy
 	name = "right unggoy foot"
-
+	flags_organ = FLAG_ORGAN_COVENANT
 	icon = 'icons/mob/living/advanced/species/halo/covenant/unggoy.dmi'
 
-	damage_coefficient = 0.45
+	damage_coefficient = 0.20
 	defense_rating = UNGGOY_ARMOR
 	inventories = list()
 

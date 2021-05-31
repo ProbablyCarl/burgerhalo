@@ -230,6 +230,7 @@
 #include "code\_core\datum\ai\advanced\space_cop.dm"
 #include "code\_core\datum\ai\advanced\stand.dm"
 #include "code\_core\datum\ai\advanced\syndicate.dm"
+#include "code\_core\datum\ai\advanced\unggoy.dm"
 #include "code\_core\datum\ai\advanced\urf.dm"
 #include "code\_core\datum\ai\advanced\villager.dm"
 #include "code\_core\datum\ai\advanced\zombie.dm"

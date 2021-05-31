@@ -13,6 +13,7 @@
 		/obj/hud/inventory/organs/torso_ob
 	)
 
+	flags_organ = FLAG_ORGAN_HUMAN
 	enable_wounds = TRUE
 
 	hud_id = "body_torso"
@@ -116,6 +117,7 @@
 		/obj/hud/inventory/organs/torso_o
 	)
 
+	flags_organ = FLAG_ORGAN_COVENANT
 	health_base = 80
 
 /obj/item/organ/torso/halo/unggoy/female

@@ -6,7 +6,7 @@
 
 	item_slot = SLOT_TORSO | SLOT_GROIN
 
-	flags_clothing = FLAG_CLOTHING_NOBEAST_FEET
+	flags_clothing = FLAG_CLOTHING_NOHUMAN
 
 	defense_rating = list(
 		BLADE = 10,
