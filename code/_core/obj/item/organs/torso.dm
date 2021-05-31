@@ -123,6 +123,16 @@
 /obj/item/organ/torso/halo/unggoy/female
 	icon_state = BODY_TORSO_FEMALE
 
+/obj/item/organ/torso/halo/kigyar
+	name = "torso"
+	icon = 'icons/mob/living/advanced/species/halo/covenant/kigyar.dmi'
+	desc = "An organ."
+
+	flags_organ = FLAG_ORGAN_COVENANT
+
+/obj/item/organ/torso/halo/kigyar/female
+	icon_state = BODY_TORSO_FEMALE
+
 /obj/item/organ/torso/monkey
 	name = "monkey torso"
 	icon = 'icons/mob/living/advanced/species/monkey.dmi'

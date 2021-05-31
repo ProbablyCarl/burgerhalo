@@ -11,7 +11,7 @@
 
 	. = ..()
 
-	if(damage_amount >= 10 && . && prob(60))
+	if(damage_amount >= 10 && . && prob(40))
 		if(prob(10) && get_dist(owner,attacker) >= 3)
 			var/attack_dir = dir2text(get_dir(owner,attacker))
 			owner.do_say("Taking fire from the [attack_dir]!")
@@ -40,7 +40,7 @@
 
 	. = ..()
 
-	if(. && prob(70))
+	if(. && prob(55))
 		var/list/responses = list()
 		if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_CAUTION)
 			responses = list(

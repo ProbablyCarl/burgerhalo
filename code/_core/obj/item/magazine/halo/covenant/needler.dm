@@ -7,7 +7,8 @@
 	bullet_count_max = 30
 
 	weapon_whitelist = list(
-		/obj/item/weapon/ranged/bullet/magazine/smg/halo/covenant/needler = TRUE
+		/obj/item/weapon/ranged/bullet/magazine/smg/halo/covenant/needler = TRUE,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle = TRUE
 	)
 
 	ammo = /obj/item/bullet_cartridge/halo/needle

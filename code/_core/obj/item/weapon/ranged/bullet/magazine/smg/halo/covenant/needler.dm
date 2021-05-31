@@ -8,7 +8,7 @@
 
 	automatic = TRUE
 
-	shoot_sounds = list('sound/weapons/45/shoot.ogg')
+	shoot_sounds = list('sound/weapons/laser_rifle/shoot.ogg')
 
 	can_wield = FALSE
 
@@ -20,13 +20,13 @@
 	heat_per_shot = 0.01
 	heat_max = 0.03
 
-	bullet_length_min = 25
-	bullet_length_best = 32
-	bullet_length_max = 33
+	bullet_length_min = 31
+	bullet_length_best = 33
+	bullet_length_max = 34
 
-	bullet_diameter_min = 10
-	bullet_diameter_best = 10.17
-	bullet_diameter_max = 11
+	bullet_diameter_min = 8
+	bullet_diameter_best = 9
+	bullet_diameter_max = 10
 
 	value = 100
 

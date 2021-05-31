@@ -380,3 +380,27 @@
 		/obj/item/powercell/advanced,
 		/obj/item/powercell/advanced
 	)
+
+/loadout/nt/halo/covenant/kigyar
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/kigyar/less,
+		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
+		/obj/item/clothing/mask/gas/halo/kigyar,
+		/obj/item/weapon/melee/energy/halo/edagger
+	)
+
+/loadout/nt/halo/covenant/kigyar_ranged
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/kigyar,
+		/obj/item/clothing/mask/gas/halo/kigyar,
+		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle,
+		/obj/item/weapon/melee/energy/halo/edagger,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler
+	)

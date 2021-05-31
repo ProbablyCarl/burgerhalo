@@ -96,3 +96,35 @@
 
 
 	return .
+
+/mob/living/advanced/npc/halo/kigyar
+	name = "Kig-Yar Scout"
+	desc = "Deadly sniper"
+	desc_extended = "A low-ranking but good trained Covenant unit."
+	enable_AI = TRUE
+	ai = /ai/advanced/halo/kigyar
+	class = /class/syndicate_soldier
+
+	species = "Kigyar"
+	loyalty_tag = "Covenant"
+	iff_tag = "Covenant"
+
+	var/loadout_to_use = /loadout/nt/halo/covenant/kigyar
+
+/mob/living/advanced/npc/halo/kigyar/Initialize()
+
+	. = ..()
+
+	sex = pick(MALE,FEMALE)
+	gender = sex
+
+	equip_loadout(loadout_to_use)
+
+	update_all_blends()
+
+
+
+	return .
+
+/mob/living/advanced/npc/halo/kigyar/ranged
+	loadout_to_use = /loadout/nt/halo/covenant/kigyar_ranged
