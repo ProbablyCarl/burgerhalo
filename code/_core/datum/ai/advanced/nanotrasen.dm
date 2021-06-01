@@ -17,13 +17,14 @@
 			owner.do_say("Taking fire from the [attack_dir]!")
 		else
 			var/list/responses = list(
-				"I'm hit!",
+				"Are you mentally handicapped?",
 				"Taking fire!",
-				"They got me!",
+				"Bet you i can stick it!",
 				"They got my [atom_damaged.name]!",
 				"They hit me in the [atom_damaged.name]!",
-				"Taking fire, need assistance!",
-				"Fuck! I'm hit!"
+				"Aww this sucks",
+				"Fuck! I'm hit!",
+				"I'm gonna die...I KNOW i'm gonna die!"
 			)
 			owner.do_say(pick(responses),language_to_use = language_to_use)
 
@@ -46,16 +47,19 @@
 		else if(old_alert_level == ALERT_LEVEL_COMBAT && new_alert_level == ALERT_LEVEL_NONE)
 			responses = list(
 				"Enemy down.",
-				"They're dead.",
+				"You had to be the hero, huh? Well now you're dead. Now you're a dead hero",
 				"That's the last of them.",
-				"Any more?"
+				"Any more?",
+				"Better you then me",
+				"We just got our asses kicked!"
 			)
 		else if(old_alert_level == ALERT_LEVEL_CAUTION && new_alert_level == ALERT_LEVEL_COMBAT)
 			responses = list(
-				"Found you!",
-				"I knew I heard something!",
+				"I was going for the Triple!",
+				"Come get me! I'm just a little coward!",
 				"Confirmed enemy!",
-				"Found the enemy!"
+				"Found the enemy!",
+				"Ma-an, you're shooting like you got a cheatcode."
 			)
 		else if(old_alert_level == ALERT_LEVEL_NONE && new_alert_level == ALERT_LEVEL_NOISE)
 			responses = list(

@@ -20,7 +20,7 @@
 	value = 80
 
 /obj/item/clothing/uniform/halo/covenant/kigyar/less
-	icon = 'icons/obj/item/clothing/uniforms/kigyar.dmi'
+	icon = 'icons/obj/item/clothing/uniforms/kigyar2.dmi'
 	protected_limbs = list(BODY_TORSO,BODY_GROIN,BODY_LEG_LEFT,BODY_LEG_RIGHT)
 
 	value = 50

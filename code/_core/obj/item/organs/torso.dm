@@ -133,6 +133,14 @@
 /obj/item/organ/torso/halo/kigyar/female
 	icon_state = BODY_TORSO_FEMALE
 
+/obj/item/organ/torso/halo/elite
+	name = "torso"
+	icon = 'icons/mob/living/advanced/species/halo/covenant/elite.dmi'
+	desc = "An organ."
+
+	health_base = 150
+	flags_organ = FLAG_ORGAN_COVENANT
+
 /obj/item/organ/torso/monkey
 	name = "monkey torso"
 	icon = 'icons/mob/living/advanced/species/monkey.dmi'

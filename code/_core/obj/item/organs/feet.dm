@@ -324,3 +324,25 @@
 
 	target_bounds_y_min = 1
 	target_bounds_y_max = 3
+
+/obj/item/organ/foot/halo/elite
+	name = "right foot"
+	flags_organ = FLAG_ORGAN_COVENANT
+	icon = 'icons/mob/living/advanced/species/halo/covenant/elite.dmi'
+
+/obj/item/organ/foot/halo/elite/left
+	name = "left foot"
+	id = BODY_FOOT_LEFT
+	icon_state = BODY_FOOT_LEFT
+
+	attach_flag = BODY_LEG_LEFT
+
+	inventories = list()
+
+	hud_id = "body_foot_left"
+
+	target_bounds_x_min = 17
+	target_bounds_x_max = 22
+
+	target_bounds_y_min = 1
+	target_bounds_y_max = 3

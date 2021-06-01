@@ -1,5 +1,5 @@
 /species/kigyar/
-	name = "Kigyar"
+	name = "Kig-yar"
 	desc = "Big bird."
 	id = "Kigyar"
 	flags_species = SPECIES_KIGYAR

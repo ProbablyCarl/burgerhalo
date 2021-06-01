@@ -139,3 +139,10 @@
 
 /obj/item/organ/head/halo/kigyar/female
 	icon_state = BODY_HEAD_FEMALE
+
+/obj/item/organ/head/halo/elite
+	name = "head"
+	icon = 'icons/mob/living/advanced/species/halo/covenant/elite.dmi'
+	desc = "An organ."
+
+	flags_organ = FLAG_ORGAN_COVENANT
