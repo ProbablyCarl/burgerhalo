@@ -14,6 +14,15 @@
 
 	destruction_turf = /turf/simulated/floor/plating
 
+/turf/simulated/floor/tile/covenant/one
+	name = "floor"
+	icon = 'icons/turf/floor/covenant.dmi'
+	icon_state = "ver_1"
+
+/turf/simulated/floor/tile/covenant/two
+	name = "floor"
+	icon = 'icons/turf/floor/covenant.dmi'
+	icon_state = "ver_2"
 
 /turf/simulated/floor/tile/chapel/
 	name = "chapel floor"

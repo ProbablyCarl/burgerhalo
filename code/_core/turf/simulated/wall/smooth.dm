@@ -31,6 +31,32 @@
 	name = "office wall"
 	color = "#444444"
 
+/turf/simulated/wall/plastic/office/darker/indestructable
+	material_id = null
+	health = null
+	health_base = null
+	destruction_turf = null
+
+/turf/simulated/wall/plastic/office/darker/indestructable/can_be_attacked(var/atom/attacker,var/atom/weapon,var/params,var/damagetype/damage_type)
+	return FALSE
+
 /turf/simulated/wall/plastic/wizard
 	name = "wizard wall"
 	color = "#8034B2"
+
+/turf/simulated/wall/plastic/office/indestructable
+	name = "office wall"
+	color = "#DED4C8"
+
+/turf/simulated/wall/plastic/office/indestructable/can_be_attacked(var/atom/attacker,var/atom/weapon,var/params,var/damagetype/damage_type)
+	return FALSE
+
+/turf/simulated/wall/plastic/office/covenant
+	name = "ship wall"
+	color = "#5c238d"
+	corner_category = "ship_wall"
+
+	material_id = /material/steel
+
+/turf/simulated/wall/plastic/office/covenant/can_be_attacked(var/atom/attacker,var/atom/weapon,var/params,var/damagetype/damage_type)
+	return FALSE

@@ -404,3 +404,17 @@
 		/obj/item/magazine/halo/covenant/needler,
 		/obj/item/magazine/halo/covenant/needler
 	)
+
+/loadout/nt/halo/covenant/elite_ranged
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/overwear/armor/halo/covenant/elite,
+		/obj/item/clothing/head/helmet/halo/covenant/elite,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/left,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/left,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/melee/energy/halo/esword
+	)

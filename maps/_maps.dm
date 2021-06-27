@@ -4,7 +4,8 @@ var/global/list/horde_maps = list(
 //	"LZ-420" = "maps/horde/lz_420.dmm",
 //	"Jungle B-0X (WIP)" = "maps/horde/box.dmm",
 //	"Lavaland" = "maps/horde/lavaland.dmm",
-	"Beach Siege" = "maps/horde/beach.dmm",
+	"Beach Siege - URF" = "maps/horde/beach.dmm",
+	"Beach Siege - Covenant" = "maps/horde/beach_cov.dmm",
 //	"Syndicate Base" = "maps/horde/r6s.dmm"
 	//"Supermatter Defense" = "maps/horde/supermatter.dmm"
 )

@@ -37,7 +37,7 @@
 
 
 /mob/living/advanced/npc/unique/hostage/scientist
-	name = "Chad Thundercock"
+	name = "Michael Stone"
 	sex = MALE
 	gender = MALE
 	dialogue_id = /dialogue/npc/hostage/assistant

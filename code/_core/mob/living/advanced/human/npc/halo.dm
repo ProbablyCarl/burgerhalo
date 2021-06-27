@@ -72,6 +72,7 @@
 	name = "Unggoy Minor"
 	desc = "Funny grunt"
 	desc_extended = "A low-ranking Covenant unit."
+	icon_state = "halo_unggoy"
 	enable_AI = TRUE
 	ai = /ai/advanced/halo/unggoy
 	class = /class/syndicate_soldier
@@ -101,6 +102,7 @@
 	name = "Kig-Yar Scout"
 	desc = "Deadly sniper"
 	desc_extended = "A low-ranking but good trained Covenant unit."
+	icon_state = "halo_kigyar1"
 	enable_AI = TRUE
 	ai = /ai/advanced/halo/kigyar
 	class = /class/syndicate_soldier
@@ -127,4 +129,35 @@
 	return .
 
 /mob/living/advanced/npc/halo/kigyar/ranged
+	icon_state = "halo_kigyar1"
 	loadout_to_use = /loadout/nt/halo/covenant/kigyar_ranged
+
+/mob/living/advanced/npc/halo/elite
+	name = "Elite Minor"
+	desc = "Fearless warrior"
+	desc_extended = "A low-ranking Elite."
+	icon_state = "halo_elite"
+	enable_AI = TRUE
+	ai = /ai/advanced/halo/elite
+	class = /class/syndicate_soldier
+
+	species = "Elite"
+	loyalty_tag = "Covenant"
+	iff_tag = "Covenant"
+
+	var/loadout_to_use = /loadout/nt/halo/covenant/elite_ranged
+
+/mob/living/advanced/npc/halo/elite/Initialize()
+
+	. = ..()
+
+	sex = pick(MALE,FEMALE)
+	gender = sex
+
+	equip_loadout(loadout_to_use)
+
+	update_all_blends()
+
+
+
+	return .
