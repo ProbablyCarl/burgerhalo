@@ -182,6 +182,7 @@
 "dz" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/medical,/area/halo/interior/pool)
 "dA" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window,/turf/simulated/floor/plating,/area/halo/interior)
 "dB" = (/obj/structure/interactive/computer/console/remote_flight/alpha{icon_state = "computer"; dir = 4},/turf/simulated/floor/tile/dark/single,/area/halo/interior)
+"dC" = (/obj/structure/interactive/chair{icon_state = "chair"; dir = 4},/obj/marker/antag/soe,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
 "dD" = (/obj/structure/smooth/wall/brick{color = "#2c2b2b"},/obj/decal/hazard/black{icon_state = "line"; dir = 8},/turf/simulated/floor/brick/grey,/area/halo/exterior/jungle)
 "dE" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/brick/grey,/area/halo/exterior/jungle)
 "dF" = (/turf/simulated/floor/brick/grey,/area/halo/exterior/jungle)
@@ -369,18 +370,18 @@
 "hf" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/obj/marker/antag/soe,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "hg" = (/obj/item/storage/heavy/trash_pile,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
 "hh" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/computer/console/old,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
-"hi" = (/obj/structure/interactive/chair{icon_state = "chair"; dir = 4},/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
+"hi" = (/obj/structure/interactive/chair{dir = 8},/obj/marker/antag/soe,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
 "hj" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
 "hk" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "hl" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "hm" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
-"hn" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
+"hn" = (/obj/structure/interactive/chair{dir = 1},/obj/marker/antag/soe,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
 "ho" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = -24},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "hp" = (/obj/structure/smooth/table/reinforced,/obj/item/storage/kit/filled,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "hq" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "hr" = (/obj/structure/interactive/vending/coffee,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
 "hs" = (/obj/structure/smooth/wall/brick{color = "#2c2b2b"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"ht" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
+"ht" = (/obj/structure/interactive/chair{dir = 1},/obj/marker/antag/soe,/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
 "hu" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb,/obj/structure/interactive/shop,/obj/item/weapon/melee/sword/rev_bayonet,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "hv" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb,/obj/structure/interactive/shop,/obj/item/grenade/timed/explosive/halo,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "hw" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/wood/boat,/area/halo/interior/urf_base)
@@ -400,7 +401,7 @@
 "hK" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
 "hL" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
 "hM" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
-"hN" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
+"hN" = (/obj/structure/interactive/bed,/obj/marker/antag/soe,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "hO" = (/obj/structure/interactive/chair,/obj/marker/antag/soe,/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
 "hP" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "hQ" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 32},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
@@ -525,7 +526,7 @@
 "kf" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kg" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kh" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 8},/turf/simulated/floor/tile,/area/halo/interior/hospital)
-"ki" = (/obj/structure/interactive/bed,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
+"ki" = (/obj/structure/interactive/bed,/obj/marker/antag/soe,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "kj" = (/obj/structure/interactive/chair,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "kk" = (/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "kl" = (/obj/structure/interactive/lighting/fixture/bulb,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -544,7 +545,6 @@
 "ky" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kz" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 1},/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kA" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"kB" = (/obj/structure/interactive/bed,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "kC" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "kD" = (/obj/structure/interactive/chair{dir = 1},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "kE" = (/obj/structure/interactive/crate/trash,/obj/decal/tile/cross/medical,/obj/item/grenade/timed/explosive/halo,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -674,9 +674,9 @@ acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadfEaTaTaGaTaTaTaTaTaTjeaTaTfOgIgFgFkpfOaTaG
 acaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadfEfKaTaTaTicaTgLgLgMgLgLaTfOktgOgFgJgqaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTfEkvaTkvaTaTaTaTaTaTaTaTfKaThWaTbZbZbZbZbZbZgBgPgBbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaTadaebPbbbagQfOfOgEfOfOaTgLgMmpgMgLaTfOgdkpmqgRfOaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaGaTaTaTgSbZgTbZgUbZbZgUbZbZaTaTbOaTfKfKaTaTaTaTbZbZbZbZbZbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaeaeagfOgVgWgdfYfOaTgMltgXlugMaTfOfOfOfOfOfOaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTbZgYgZmrlvgZhagZhbbZaTaTaTaTaTaTaTaTaGaTbZhchdhehfbZaTaaaaaaaaaaaaaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaaafKadaeaeaeadgqfYgpmmgwfOaTgLgMgMhggLaTaTaTaTicicfEaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTbZhhgZhihjhjhjhjgZbZaTaTaTaTaTbOaTaTaTaThkhehlmshlbZaTaaaaaaaaaaaaaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaaaaaadaMaeaeadgqfYlwgpgdfOaGgLgLgMgLgLaTaTaTaGaTaTfEaTaTaTaaaaaaaaaaaaaaaaaTaaaaaaaaaaaaaTaGaTaTaTaTaTaTbZhmgZhihjhjhjhjhnbZgNaTbZbZbZbZbZbZaTaTbZhohdhehdbZaaaaaaaaaaaaaaaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadfOfYfYhphqfOaTaTaTaTaTaTaTaTaTaTaTicgQaTaTaGaTaaaaaaaaaTaTaTaTaaaaaaaaaaaaaTaTaTaTaTaTaGaTbZhrgZgZhthtgZmrgZbZaTaTbZhufSfShvbZaTaTbZhehlhehlbZaaaaaaaaaaaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaaafKadaeaeaeadgqfYgpmmgwfOaTgLgMgMhggLaTaTaTaTicicfEaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTbZhhgZdChjhjhjhjgZbZaTaTaTaTaTbOaTaTaTaThkhehlmshlbZaTaaaaaaaaaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaaaaaadaMaeaeadgqfYlwgpgdfOaGgLgLgMgLgLaTaTaTaGaTaTfEaTaTaTaaaaaaaaaaaaaaaaaTaaaaaaaaaaaaaTaGaTaTaTaTaTaTbZhmgZdChjhjhjhjhibZgNaTbZbZbZbZbZbZaTaTbZhohdhehdbZaaaaaaaaaaaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadfOfYfYhphqfOaTaTaTaTaTaTaTaTaTaTaTicgQaTaTaGaTaaaaaaaaaTaTaTaTaaaaaaaaaaaaaTaTaTaTaTaTaGaTbZhrgZgZhnhngZmrgZbZaTaTbZhufSfShvbZaTaTbZhehlhehlbZaaaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaelxaMadfOfOgqgqfOfOcafIfIfIfIfIfIfIfIfIdWfOfOaTaTaTaTaTaTaTaTaTaTaTaTaTaTaaaaaaaTaTaTaTaTaTaTaTbObZbZbZbZbZbZlygZhwbZaGaTbZfRfSlifRbZaTaTbZhchehehxbZaaaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadadagadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadbZhzgZgZgTaTaTbZmBfSfSmBbZaTaGbZhehlhehlbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaebPaeaeaeaeaelzaeaeaeaeaeaMaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaejoaeaeaeaeaeaeadbZhjhAhBbZjsaTbZhCfSfShCbZaTaTbZhohdhehdbZaTaTaaaaaaaaaaaaaaac
@@ -687,7 +687,7 @@ acaaaaaaaaaaaaaaaaaaaafKaTaGadaeaeaeadaTaTaTaaaaaaaaaaaaaTaTaTaaaaaaaaaaaaaaaTaT
 acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaMaeadaTgNfKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafufufufufufufufuaaaaaaaaaTaTaTaTaTaTaTaTaTaTaTaTadaeaeaeadbZhFhOhHhIbZlBkuaTaTlCaTaTaTaGaTaTaTaGaTfEaTaTaTaTaGaTaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadaGaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaaaaaaaaaaaTaTaaaaaaaaaaaaaTaTaTaTadaeaeaeadgUhJhKgChLbZaTaTaTaTlDaTaTaTaTaTaTaTaTaTfEaTaTaTaTaTaTaTaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaafvfwfwfwfvfufufuaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTadaeaeaeadbZhJhKlEhHhMaTaTaTaTbZbZhkbZbZbZbZbZhkbZgSaTaTaTaaaaaaaaaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaGaTaTadaeaeaeadbZhNhYgChHbZaTaTaTaTbZhPhehQhehPhehQhehPbZaGaTaTaaaaaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaGaTaTadaeaeaeadbZhthYgChHbZaTaTaTaTbZhPhehQhehPhehQhehPbZaGaTaTaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaebPaeadaTaGaTaTaaaaaaaaaaaaaaaaaaaTaaaaaaaaaaaaaaaTaGaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTadaeaeaeadbZhRgCmohHbZbZhShSbZbZhdhlhdhlhehlhdhlhdbZaTaTaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaeaeadaTaTaaaaaaaaaaaaaaaaaaaaaTaTaTaTaaaaaaaaaaaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTadaeaeaeadgUlFgCgChObZhTgCgCmtbZhemshehehehehemshebZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaeaeadaTaTaaaaaaaaaaaaaaaaaaaaaTaGaTaTaTaaaaaaaaaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTadaebPaeadbZhVhJhJhVbZmtgCgChXbZlshlhdhlibhlhdhllsbZaTaaaaaaaaaaaaaTaaac
@@ -703,9 +703,9 @@ acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaelPaTaaaaaaaaaaaTaTaGidjBjCjDjtjEifmvjFifjGif
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaebPaeadaTaaaaaaaaaaaTaTaTidjtmxjtjNidjOififlLiYifmvififlMjPifjQifififjRidjljSiVidaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadfEaTaTaTkvaTaTaTaTaTaTaTaTfEaTaTaTaTac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeisaaaaaaaaaaaTaTaTaTidididididididididididififidididididididididididididididaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacxaebPaeadgQfOfOgEfOfOaTaTiafOfOjTfOgQaTaTaTaTac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaisaeaeaeadaTaaaaaaaaaGaTaTaTaTfKaTidjdjdjdjdjdjdidififidjUjVjWjVjUjVjWjXjYidjZidaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagaeaeaeadfOgVgdgdkafOaTaTiafOkbkckdfOaTaGaTaaac
-acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeiwaeadaTaaaaaaaaaTaTaTaTaTaTaTidjdididididididlIjRidkemykfkekekemykgkejvkhidaTaGaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadgqfYgpgpfYfOjsaTaTfOkilNkifOaTaTaTaaac
+acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeiwaeadaTaaaaaaaaaTaTaTaTaTaTaTidjdididididididlIjRidkemykfkekekemykgkejvkhidaTaGaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadgqfYgpgpfYfOjsaTaTfOhNlNhNfOaTaTaTaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadaaaaaaaaaaaTaTaTaTaTcuaTidjdidkjkjkkklidififidjWkmjWjVjWjVjWknmyidkoidaTaTaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadgqfYlOmmfYfOaTaGaTfOkqmlkbfOaTaTaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaabmDadaeaeaeadaaaaaaaaaaaaaaaTaTaTaTfKidjdidkrksmzkkkwififkxkykemykekzkekfkekyidididaTaTaTaTaGaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTadaebbaelPfOfYkAgdgwfOaTaTaTfOkBkCkBfOaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaabmDadaeaeaeadaaaaaaaaaaaaaaaTaTaTaTfKidjdidkrksmzkkkwififkxkykemykekzkekfkekyidididaTaTaTaTaGaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTadaebbaelPfOfYkAgdgwfOaTaTaTfOkikCkifOaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaabadaeaeaeadaaaaaaaaaaaaaaaTaTaTaTfKidjdidkkkDkkkEidmvifididkFidididididkFididjdidaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTgNbgaebbbbbafOfOfOfOfOfOcadydWfOfOfOfOfOaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaabadaebPaelTaaaaaaaaaaaaaaaahsaTaThsidjdidkGkHkkkIidiflQifkJifififjGiYifmvkKidjdidaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafKaGaTbHadaeaeaeadaTfKaaaaaaaaaaaaaTaTaTaTaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaabhyaeaeaeadaaaaaaaaaaaaaaaaaTaTaTaGidididididkwididkLififlRififmvififififkMidjdidaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafKbHadaebPaecxaTfKaaaaaaaaaaaaaaaTaTaTaaaaaaaaaaaaac

@@ -107,6 +107,8 @@
 	ai = /ai/advanced/halo/kigyar
 	class = /class/syndicate_soldier
 
+	movement_delay = 1
+
 	species = "Kigyar"
 	loyalty_tag = "Covenant"
 	iff_tag = "Covenant"
