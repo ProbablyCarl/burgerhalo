@@ -113,15 +113,15 @@
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-	var/gamemode_state = SSgamemode.active_gamemode.state
+//	var/gamemode_state = SSgamemode.active_gamemode.state
 
 //	if(gamemode_state <= GAMEMODE_WAITING)
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-	if(gamemode_state >= GAMEMODE_FIGHTING)
+/*	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
-		return FALSE
+		return FALSE*/
 
 //	if(gamemode_state >= GAMEMODE_BREAK)
 //		src.to_chat(span("warning","The round is currently ending!"))
@@ -213,15 +213,15 @@
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-	var/gamemode_state = SSgamemode.active_gamemode.state
+//	var/gamemode_state = SSgamemode.active_gamemode.state
 
 //	if(gamemode_state <= GAMEMODE_WAITING)
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-	if(gamemode_state >= GAMEMODE_FIGHTING)
+/*	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
-		return FALSE
+		return FALSE*/
 
 //	if(gamemode_state >= GAMEMODE_BREAK)
 //		src.to_chat(span("warning","The round is currently ending!"))

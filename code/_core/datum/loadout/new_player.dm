@@ -323,7 +323,7 @@
 		/obj/item/clothing/overwear/hardsuit/halo/odst/engineer,
 		/obj/item/clothing/head/helmet/hardsuit/halo/odst/engineer,
 		/obj/item/clothing/back/storage/backpack/halo/odst/engineer,
-		/obj/item/clothing/belt/storage/tool/filled,
+		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b,
 		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/socom,
 		/obj/item/magazine/halo/magnum_socom,
@@ -334,6 +334,12 @@
 		/obj/item/magazine/halo/ma5b,
 		/obj/item/magazine/halo/ma5b,
 		/obj/item/magazine/halo/ma5b,
+		/obj/item/weapon/melee/tool/crowbar/red,
+		/obj/item/weapon/melee/tool/multitool,
+		/obj/item/weapon/melee/tool/screwdriver,
+		/obj/item/weapon/melee/tool/welder,
+		/obj/item/weapon/melee/tool/wirecutters,
+		/obj/item/weapon/melee/tool/wrench,
 		/obj/item/grenade/landmine/proximity/explosive/halo,
 		/obj/item/grenade/landmine/proximity/explosive/halo,
 		/obj/item/magazine/minigun_46,
@@ -417,4 +423,20 @@
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_rifle,
 		/obj/item/weapon/melee/energy/halo/esword
+	)
+
+/loadout/nt/survivor
+	spawning_items = list(
+		/obj/item/clothing/uniform/hos,
+		/obj/item/clothing/neck/cloak/black,
+		/obj/item/clothing/overwear/armor/bulletproof,
+		/obj/item/clothing/overwear/coat/brown,
+		/obj/item/clothing/head/hat/warden/drill,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/feet/shoes/black_boots,
+		/obj/item/clothing/feet/shoes/black_boots/left,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/single/black,
+		/obj/item/storage/pouch/single/black,
 	)

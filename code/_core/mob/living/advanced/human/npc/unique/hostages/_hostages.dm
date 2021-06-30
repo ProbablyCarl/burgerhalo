@@ -6,8 +6,8 @@
 
 /mob/living/advanced/npc/unique/hostage/Initialize()
 	. = ..()
-	src.add_organ(/obj/item/organ/internal/implant/hand/left/iff/syndicate)
-	src.add_organ(/obj/item/organ/internal/implant/head/loyalty/syndicate)
+	src.add_organ(/obj/item/organ/internal/implant/hand/left/iff/nanotrasen)
+	src.add_organ(/obj/item/organ/internal/implant/head/loyalty/nanotrasen)
 	return .
 
 /mob/living/advanced/npc/unique/hostage/assistant
@@ -19,7 +19,7 @@
 /mob/living/advanced/npc/unique/hostage/assistant/Initialize()
 	. = ..()
 	update_all_blends()
-	equip_loadout(/loadout/new_player)
+	equip_loadout(/loadout/nt/survivor)
 	return .
 
 

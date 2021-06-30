@@ -179,9 +179,6 @@
 	round_time_next = HORDE_DELAY_LAUNCHING
 	announce("Central Command Mission Update","Mission is a Go","Shuttles are prepped and ready to depart into the Area of Operations. All crew are cleared to launch.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
 	allow_launch = TRUE
-	for(var/k in all_fog)
-		var/obj/effect/fog_of_war/F = k
-		F.remove()
 	SSshuttle.next_pod_launch = world.time + SECONDS_TO_DECISECONDS(5)
 	return TRUE
 
@@ -193,6 +190,9 @@
 		return TRUE
 	state = GAMEMODE_FIGHTING
 	round_time = 0
+	for(var/k in all_fog)
+		var/obj/effect/fog_of_war/F = k
+		F.remove()
 //	for(var/objective/O in crew_active_objectives)
 //		O.on_gamemode_playable()
 	return TRUE
