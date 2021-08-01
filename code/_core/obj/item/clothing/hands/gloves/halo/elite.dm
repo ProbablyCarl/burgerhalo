@@ -48,3 +48,23 @@
 	protection_cold = list(
 		BODY_HAND_LEFT = 1
 	)
+
+/obj/item/clothing/hands/gloves/halo/covenant/elite/major
+	name = "Sangheili right Combat Gauntlet"
+	icon = 'icons/obj/item/clothing/gloves/elite_mj.dmi'
+
+	icon_state = "inventory_right"
+	icon_state_worn = "worn_right"
+
+/obj/item/clothing/hands/gloves/halo/covenant/elite/major/left
+	name = "Sangheili left Combat Gauntlet"
+
+	icon_state = "inventory_left"
+	icon_state_worn = "worn_left"
+	item_slot = SLOT_HAND_LEFT
+	protected_limbs = list(BODY_HAND_LEFT)
+	blocks_clothing = SLOT_HAND_LEFT
+
+	protection_cold = list(
+		BODY_HAND_LEFT = 1
+	)

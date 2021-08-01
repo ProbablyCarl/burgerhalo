@@ -282,3 +282,15 @@
 		/obj/item/halo/kit/soe/engineer,
 		/obj/item/halo/kit/soe/sharp
 	)
+
+/obj/structure/interactive/vending/security/gundrobe/halo/cov
+	name = "gun vendor"
+	icon_state = "covendor"
+
+	stored_types = list(
+		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle,
+
+		/obj/item/weapon/ranged/energy/halo/cov_pistol,
+		/obj/item/weapon/ranged/bullet/magazine/smg/halo/covenant/needler
+	)

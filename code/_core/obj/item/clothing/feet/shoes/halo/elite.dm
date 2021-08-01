@@ -42,3 +42,20 @@
 	protected_limbs = list(BODY_FOOT_LEFT)
 	blocks_clothing = SLOT_FOOT_LEFT | SLOT_FOOT_LEFT_U
 
+/obj/item/clothing/feet/shoes/halo/covenant/elite/major
+	name = "Sanghelli right Leg Armour"
+	rarity = RARITY_RARE
+	icon_state = "inventory_right"
+	icon_state_worn = "worn_right"
+	worn_layer = LAYER_MOB_CLOTHING_BELT
+
+	icon = 'icons/obj/item/clothing/shoes/elite_mj.dmi'
+
+/obj/item/clothing/feet/shoes/halo/covenant/elite/major/left
+	name = "Sanghelli left Leg Armour"
+	icon_state = "inventory_left"
+	icon_state_worn = "worn_left"
+
+	item_slot = SLOT_FOOT_LEFT
+	protected_limbs = list(BODY_FOOT_LEFT)
+	blocks_clothing = SLOT_FOOT_LEFT | SLOT_FOOT_LEFT_U

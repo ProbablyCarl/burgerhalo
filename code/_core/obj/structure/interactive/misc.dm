@@ -217,3 +217,10 @@ obj/structure/interactive/misc/sink
 
 	density = TRUE
 	bullet_block_chance = 50
+
+/obj/structure/interactive/misc/halo/decor/vehicles/placeholder
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
+	invisibility = 101
+
+	density = TRUE

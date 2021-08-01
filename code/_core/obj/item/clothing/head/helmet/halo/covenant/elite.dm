@@ -25,3 +25,7 @@
 	size = SIZE_3
 
 	value = 100
+
+/obj/item/clothing/head/helmet/halo/covenant/elite/major
+	name = "Sangheili Helmet"
+	icon = 'icons/obj/item/clothing/hats/elite_mj.dmi'

@@ -26,3 +26,9 @@
 	protected_limbs = list(BODY_TORSO,BODY_GROIN,BODY_ARM_LEFT,BODY_ARM_RIGHT,BODY_LEG_LEFT,BODY_LEG_RIGHT)
 
 	value = 300
+
+/obj/item/clothing/overwear/armor/halo/covenant/elite/major
+	name = "Sangheili Combat Harness"
+	desc = "Aliens! Yay!"
+	desc_extended = "An armored protective vest worn by the Major Elites."
+	icon = 'icons/obj/item/clothing/suit/elite_mj.dmi'
