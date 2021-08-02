@@ -8,6 +8,9 @@
 /obj/decal/tile/nanotrasen
 	color = COLOR_NANOTRASEN
 
+/obj/decal/tile/medbay
+	color = "#0094FF"
+
 /obj/decal/tile/corner
 	icon_state = "corner"
 

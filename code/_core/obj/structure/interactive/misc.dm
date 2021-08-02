@@ -126,6 +126,17 @@ obj/structure/interactive/misc/sink
 	icon_state = "sink"
 	plane = PLANE_OBJ
 
+obj/structure/interactive/misc/coatrack
+	name = "coat rack"
+	desc = "For your clothing."
+	desc_extended = "Wooden stand for clothing."
+	icon_state = "coatrack0"
+
+obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
+	. = ..()
+	icon_state = "coatrack[rand(0,4)]"
+	return .
+
 /obj/structure/interactive/misc/halo
 
 /obj/structure/interactive/misc/halo/statue
@@ -207,6 +218,7 @@ obj/structure/interactive/misc/sink
 	name = "M12 Warthog"
 	icon = 'icons/halo/vehicles/types/finalwarthog.dmi'
 	icon_state = "Warthog"
+	bound_width = TILE_SIZE*2
 
 /obj/structure/interactive/misc/halo/decor/tanktrap
 	name = "tanktrap"
