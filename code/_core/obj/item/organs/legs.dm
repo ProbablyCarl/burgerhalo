@@ -240,6 +240,7 @@
 /obj/item/organ/leg/halo/elite
 	name = "right leg"
 	icon = 'icons/mob/living/advanced/species/halo/covenant/elite.dmi'
+	health_base = 110
 
 	flags_organ = FLAG_ORGAN_COVENANT
 
@@ -255,3 +256,5 @@
 
 	target_bounds_y_min = 4
 	target_bounds_y_max = 8
+
+	health_base = 110

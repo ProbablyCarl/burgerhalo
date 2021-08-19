@@ -452,6 +452,8 @@
 	damage_type = /damagetype/unarmed/elite/
 	flags_organ = FLAG_ORGAN_COVENANT
 
+	health_base = 35
+
 /obj/item/organ/hand/halo/elite/left
 	name = "left hand"
 	id = BODY_HAND_LEFT
@@ -470,3 +472,5 @@
 
 	target_bounds_y_min = 11
 	target_bounds_y_max = 14
+
+	health_base = 35

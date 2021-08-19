@@ -146,3 +146,5 @@
 	desc = "An organ."
 
 	flags_organ = FLAG_ORGAN_COVENANT
+
+	health_base = 80

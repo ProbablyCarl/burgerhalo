@@ -127,3 +127,5 @@
 	icon = 'icons/mob/living/advanced/species/halo/covenant/elite.dmi'
 
 	flags_organ = FLAG_ORGAN_COVENANT
+
+	health_base = 150

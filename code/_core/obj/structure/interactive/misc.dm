@@ -204,6 +204,8 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 	name = "Type-25 Spirit"
 	icon = 'icons/halo/vehicles/types/spirit.dmi'
 	icon_state = "base"
+	bound_width = TILE_SIZE*4
+	bound_height = TILE_SIZE*8
 
 /obj/structure/interactive/misc/halo/decor/vehicles/scorpion
 	name = "M808B Scorpion"
@@ -213,6 +215,7 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 	name = "M808B Scorpion"
 	icon = 'icons/halo/vehicles/types/Scorpion.dmi'
 	icon_state = "west"
+	bound_width = TILE_SIZE*3
 
 /obj/structure/interactive/misc/halo/decor/vehicles/warthog
 	name = "M12 Warthog"

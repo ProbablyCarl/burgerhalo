@@ -7,7 +7,7 @@
 	projectile = /obj/projectile/bullet/laser/strong
 	ranged_damage_type = /damagetype/ranged/laser/rifle/hardlight
 
-	bullet_color = "#00FF00"
+	bullet_color = "#466ab6"
 
 	projectile_speed = TILE_SIZE - 1
 	shoot_delay = 1

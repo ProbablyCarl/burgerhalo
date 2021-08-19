@@ -42,27 +42,27 @@
 	screen_loc = "LEFT+1,CENTER+1"
 	command_to_run = "become-unsc"
 
-/*/obj/hud/button/menu/selection/character_load
-	name = "Join as Existing Character"
-	icon_state = "load"
-	screen_loc = "LEFT+1,CENTER-0"
-	command_to_run = "load-character"*/
-
 /obj/hud/button/menu/selection/join_antagonist
 	name = "Join as Insurrection"
 	icon_state = "antag"
 	screen_loc = "LEFT+1,CENTER-0"
 	command_to_run = "become-insurrection"
 
+/obj/hud/button/menu/selection/join_covenant
+	name = "Join as Covenant"
+	icon_state = "cov"
+	screen_loc = "LEFT+1,CENTER-1"
+	command_to_run = "become-covenant"
+
 /obj/hud/button/menu/selection/observe
 	name = "Observe"
 	icon_state = "observe"
-	screen_loc = "LEFT+1,CENTER-1"
+	screen_loc = "LEFT+1,CENTER-2"
 	command_to_run = "observe"
 
 
 /obj/hud/button/menu/selection/macros
 	name = "Macros"
 	icon_state = "macros"
-	screen_loc = "LEFT+1,CENTER-2"
+	screen_loc = "LEFT+1,CENTER-3"
 	command_to_run = "edit-macros"
