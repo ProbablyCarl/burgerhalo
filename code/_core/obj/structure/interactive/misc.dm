@@ -198,6 +198,28 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 	density = TRUE
 	bullet_block_chance = 50
 
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm
+	name = "Main Radio-Tower"
+	icon = 'icons/halo/icons/machinery/radio_tower.dmi'
+	icon_state = "tower_on"
+	layer = LAYER_LARGE_OBJ
+	plane = PLANE_SCENERY
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
+	bound_width = TILE_SIZE*3
+	bound_height = TILE_SIZE*3
+	health = /health/construction
+	health_base = 2000
+	density = TRUE
+	bullet_block_chance = 50
+
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/on_destruction(var/mob/caller,var/damage = FALSE)
+
+	icon_state = "tower_broke"
+	world.end(WORLD_END_DRAW)
+
+	return ..()
+
 /obj/structure/interactive/misc/halo/decor/vehicles
 
 /obj/structure/interactive/misc/halo/decor/vehicles/spirit

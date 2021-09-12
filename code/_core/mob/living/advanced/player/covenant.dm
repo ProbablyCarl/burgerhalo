@@ -14,7 +14,7 @@
 
 	var/species/S = SPECIES(species)
 
-	sex = pick(MALE,FEMALE)
+	sex = MALE
 	gender = sex
 
 	default_appearance()

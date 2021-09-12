@@ -3,7 +3,7 @@
 	desc = "Space age technology calls for space age guns. This should easily rip someone a new hole."
 	desc_extended = "A unique combination of the Type-33 and Type-51."
 	icon = 'icons/obj/item/weapons/ranged/rifle/halo/needlerifle.dmi'
-	value = 2500
+	value = 1000
 
 	shoot_delay = 3
 

@@ -282,7 +282,6 @@
 
 	damage_coefficient = 0.2
 	defense_rating = UNGGOY_ARMOR
-	inventories = list()
 
 /obj/item/organ/foot/halo/unggoy/left
 	name = "left foot"

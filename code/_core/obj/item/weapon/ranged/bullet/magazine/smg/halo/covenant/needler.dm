@@ -28,7 +28,7 @@
 	bullet_diameter_best = 9
 	bullet_diameter_max = 10
 
-	value = 100
+	value = 200
 
 	ai_heat_sensitivity = 0.5
 

@@ -361,7 +361,7 @@
 		/obj/item/clothing/head/helmet/hardsuit/halo/odst/sharp,
 		/obj/item/clothing/back/storage/backpack/halo/odst/sharp,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/srs,
-		/obj/item/weapon/ranged/bullet/revolver/halo/m41,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41,
 		/obj/item/magazine/halo/srs,
 		/obj/item/magazine/halo/srs/ap,
 		/obj/item/magazine/halo/srs/ap,
@@ -369,8 +369,7 @@
 		/obj/item/magazine/halo/srs,
 		/obj/item/magazine/halo/srs,
 		/obj/item/magazine/halo/srs,
-		/obj/item/bullet_cartridge/halo/spnkr,
-		/obj/item/bullet_cartridge/halo/spnkr,
+		/obj/item/magazine/halo/m41,
 		/obj/item/container/syringe/medipen/bicaridine,
 		/obj/item/container/syringe/medipen/kelotane
 	)
@@ -382,9 +381,10 @@
 		/obj/item/clothing/mask/gas/halo/unggoy,
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_pistol,
-		/obj/item/powercell/advanced,
-		/obj/item/powercell/advanced,
-		/obj/item/powercell/advanced
+		/obj/item/halo/plasma_nade,
+		/obj/item/halo/plasma_nade,
+		/obj/item/halo/plasma_nade,
+		/obj/item/halo/plasma_nade
 	)
 
 /loadout/nt/halo/covenant/kigyar
@@ -392,7 +392,7 @@
 		/obj/item/clothing/uniform/halo/covenant/kigyar/less,
 		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
 		/obj/item/clothing/mask/gas/halo/kigyar,
-		/obj/item/weapon/melee/energy/halo/edagger
+		/obj/item/weapon/melee/sword/bdagger
 	)
 
 /loadout/nt/halo/covenant/kigyar_ranged
@@ -411,7 +411,7 @@
 		/obj/item/magazine/halo/covenant/needler
 	)
 
-/loadout/nt/halo/covenant/elite_ranged
+/loadout/nt/halo/covenant/elite_minor
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
 		/obj/item/clothing/overwear/armor/halo/covenant/elite,
@@ -420,6 +420,20 @@
 		/obj/item/clothing/hands/gloves/halo/covenant/elite/left,
 		/obj/item/clothing/feet/shoes/halo/covenant/elite,
 		/obj/item/clothing/feet/shoes/halo/covenant/elite/left,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/melee/energy/halo/edagger
+	)
+
+/loadout/nt/halo/covenant/elite_major
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/overwear/armor/halo/covenant/elite/major,
+		/obj/item/clothing/head/helmet/halo/covenant/elite/major,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/major,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/major/left,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/major,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/major/left,
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_rifle,
 		/obj/item/weapon/melee/energy/halo/esword

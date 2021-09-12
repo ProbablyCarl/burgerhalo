@@ -6,6 +6,7 @@
 
 	projectile = /obj/projectile/bullet/laser/strong
 	ranged_damage_type = /damagetype/ranged/laser/rifle/hardlight
+	battery = /obj/item/powercell/recharging
 
 	bullet_color = "#466ab6"
 
@@ -27,7 +28,7 @@
 	size = SIZE_3
 	weight = 6
 
-	value = 2000
+	value = 1400
 
 	attachment_whitelist = list(
 		/obj/item/attachment/barrel/charger = FALSE,

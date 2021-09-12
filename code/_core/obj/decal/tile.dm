@@ -8,6 +8,9 @@
 /obj/decal/tile/nanotrasen
 	color = COLOR_NANOTRASEN
 
+/obj/decal/tile/cargo
+	color = COLOR_CARGO
+
 /obj/decal/tile/medbay
 	color = "#0094FF"
 

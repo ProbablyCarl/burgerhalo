@@ -1,6 +1,6 @@
 /gamemode/horde/
 	name = "Halo Gamemode"
-	desc = "Fight 15vs15 on a small map, capture enemy base, if you ODST, secure and defend your bunker as insurrectionist."
+	desc = "Fight 20vs20 on a small map, capture enemy base, destroy civilians houses and etc!"
 
 	var/list/horde_targets = list()
 

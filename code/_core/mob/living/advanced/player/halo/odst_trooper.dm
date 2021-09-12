@@ -11,8 +11,8 @@
 	. = ..()
 	name = "[gender == MALE ? FIRST_NAME_MALE : FIRST_NAME_FEMALE] [LAST_NAME]"
 	setup_name()
-	to_chat(span("danger","God bless you"))
-	to_chat(span("danger","The Orbital Drop Shock Troopers (ODST) are a special operations capable organization of the UNSC Marine Corps that specialize in orbital-dropped shock infantry and special warfare tactics."))
+	to_chat(span("danger","This guy always dies first"))
+	to_chat(span("notice","The Orbital Drop Shock Troopers (ODST) are a special operations capable organization of the UNSC Marine Corps that specialize in orbital-dropped shock infantry and special warfare tactics."))
 	return .
 
 /*/mob/living/advanced/player/nt/halo/odst/setup_name()

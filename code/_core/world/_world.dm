@@ -139,13 +139,19 @@ var/global/world_state = STATE_STARTING
 		if(WORLD_END_SHUTDOWN)
 			nice_reason = "Adminbus."
 		if(WORLD_END_NANOTRASEN_VICTORY)
-			nice_reason = "Round ended"
+			nice_reason = "UNSC Major"
 			SSpayday.stored_payday += 10000
 			SSpayday.trigger_payday()
-			announce("Server","Round is ended","You completed all the objectives, so let's move on.")
+			announce("Server","UNSC Major","UNSC successfully complete their objectives!")
 		if(WORLD_END_SYNDICATE_VICTORY)
-			nice_reason = "Syndicate Victory"
-			announce("Central Command Mission Update","Fission Mailed","Mission failed, we'll get them next time.")
+			nice_reason = "URF Superior Victory"
+			announce("Server","URF Superior Victory","URF successfully complete their objectives!")
+		if(WORLD_END_COVENANT_VICTORY)
+			nice_reason = "Covenant Victory"
+			announce("Server","Covenant Victory","Covenant successfully destroyed another planet! Rejoice!")
+		if(WORLD_END_DRAW)
+			nice_reason = "Draw"
+			announce("Server","Draw","No one managed to complete their objectives!")
 
 	play_sound_global('sound/meme/apcdestroyed.ogg',all_mobs_with_clients)
 

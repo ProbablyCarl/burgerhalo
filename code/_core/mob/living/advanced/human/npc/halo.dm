@@ -147,7 +147,7 @@
 	loyalty_tag = "Covenant"
 	iff_tag = "Covenant"
 
-	var/loadout_to_use = /loadout/nt/halo/covenant/elite_ranged
+	var/loadout_to_use = /loadout/nt/halo/covenant/elite_minor
 
 /mob/living/advanced/npc/halo/elite/Initialize()
 

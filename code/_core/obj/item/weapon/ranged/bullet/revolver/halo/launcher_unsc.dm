@@ -1,4 +1,4 @@
-/obj/item/weapon/ranged/bullet/revolver/halo/m41
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41
 	name = "\improper M41 SPNKR"
 	desc = "Just run from it."
 	desc_extended = "Surface to surface rocket launcher for anti armor and anti infantry purposes. Takes SPNKr tubes."
@@ -8,11 +8,8 @@
 
 	automatic = FALSE
 
-	bullet_count_max = 1
-
-	insert_limit = 1
-
 	view_punch = TILE_SIZE - 1
+	override_icon_state = TRUE
 
 	shoot_sounds = list('sound/weapons/grenade_launcher/thump.ogg')
 
@@ -74,11 +71,23 @@
 
 	firing_pin = /obj/item/firing_pin/electronic/iff/nanotrasen
 
-/obj/item/weapon/ranged/bullet/revolver/halo/m41/get_base_spread()
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41/update_icon()
+
+	icon_state = initial(icon_state)
+
+	if(!chambered_bullet)
+		icon_state = "[icon_state]_unloaded"
+
+	if(!stored_magazine)
+		icon_state = "[icon_state]_open"
+
+	return ..()
+
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41/get_base_spread()
 	return 0.1
 
-/obj/item/weapon/ranged/bullet/revolver/halo/m41/get_static_spread()
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41/get_static_spread()
 	return 0.01
 
-/obj/item/weapon/ranged/bullet/revolver/halo/m41/get_skill_spread(var/mob/living/L)
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41/get_skill_spread(var/mob/living/L)
 	return max(0,0.03 - (0.12 * L.get_skill_power(SKILL_RANGED)))

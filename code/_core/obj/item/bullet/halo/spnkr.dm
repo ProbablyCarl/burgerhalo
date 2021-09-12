@@ -19,4 +19,4 @@
 	projectile_speed = TILE_SIZE * 0.9
 
 	size = 4
-	value = 1000
+	value = 400

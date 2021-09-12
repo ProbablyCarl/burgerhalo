@@ -14,3 +14,17 @@
 
 
 /proc/smoke(var/turf/desired_turf,var/desired_range,var/atom/desired_owner,var/atom/desired_source,var/desired_loyalty,var/reagents/desired_reagents)
+
+/proc/explode_cov(var/turf/desired_turf,var/desired_range,var/atom/desired_owner,var/atom/desired_source,var/desired_loyalty)
+
+	new /obj/effect/temp/explosion_covenant(desired_turf,SECONDS_TO_DECISECONDS(desired_range))
+
+	play_sound('sound/sounds/Plasmanadedetonate.ogg',desired_turf)
+
+	FOR_DVIEW(var/turf/T,desired_range,desired_turf,0)
+		CHECK_TICK(80,FPS_SERVER*0.5)
+		var/distance = get_dist_real(T,desired_turf)
+		if(distance > desired_range)
+			continue
+		new/obj/effect/explosion_particle/covenant(T)
+		T.act_explode(desired_owner,desired_source,desired_turf,1 + (desired_range - distance),desired_loyalty)

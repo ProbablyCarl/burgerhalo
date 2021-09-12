@@ -240,14 +240,30 @@
 	set name = "Force Round End (DANGER)"
 	set category = "GameMaster"
 
-	var/confirm = input("Are you sure you want to end the round in a NanoTrasen Victory?","NanoTrasen Victory") in list("Yes","No","Cancel")|null
+	var/question = input("Are you sure you want to end the round?") in list("UNSC Victory","URF Victory","Covenant Victory","Draw","Cancel")
+
+	if(question == "UNSC Victory")
+		world.end(WORLD_END_NANOTRASEN_VICTORY)
+
+	if(question == "URF Victory")
+		world.end(WORLD_END_SYNDICATE_VICTORY)
+
+	if(question == "Covenant Victory")
+		world.end(WORLD_END_COVENANT_VICTORY)
+
+	if(question == "Draw")
+		world.end(WORLD_END_DRAW)
+
+	log_admin("[src.get_debug_name()] forced the round to end.")
+
+/*	var/confirm = input("Are you sure you want to end the round?","NanoTrasen Victory") in list("Yes","No","Cancel")|null
 
 	if(confirm != "Yes")
 		return FALSE
 
 	world.end(WORLD_END_NANOTRASEN_VICTORY,FALSE)
 
-	log_admin("[src.get_debug_name()] forced the round to end.")
+	log_admin("[src.get_debug_name()] forced the round to end.")*/
 
 
 /client/verb/ic_announcement()

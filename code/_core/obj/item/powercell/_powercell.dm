@@ -119,11 +119,11 @@
 	icon = 'icons/obj/item/cells.dmi'
 	icon_state = "cell_recharging"
 
-	charge_max = CELL_SIZE_BASIC*0.5
+	charge_max = CELL_SIZE_ADVANCED*0.5
 
 	size = SIZE_2
 
-	value = 1000
+	value = 1
 
 	weight = 6
 
@@ -134,6 +134,12 @@
 /obj/item/powercell/recharging/think()
 	charge_current = min(charge_current + charge_max*0.001,charge_max)
 	return ..()
-	
+
 /obj/item/powercell/get_examine_list(var/mob/caller)
 	return ..() + div("notice","It has [charge_current] out of [charge_max] charge remaining.")
+
+/obj/item/powercell/recharging/small
+	charge_max = CELL_SIZE_BASIC*0.5
+
+/obj/item/powercell/recharging/big
+	charge_max = CELL_SIZE_INDUSTRIAL*0.5

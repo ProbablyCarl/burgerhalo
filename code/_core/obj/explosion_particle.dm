@@ -10,3 +10,6 @@
 	animate(src,alpha=0,time=5)
 	queue_delete(src,10)
 	return .
+
+/obj/effect/explosion_particle/covenant
+	icon_state = "overcharged"

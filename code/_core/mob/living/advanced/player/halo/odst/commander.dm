@@ -11,6 +11,6 @@
 	. = ..()
 	name = "[gender == MALE ? FIRST_NAME_MALE : FIRST_NAME_FEMALE] [LAST_NAME]"
 	setup_name()
-	to_chat(span("danger","God bless you"))
-	to_chat(span("danger","You are a commander of UNSC Stalingrad. Your task is to coordinate the air and ground forces and give orders as the operation progresses."))
+	to_chat(span("danger","Dear Humanity; we regret being alien bastards. We regret coming to Earth. And we most definitely regret that the Corps just blew up our raggedy-ass fleet!"))
+	to_chat(span("notice","You are a commander of UNSC Stalingrad. Your task is to coordinate the air and ground forces and give orders as the operation progresses."))
 	return .

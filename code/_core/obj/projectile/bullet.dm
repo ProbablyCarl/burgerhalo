@@ -107,6 +107,9 @@
 
 	return .
 
+/obj/projectile/bullet/rocket/rod
+	icon_state = "cov_rocket"
+
 /obj/projectile/bullet/needler
 	name = "bolt"
 	icon = 'icons/obj/projectiles/bolt.dmi'

@@ -18,8 +18,8 @@
 	default_color_glow = "#FFFFFF"
 
 	emote_sounds_male = list(
-		"pain" = list('sound/voice/kigyar/kiggyscream_1.ogg','sound/voice/kigyar/kiggyscream_2.ogg','sound/voice/kigyar/kiggyscream_3.ogg','sound/voice/kigyar/kiggyscream_4.ogg','sound/voice/kigyar/kiggyscream_5.ogg'),
-		"scream" = list('sound/voice/kigyar/kiggyscream_1.ogg','sound/voice/kigyar/kiggyscream_2.ogg','sound/voice/kigyar/kiggyscream_3.ogg','sound/voice/kigyar/kiggyscream_4.ogg','sound/voice/kigyar/kiggyscream_5.ogg')
+		"pain" = list('sound/voice/elite/elitescream_1.ogg','sound/voice/elite/elitescream_2.ogg','sound/voice/elite/elitescream_3.ogg','sound/voice/elite/elitescream_4.ogg','sound/voice/elite/elitescream_5.ogg'),
+		"scream" = list('sound/voice/elite/elitescream_6.ogg','sound/voice/elite/elitescream_7.ogg','sound/voice/elite/elitescream_8.ogg','sound/voice/elite/elitescream_9.ogg','sound/voice/elite/elitescream_10.ogg')
 	)
 
 	spawning_organs_male = list(

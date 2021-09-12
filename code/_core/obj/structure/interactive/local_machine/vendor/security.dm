@@ -170,7 +170,7 @@
 	icon_state = "gundrobe"
 
 	stored_types = list(
-		/obj/item/weapon/ranged/bullet/revolver/halo/m41,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m739,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5p,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/srs,
@@ -214,7 +214,7 @@
 	stored_types = list(
 		/obj/item/magazine/halo/m739,
 		/obj/item/magazine/halo/ma5p,
-		/obj/item/bullet_cartridge/halo/spnkr,
+		/obj/item/magazine/halo/m41,
 		/obj/item/magazine/halo/srs,
 		/obj/item/magazine/halo/srs/explosive,
 		/obj/item/magazine/halo/srs/incendiary,
@@ -288,9 +288,26 @@
 	icon_state = "covendor"
 
 	stored_types = list(
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/fuel_rod,
+		/obj/item/weapon/ranged/energy/halo/cov_lmg,
+		/obj/item/halo/plasma_nade,
+
 		/obj/item/weapon/ranged/energy/halo/cov_rifle,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle,
 
 		/obj/item/weapon/ranged/energy/halo/cov_pistol,
-		/obj/item/weapon/ranged/bullet/magazine/smg/halo/covenant/needler
+		/obj/item/weapon/ranged/bullet/magazine/smg/halo/covenant/needler,
+
+		/obj/item/weapon/melee/energy/halo/esword,
+		/obj/item/weapon/melee/energy/halo/edagger,
+		/obj/item/weapon/melee/sword/bdagger
+	)
+
+/obj/structure/interactive/vending/security/ammo/halo/cov
+	name = "ammo vendor"
+	icon_state = "covendor"
+
+	stored_types = list(
+		/obj/item/magazine/halo/covenant/fuel,
+		/obj/item/magazine/halo/covenant/needler
 	)

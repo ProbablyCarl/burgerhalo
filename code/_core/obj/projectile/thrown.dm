@@ -10,6 +10,7 @@
 	impact_effect_movable = null
 
 	muzzleflash_effect = null
+	inaccuracy_modifier = 0
 
 /obj/projectile/bullet/thrown/post_on_hit(var/atom/hit_atom)
 

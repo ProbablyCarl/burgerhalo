@@ -16,5 +16,5 @@
 
 	projectile_speed = BULLET_SPEED_PISTOL_LIGHT
 
-	size = 2
-	value = 1000
+	size = 0.06
+	value = 2
