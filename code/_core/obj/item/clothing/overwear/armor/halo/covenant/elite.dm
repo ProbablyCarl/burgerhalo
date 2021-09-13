@@ -32,3 +32,15 @@
 	desc = "Aliens! Yay!"
 	desc_extended = "An armored protective vest worn by the Major Elites."
 	icon = 'icons/obj/item/clothing/suit/elite_mj.dmi'
+
+/obj/item/clothing/overwear/armor/halo/covenant/elite/ultra
+	name = "Sangheili Combat Harness"
+	desc = "Aliens! Yay!"
+	desc_extended = "An armored protective vest worn by the Ultra Elites."
+	icon = 'icons/obj/item/clothing/suit/elite_ultra.dmi'
+
+/obj/item/clothing/overwear/armor/halo/covenant/elite/shipmaster
+	name = "Sangheili Combat Harness"
+	desc = "Aliens! Yay!"
+	desc_extended = "An armored protective vest worn by the Shipmaster Elites."
+	icon = 'icons/obj/item/clothing/suit/elite_sm.dmi'

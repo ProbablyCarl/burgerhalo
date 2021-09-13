@@ -179,8 +179,8 @@
 		/obj/item/clothing/ears/headset,
 		/obj/item/clothing/hands/gloves/colored/combat,
 		/obj/item/clothing/hands/gloves/colored/combat/left,
-		/obj/item/clothing/feet/shoes/carbon_boot,
-		/obj/item/clothing/feet/shoes/carbon_boot/left,
+		/obj/item/clothing/feet/shoes/halo/combat/odst,
+		/obj/item/clothing/feet/shoes/halo/combat/odst/left,
 		/obj/item/clothing/belt/storage/colored/black
 	)
 
@@ -236,8 +236,8 @@
 /loadout/halo/unsc_soldier
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/marine,
-		/obj/item/clothing/feet/shoes/black_boots,
-		/obj/item/clothing/feet/shoes/black_boots/left,
+		/obj/item/clothing/feet/shoes/halo/combat,
+		/obj/item/clothing/feet/shoes/halo/combat/left,
 		/obj/item/clothing/hands/gloves/colored/padded/black,
 		/obj/item/clothing/hands/gloves/colored/padded/black/left,
 		/obj/item/clothing/head/helmet/halo/marine,
@@ -434,6 +434,34 @@
 		/obj/item/clothing/hands/gloves/halo/covenant/elite/major/left,
 		/obj/item/clothing/feet/shoes/halo/covenant/elite/major,
 		/obj/item/clothing/feet/shoes/halo/covenant/elite/major/left,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/melee/energy/halo/esword
+	)
+
+/loadout/nt/halo/covenant/elite_shipmaster
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/overwear/armor/halo/covenant/elite/shipmaster,
+		/obj/item/clothing/head/helmet/halo/covenant/elite/shipmaster,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/shipmaster,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/shipmaster/left,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/shipmaster,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/shipmaster/left,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/melee/energy/halo/esword
+	)
+
+/loadout/nt/halo/covenant/elite_ultra
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/overwear/armor/halo/covenant/elite/ultra,
+		/obj/item/clothing/head/helmet/halo/covenant/elite/ultra,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/ultra,
+		/obj/item/clothing/hands/gloves/halo/covenant/elite/ultra/left,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/ultra,
+		/obj/item/clothing/feet/shoes/halo/covenant/elite/ultra/left,
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_rifle,
 		/obj/item/weapon/melee/energy/halo/esword
