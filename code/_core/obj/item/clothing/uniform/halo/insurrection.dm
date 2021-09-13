@@ -24,3 +24,9 @@
 	desc = "A slightly reinforced jumpsuit for soldiers."
 	desc_extended = "A jumpsuit made to withstand the elements when doing the most dangerous and least well paid job on war front."
 	icon = 'icons/obj/item/clothing/uniforms/ins_c.dmi'
+
+/obj/item/clothing/uniform/halo/insurrection/soe
+	name = "Insurrection commando uniform"
+	desc = "A slightly reinforced jumpsuit for soldiers."
+	desc_extended = "A jumpsuit made to withstand the elements when doing the most dangerous and least well paid job on war front."
+	icon = 'icons/obj/item/clothing/uniforms/soe.dmi'
