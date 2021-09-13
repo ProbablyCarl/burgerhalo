@@ -1029,6 +1029,7 @@
 #include "code\_core\obj\item\clothing\feet\shoes\winter.dm"
 #include "code\_core\obj\item\clothing\feet\shoes\workboots.dm"
 #include "code\_core\obj\item\clothing\feet\shoes\halo\elite.dm"
+#include "code\_core\obj\item\clothing\feet\shoes\halo\halo_human.dm"
 #include "code\_core\obj\item\clothing\feet\socks\_socks.dm"
 #include "code\_core\obj\item\clothing\glasses\_glasses.dm"
 #include "code\_core\obj\item\clothing\glasses\blindfold.dm"

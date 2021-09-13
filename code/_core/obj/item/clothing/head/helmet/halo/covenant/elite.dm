@@ -29,3 +29,11 @@
 /obj/item/clothing/head/helmet/halo/covenant/elite/major
 	name = "Sangheili Helmet"
 	icon = 'icons/obj/item/clothing/hats/elite_mj.dmi'
+
+/obj/item/clothing/head/helmet/halo/covenant/elite/ultra
+	name = "Sangheili Helmet"
+	icon = 'icons/obj/item/clothing/hats/elite_ultra.dmi'
+
+/obj/item/clothing/head/helmet/halo/covenant/elite/shipmaster
+	name = "Sangheili Helmet"
+	icon = 'icons/obj/item/clothing/hats/elite_sm.dmi'

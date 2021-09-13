@@ -342,16 +342,16 @@
 		/obj/item/clothing/ears/headset/syndicate,
 		/obj/item/clothing/hands/gloves/colored/combat,
 		/obj/item/clothing/hands/gloves/colored/combat/left,
-		/obj/item/clothing/feet/shoes/carbon_boot,
-		/obj/item/clothing/feet/shoes/carbon_boot/left,
+		/obj/item/clothing/feet/shoes/halo/combat/soe,
+		/obj/item/clothing/feet/shoes/halo/combat/soe/left,
 		/obj/item/clothing/belt/storage/colored/black
 	)
 
 /loadout/halo/urf_soldier
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/insurrection,
-		/obj/item/clothing/feet/shoes/black_boots,
-		/obj/item/clothing/feet/shoes/black_boots/left,
+		/obj/item/clothing/feet/shoes/halo/combat/urf,
+		/obj/item/clothing/feet/shoes/halo/combat/urf/left,
 		/obj/item/clothing/hands/gloves/colored/padded/black,
 		/obj/item/clothing/hands/gloves/colored/padded/black/left,
 		/obj/item/clothing/head/helmet/halo/insurrection,
