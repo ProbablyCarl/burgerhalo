@@ -37,9 +37,9 @@ var/global/world_state = STATE_STARTING
 	if(world_state == STATE_STARTING)
 		return FALSE
 
-	var/server_name = CONFIG("SERVER_NAME","BurgerHalo 13 Server")
-	var/server_link = CONFIG("SERVER_DISCORD","https://discord.gg/EFWzuycgwV")
-	var/github_name = "SS13 <b>FROM SCRATCH</b>"
+	var/server_name = CONFIG("SERVER_NAME","Halo : Winter Contingency")
+	var/server_link = CONFIG("SERVER_DISCORD","https://discord.gg/8h6PUVt")
+	var/github_name = "Halo Station <b>REMADE</b>"
 
 	var/minutes = FLOOR(world.time / 600, 1)
 	var/hours = FLOOR(world.time / 36000, 1)

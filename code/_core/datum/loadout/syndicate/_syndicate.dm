@@ -338,7 +338,7 @@
 
 /loadout/syndicate/halo/soe
 	spawning_items = list(
-		/obj/item/clothing/uniform/halo/insurrection,
+		/obj/item/clothing/uniform/halo/insurrection/soe,
 		/obj/item/clothing/ears/headset/syndicate,
 		/obj/item/clothing/hands/gloves/colored/combat,
 		/obj/item/clothing/hands/gloves/colored/combat/left,
