@@ -5,13 +5,22 @@
 	icon = 'icons/obj/item/weapons/ranged/rifle/halo/br55.dmi'
 	value = 300
 
-	shoot_delay = 1.5
+	shoot_delay = 1
+	max_bursts = 3
 
 	automatic = TRUE
 
-	shoot_sounds = list('sound/weapons/308/shoot.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/br55/battle_rifle_fire2.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire3.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire4.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire5.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire6.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire7.wav',
+	'sound/weapons/unsc/br55/battle_rifle_fire8.wav')
 
 	can_wield = TRUE
+	wield_only = TRUE
 
 	view_punch = 20
 

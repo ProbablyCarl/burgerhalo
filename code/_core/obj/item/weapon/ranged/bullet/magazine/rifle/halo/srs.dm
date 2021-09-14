@@ -10,7 +10,11 @@
 
 	automatic = FALSE
 
-	shoot_sounds = list('sound/weapons/sniper_heavy/heavy_sniper.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/srs/sniper_fire_h3_1.wav',
+	'sound/weapons/unsc/srs/sniper_fire_h3_2.wav',
+	'sound/weapons/unsc/srs/sniper_fire_h3_3.wav',
+	'sound/weapons/unsc/srs/sniper_fire_h3_4.wav')
 
 	can_wield = TRUE
 	wield_only = TRUE

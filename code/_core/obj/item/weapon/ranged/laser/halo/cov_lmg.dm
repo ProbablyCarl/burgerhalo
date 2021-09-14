@@ -11,18 +11,21 @@
 	bullet_color = "#466ab6"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 1
+	shoot_delay = 1.5
 	max_bursts = 6
 
 	automatic = TRUE
 	can_wield = TRUE
 	wield_only = TRUE
 
-	charge_cost = CELL_SIZE_BASIC / 120
+	charge_cost = CELL_SIZE_BASIC / 100
 
 	view_punch = 16
 
-	shoot_sounds = list('sound/weapons/laser_carbine/kill.ogg')
+	shoot_sounds = list(
+	'sound/weapons/covenant/plasmarepeaterfire1.ogg',
+	'sound/weapons/covenant/plasmarepeaterfire2.ogg',
+	'sound/weapons/covenant/plasmarepeaterfire3.ogg')
 
 	heat_per_shot = 0.01
 	heat_max = 0.06

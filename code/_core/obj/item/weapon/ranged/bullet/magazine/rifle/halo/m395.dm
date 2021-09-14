@@ -8,7 +8,10 @@
 
 	automatic = FALSE
 
-	shoot_sounds = list('sound/weapons/rifle_heavy/shoot.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/dmr/marksman_rifle_1.wav',
+	'sound/weapons/unsc/dmr/marksman_rifle_2.wav',
+	'sound/weapons/unsc/dmr/marksman_rifle_3.wav')
 
 	can_wield = TRUE
 	wield_only = TRUE
