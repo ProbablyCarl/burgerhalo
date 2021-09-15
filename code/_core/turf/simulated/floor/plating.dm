@@ -25,3 +25,8 @@
 	icon = 'icons/turf/floor/shuttle.dmi'
 	icon_state = "plating"
 	plane = PLANE_SHUTTLE
+
+/turf/simulated/floor/plating/covenant
+	name = "nanolaminate plating"
+	icon = 'icons/turf/halo/floor/covenant.dmi'
+	icon_state = "nanolam_plating"
