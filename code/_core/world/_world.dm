@@ -153,7 +153,7 @@ var/global/world_state = STATE_STARTING
 			nice_reason = "Draw"
 			announce("Server","Draw","No one managed to complete their objectives!")
 
-	play_sound_global('sound/meme/apcdestroyed.ogg',all_mobs_with_clients)
+	play_sound_global('sound/round_end/130lc_110_mas.ogg',all_mobs_with_clients)
 
 	SSvote.create_vote(/vote/map)
 
