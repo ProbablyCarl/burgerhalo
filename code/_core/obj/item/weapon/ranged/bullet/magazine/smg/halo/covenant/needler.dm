@@ -8,7 +8,10 @@
 
 	automatic = TRUE
 
-	shoot_sounds = list('sound/weapons/laser_rifle/shoot.ogg')
+	shoot_sounds = list(
+	'sound/weapons/covenant/needlefire11.wav',
+	'sound/weapons/covenant/needlefire12.wav',
+	'sound/weapons/covenant/needlefire13.wav')
 
 	can_wield = FALSE
 

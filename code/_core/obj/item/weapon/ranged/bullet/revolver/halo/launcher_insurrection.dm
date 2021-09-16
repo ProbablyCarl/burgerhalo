@@ -14,7 +14,11 @@
 
 	view_punch = TILE_SIZE - 1
 
-	shoot_sounds = list('sound/weapons/grenade_launcher/thump.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/rpg/rocket_h3_1.wav',
+	'sound/weapons/unsc/rpg/rocket_h3_2.wav',
+	'sound/weapons/unsc/rpg/rocket_h3_3.wav',
+	'sound/weapons/unsc/rpg/rocket_h3_4.wav')
 
 	can_wield = TRUE
 	wield_only = TRUE
