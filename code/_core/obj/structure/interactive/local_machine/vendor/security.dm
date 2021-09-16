@@ -305,7 +305,7 @@
 
 /obj/structure/interactive/vending/security/ammo/halo/cov
 	name = "ammo vendor"
-	icon_state = "covendor"
+	icon_state = "covammovendor"
 
 	stored_types = list(
 		/obj/item/magazine/halo/covenant/fuel,
