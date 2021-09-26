@@ -1,12 +1,16 @@
 /obj/item/weapon/ranged/bullet/magazine/pistol/halo/socom
-	name = "M6S silenced magnum"
+	name = "M6C/SOCOM silenced magnum"
 	desc = "No rubber rounds here; it's all lethal."
 	desc_extended = "The M6C/SOCOM is a special operations variant of the popular M6C but with a whole host of inbuilt attachments. Takes 12.7mm calibre magazines."
 	value = 50
 
 	icon = 'icons/obj/item/weapons/ranged/pistol/halo/magnum.dmi'
 	shoot_delay = 3
-	shoot_sounds = list('sound/weapons/45/shoot.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/m6c_socom/m6c_fire1.ogg',
+	'sound/weapons/unsc/m6c_socom/m6c_fire2.ogg',
+	'sound/weapons/unsc/m6c_socom/m6c_fire3.ogg'
+	)
 
 	view_punch = 6
 
@@ -79,7 +83,13 @@
 
 	automatic = TRUE
 
-	shoot_sounds = list('sound/weapons/10/shoot.ogg')
+	shoot_sounds = list(
+	'sound/weapons/unsc/magnum/magnum_stereo1.wav',
+	'sound/weapons/unsc/magnum/magnum_stereo2.wav',
+	'sound/weapons/unsc/magnum/magnum_stereo3.wav',
+	'sound/weapons/unsc/magnum/magnum_stereo4.wav'
+	)
+
 
 	can_wield = FALSE
 
