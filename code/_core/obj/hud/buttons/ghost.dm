@@ -79,6 +79,28 @@
 
 	return .
 
+/obj/hud/button/become_covenant/
+	name = "become covenant"
+	desc = ""
+	icon_state = "become_cov"
+	screen_loc = "CENTER-0.5,BOTTOM+1"
+
+	flags = FLAGS_HUD_MOB
+
+	has_quick_function = FALSE
+
+	interaction_flags = FLAG_INTERACTION_LIVING | FLAG_INTERACTION_DEAD | FLAG_INTERACTION_NO_DISTANCE
+
+/obj/hud/button/become_covenant/clicked_on_by_object(var/mob/caller,var/atom/object,location,control,params)
+
+	. = ..()
+
+	if(is_observer(caller))
+		var/mob/abstract/observer/O = caller
+		O.become_covenant()
+
+	return .
+
 /obj/hud/button/become_nt/
 	name = "become UNSC"
 	desc = ""

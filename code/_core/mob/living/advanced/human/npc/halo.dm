@@ -75,6 +75,7 @@
 	icon_state = "halo_unggoy"
 	enable_AI = TRUE
 	ai = /ai/advanced/halo/unggoy
+	dialogue_id = /dialogue/npc/covenant
 	class = /class/syndicate_soldier
 
 	species = "unga"
@@ -106,6 +107,7 @@
 	enable_AI = TRUE
 	ai = /ai/advanced/halo/kigyar
 	class = /class/syndicate_soldier
+	dialogue_id = /dialogue/npc/covenant
 
 	movement_delay = 1
 
@@ -142,6 +144,7 @@
 	enable_AI = TRUE
 	ai = /ai/advanced/halo/elite
 	class = /class/syndicate_soldier
+	dialogue_id = /dialogue/npc/covenant
 
 	species = "Elite"
 	loyalty_tag = "Covenant"

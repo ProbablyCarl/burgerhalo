@@ -4,29 +4,35 @@
 "ad" = (/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "ae" = (/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "af" = (/obj/marker/map_node,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"ag" = (/turf/simulated/wall/covenant,/area/halo/interior/urf_base)
-"ah" = (/obj/structure/interactive/bed/sleeper/medical/syndicate,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"aj" = (/obj/structure/smooth/table/glass,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"ak" = (/obj/structure/interactive/vending/medical/wardrobe,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"al" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"an" = (/obj/structure/interactive/vending/junk/full,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"ao" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"aq" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"ag" = (/turf/simulated/wall/metal/reinforced,/area/halo/interior/urf_base)
+"ah" = (/obj/structure/interactive/bed/sleeper/medical/syndicate,/obj/structure/interactive/lighting/fixture/bulb,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"ai" = (/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"aj" = (/obj/structure/smooth/table/glass,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"ak" = (/obj/structure/interactive/vending/medical/wardrobe,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"al" = (/obj/structure/interactive/vending/medical/medicine,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"am" = (/obj/structure/interactive/lighting/fixture/bulb,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"an" = (/obj/structure/interactive/vending/junk/full,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"ao" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"ap" = (/obj/structure/interactive/chair,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"aq" = (/obj/structure/interactive/door/airlock/glass,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
 "ar" = (/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"as" = (/obj/structure/interactive/computer/console/medical{dir = 4; icon_state = "computer"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"au" = (/obj/structure/interactive/misc/sink{dir = 4; icon_state = "sink"},/obj/structure/interactive/misc/mirror{pixel_x = 24},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"av" = (/obj/structure/smooth/table/glass,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"aw" = (/obj/structure/interactive/crate/trash,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"as" = (/obj/structure/interactive/computer/console/medical{dir = 4; icon_state = "computer"},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"at" = (/obj/marker/map_node,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"au" = (/obj/structure/interactive/misc/sink{dir = 4; icon_state = "sink"},/obj/structure/interactive/misc/mirror{pixel_x = 24},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"av" = (/obj/structure/smooth/table/glass,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
+"aw" = (/obj/structure/interactive/crate/trash,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
 "ax" = (/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_base)
 "ay" = (/obj/structure/interactive/fence/end{dir = 4; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "az" = (/obj/structure/interactive/fence{dir = 4; icon_state = "straight"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "aA" = (/obj/structure/interactive/fence/end{dir = 8; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "aB" = (/turf/simulated/wall/metal/reinforced,/area/halo/interior/urf_outpost)
 "aC" = (/obj/structure/interactive/fence/door,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"aD" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"aE" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "aF" = (/obj/structure/interactive/plank/wood{icon_state = "plank_l"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "aG" = (/obj/structure/interactive/plank/wood,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "aH" = (/obj/structure/interactive/plank/wood{icon_state = "plank_r"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"aI" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"aI" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "aJ" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "aK" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "aL" = (/obj/structure/smooth/table/rack/grey,/obj/item/weapon/ranged/bullet/revolver/halo/acl55,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
@@ -36,8 +42,11 @@
 "aP" = (/obj/structure/interactive/vending/junk/full,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "aQ" = (/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "aR" = (/obj/structure/interactive/lighting/fixture/bulb,/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"aS" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"aS" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"aT" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
 "aU" = (/obj/structure/interactive/lighting/bonfire/on/intense,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"aV" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"aW" = (/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "aX" = (/obj/structure/smooth/table/reinforced,/obj/item/bullet_cartridge/halo/m25,/obj/item/bullet_cartridge/halo/m25,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "aY" = (/obj/marker/map_node,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "aZ" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
@@ -45,28 +54,34 @@
 "bb" = (/turf/simulated/floor/tile/dark,/area/halo/interior/urf_outpost)
 "bc" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_outpost)
 "bd" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
-"be" = (/obj/decal/hazard/black{dir = 4; icon_state = "line"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"be" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
 "bf" = (/obj/structure/interactive/misc/halo/decor/tanktrap,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bg" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
+"bh" = (/obj/structure/smooth/table/reinforced,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/urf_base)
 "bi" = (/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "bj" = (/obj/structure/interactive/crate/open,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bk" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"bl" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/obj/item/grenade/landmine/proximity/explosive/halo,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"bl" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"bm" = (/obj/decal/hazard/black{dir = 4; icon_state = "line"},/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
 "bn" = (/obj/structure/interactive/restocker/ammo,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"bo" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
-"bp" = (/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
-"bq" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
+"bo" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"bp" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/obj/item/grenade/landmine/proximity/explosive/halo,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"bq" = (/mob/living/advanced/npc/halo/kigyar{dir = 1; icon_state = "halo_kigyar1"},/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"br" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/plating,/area/halo/interior/urf_base)
+"bs" = (/turf/simulated/floor/plating,/area/halo/interior/urf_base)
 "bt" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
 "bu" = (/obj/structure/interactive/crate,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bv" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "bw" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_outpost)
 "bx" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/fax_machine,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_outpost)
-"by" = (/obj/marker/map_node,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
+"by" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/plating,/area/halo/interior/urf_base)
+"bz" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "bA" = (/obj/structure/interactive/fence,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bB" = (/obj/structure/sign/secure{pixel_y = 32},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bC" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "bD" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"bE" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
+"bE" = (/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"bF" = (/mob/living/advanced/npc/halo/elite{dir = 1; icon_state = "halo_elite"},/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_base)
 "bG" = (/obj/structure/interactive/ore_box,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "bH" = (/obj/structure/smooth/wall/wood/starting,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
 "bI" = (/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
@@ -80,64 +95,80 @@
 "bQ" = (/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
 "bR" = (/obj/marker/map_node,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "bS" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"bT" = (/obj/structure/interactive/fence,/turf/simulated/wall/covenant,/area/halo/interior/urf_base)
+"bT" = (/obj/marker/map_node,/turf/simulated/floor/plating,/area/halo/interior/urf_base)
+"bU" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "bV" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
 "bW" = (/obj/item/storage/heavy/trash_pile,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "bX" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "bY" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "bZ" = (/obj/structure/interactive/lighting/bonfire/on/intense,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
-"ca" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cf" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cg" = (/obj/structure/interactive/bed,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"ci" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"ca" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/plating,/area/halo/interior/urf_base)
+"cb" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cc" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/mob/living/advanced/npc/unique/hostage/scientist{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cd" = (/obj/structure/interactive/fence,/turf/simulated/wall/metal/reinforced,/area/halo/interior/urf_base)
+"ce" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cf" = (/obj/structure/interactive/chair,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cg" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"ch" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"ci" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "cj" = (/obj/item/storage/heavy/trash_pile,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
-"ck" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/computer/console/old,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cl" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"ck" = (/obj/structure/interactive/bed,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"cl" = (/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"cm" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "cn" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"co" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/computer/console/old,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cp" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cq" = (/obj/structure/interactive/misc/halo/decor/tanktrap,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"cr" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cs" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"ct" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = -24},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cr" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"cs" = (/obj/marker/map_node,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"ct" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cu" = (/obj/structure/smooth/table/reinforced,/obj/item/storage/kit/filled,/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "cv" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
 "cw" = (/turf/simulated/hazard/lava,/area/halo/exterior/jungle)
-"cx" = (/obj/structure/interactive/vending/coffee,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cx" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cy" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = -24},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "cz" = (/obj/structure/interactive/fence{dir = 8; icon_state = "straight"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"cB" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cA" = (/obj/structure/interactive/vending/coffee,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cB" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cC" = (/turf/simulated/floor/basalt,/area/halo/exterior/jungle)
-"cD" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/fax_machine,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cD" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cE" = (/obj/structure/interactive/lighting/fixture/bulb,/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/plating,/area/halo/interior/urf_outpost)
-"cF" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cF" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cG" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/plating,/area/halo/interior/urf_base)
 "cH" = (/obj/structure/wip/meme,/obj/marker/objective_spawn,/turf/simulated/wall/rock/indestructable,/area/halo/interior)
 "cI" = (/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"cJ" = (/obj/decal/hazard/black,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cJ" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cK" = (/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/obj/structure/interactive/barricade,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "cL" = (/obj/structure/interactive/misc/halo/decor/tanktrap,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "cM" = (/obj/marker/map_node,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "cN" = (/obj/effect/fog_of_war,/turf/simulated/hazard/lava,/area/halo/exterior/jungle)
 "cO" = (/obj/effect/fog_of_war,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"cP" = (/obj/structure/interactive/chair,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cQ" = (/obj/structure/interactive/chair,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cR" = (/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cS" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cP" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"cQ" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/fax_machine,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cR" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
+"cS" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_base)
 "cT" = (/obj/structure/interactive/barricade,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "cU" = (/obj/structure/interactive/barricade{dir = 4; icon_state = "metal"},/obj/structure/interactive/barricade,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "cV" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"cX" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"cY" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"cW" = (/obj/decal/hazard/black,/turf/simulated/floor/tile/dark/er,/area/halo/interior/urf_base)
+"cX" = (/obj/structure/interactive/chair,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"cY" = (/obj/structure/interactive/chair,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
 "cZ" = (/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "da" = (/obj/effect/fog_of_war,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "db" = (/obj/effect/fog_of_war,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "dc" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/command,/area/halo/interior/urf_base)
-"de" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dg" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 32},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dh" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"di" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dj" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dk" = (/obj/marker/map_node,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dl" = (/obj/structure/interactive/computer/console{dir = 1; icon_state = "computer"},/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"dn" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"do" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"dd" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"de" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"df" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"dg" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"dh" = (/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"di" = (/obj/structure/interactive/chair{dir = 1},/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"dj" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"dk" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 32},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"dl" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 32},/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"dm" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
+"dn" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/dark/single,/area/halo/interior/urf_base)
+"do" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
 "dp" = (/turf/simulated/wall/plastic/office,/area/halo/interior/hospital)
 "dq" = (/obj/structure/interactive/bed/sleeper/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "dr" = (/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -208,22 +239,23 @@
 "eE" = (/obj/item/trash/syndicate,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "eF" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "eG" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1; icon_state = "preview"},/turf/simulated/floor/wood/dock,/area/halo/interior/hospital)
-"eH" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
+"eH" = (/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
 "eI" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eJ" = (/obj/structure/interactive/misc/dresser,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eK" = (/obj/structure/interactive/bed,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eL" = (/obj/structure/smooth/table/reinforced,/obj/item/weapon/melee/spear,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eM" = (/obj/structure/interactive/lighting/fixture/bulb,/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eN" = (/obj/structure/interactive/misc/sink{pixel_y = 15},/obj/structure/interactive/misc/mirror/chargen{pixel_y = 25},/obj/item/storage/ammo/slug,/turf/simulated/floor/tile,/area/halo/interior/hospital)
-"eO" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"eP" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"eQ" = (/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"eR" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
+"eO" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
+"eP" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
+"eQ" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"eR" = (/obj/structure/interactive/computer/console{dir = 1; icon_state = "computer"},/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/nanotrasen,/area/halo/interior/urf_base)
 "eS" = (/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eT" = (/obj/marker/map_node,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eU" = (/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eV" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "eW" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8; icon_state = "preview"},/turf/simulated/floor/tile,/area/halo/interior/hospital)
+"eX" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark,/area/halo/interior/urf_base)
 "eY" = (/obj/marker/drop_pod_location,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "eZ" = (/obj/structure/interactive/chair,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "fa" = (/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -231,8 +263,8 @@
 "fc" = (/obj/structure/smooth/table/reinforced,/obj/item/defib,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "fd" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "fe" = (/obj/structure/interactive/misc/toilet{dir = 1; icon_state = "toilet"},/turf/simulated/floor/tile,/area/halo/interior/hospital)
-"ff" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"fg" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
+"ff" = (/obj/structure/interactive/bed,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
+"fg" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_base)
 "fh" = (/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "fi" = (/obj/structure/smooth/table/reinforced,/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "fj" = (/obj/structure/smooth/table/reinforced,/obj/decal/tile/cross/medical,/obj/item/weapon/melee/sword/machete,/obj/item/container/syringe/medipen/epinephrine,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -241,9 +273,9 @@
 "fm" = (/obj/structure/interactive/fire_closet{dir = 8},/turf/simulated/wall/plastic/office,/area/halo/interior/hospital)
 "fn" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1; icon_state = "preview"},/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "fo" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1; icon_state = "preview"},/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
-"fp" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"fq" = (/obj/structure/interactive/bed,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"fr" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
+"fp" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
+"fq" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
+"fr" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "fs" = (/obj/structure/interactive/chair{dir = 1},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "ft" = (/obj/structure/interactive/crate/trash,/obj/decal/tile/cross/medical,/obj/item/grenade/timed/explosive/halo,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "fu" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
@@ -591,23 +623,27 @@
 "lY" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "lZ" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "ma" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"mb" = (/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "mc" = (/mob/living/advanced/npc/halo/kigyar/ranged,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "md" = (/mob/living/advanced/npc/halo/elite{dir = 4; icon_state = "halo_elite"},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
-"me" = (/mob/living/advanced/npc/halo/kigyar{dir = 1; icon_state = "halo_kigyar1"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"me" = (/obj/structure/interactive/crate/closet/anchored,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "mf" = (/obj/structure/interactive/misc/toilet{dir = 1; icon_state = "toilet"},/mob/living/advanced/npc/unique/hostage/assistant{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile,/area/halo/interior/hospital)
-"mg" = (/mob/living/advanced/npc/halo/elite{dir = 1; icon_state = "halo_elite"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"mg" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "mh" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "mi" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "mj" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"mk" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/mob/living/advanced/npc/unique/hostage/scientist{dir = 8; icon_state = "directional"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"mk" = (/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "ml" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_outpost)
-"mm" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"mm" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "mn" = (/mob/living/advanced/npc/halo/elite{dir = 8; icon_state = "halo_elite"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"mq" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/plating/covenant,/area/halo/interior/urf_base)
+"mo" = (/obj/structure/smooth/table/reinforced,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
+"mp" = (/obj/structure/interactive/bed,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
+"mq" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "mr" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/cave_dirt,/area/halo/interior/urf_base)
 "ms" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "mt" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "mu" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
+"mv" = (/obj/structure/interactive/chair{dir = 8},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "mw" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "mx" = (/mob/living/advanced/npc/halo/kigyar{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "my" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
@@ -616,12 +652,12 @@
 "mB" = (/obj/structure/interactive/barricade{dir = 8; icon_state = "metal"},/obj/structure/interactive/barricade,/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "mC" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "mD" = (/mob/living/advanced/npc/halo/elite{dir = 1; icon_state = "halo_elite"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"mE" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"mE" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "mF" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
-"mG" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 32},/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"mH" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"mI" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"mJ" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
+"mG" = (/obj/structure/interactive/chair{dir = 4; icon_state = "chair"},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
+"mH" = (/obj/marker/map_node,/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
+"mI" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
+"mJ" = (/obj/structure/interactive/crate/closet/anchored,/turf/simulated/floor/tile/dark/ish,/area/halo/interior/urf_outpost)
 "mK" = (/mob/living/advanced/npc/halo/kigyar/ranged,/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "mL" = (/mob/living/advanced/npc/halo/kigyar/ranged,/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "mM" = (/mob/living/advanced/npc/halo/kigyar{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
@@ -638,7 +674,7 @@
 "mX" = (/mob/living/advanced/npc/halo/elite{dir = 4; icon_state = "halo_elite"},/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "mY" = (/mob/living/advanced/npc/halo/kigyar/ranged,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "mZ" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
-"na" = (/mob/living/advanced/npc/halo/unggoy{dir = 1; icon_state = "halo_unggoy"},/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
+"na" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "nb" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "nc" = (/mob/living/advanced/npc/halo/unggoy{dir = 8; icon_state = "halo_unggoy"},/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "nd" = (/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -653,17 +689,8 @@
 "nm" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/tile/dark,/area/halo/interior/urf_outpost)
 "nn" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
 "no" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"np" = (/obj/marker/covenant/elite_m,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"nq" = (/obj/marker/covenant/elite_mj,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"nr" = (/obj/marker/covenant/grunt_m,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"oE" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"tH" = (/obj/marker/map_node,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
 "uF" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"AN" = (/obj/structure/interactive/vending/security/ammo/halo/cov,/turf/simulated/floor/covenant,/area/halo/interior/urf_base)
-"By" = (/turf/simulated/wall/forerunner,/area/halo/interior/urf_outpost)
 "CH" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"Go" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/forerunner,/area/halo/interior/urf_outpost)
-"Yh" = (/obj/structure/interactive/fence,/turf/simulated/wall/forerunner,/area/halo/interior/urf_outpost)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -673,53 +700,53 @@ aaababababababababababaeaeaeacadadadacaeabababababababababababababababababababab
 aaabababababababababababaeaeacadadadacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
 aaababababababababababababaeacadafadacababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
 aaababababababababababababaeacadadadacabababababababababababababababababababababababababababababababababababababababababababababababababababababababaeagagagagagagagagagagagagagabababababababababababaa
-aaabababababababababababababacadadadacabababababababababababababababababababababababababababababababababababababababababaeaeaeabababababaeabababababaeagahcRajajajakaldjaganaoagabababababababababababaa
-aaabababababababababababababacadadadacabababababaeaeaeaeababababababababababababababababababababababababababababababababaeaeaeaeababaeaeaeabababababaeagcRcRcRcRcQcRcRcRaqcRcRagabababababababababababaa
-aaabababababababababababababacadadadacaeababaearaeaeaeaeaeababababababaeaeaeababababababababababababababababababababababaeaeaeaeaeaeaearaeababababaeaeagasdkcRcRcRcRdkauagcRcRagabababababababababababaa
-aaabababababababababababababacadadadacaeaeaeaeaeaeaeaeaeaeaeababababaeaeaeaeaeaeaeabababababababababababababababababababaearaeaeaeaeaeaeaeaeabababaeaeagavcRcRcRcRcRcRawagcRcRagabababababababababababaa
-aaabababababababababababababacadadadacaeaeaeaeaeaeaeaeaeaeaearaeaeaeaeaeaeaeaearaeabababababababababababababababababababaeaeaeaeagagagagagagayazazazaAagagaqagagagagaqagagcRcRagagagabababababababababaa
-aaabababababababababababaeaeacadafadacaBaBaBaBaBayazaCaAaBaBaBaBaBaBaBaBaBaBaeaeaeaeaeabababababababababababababababababaeaeaKaeagcfANaScBagaearaeaFaGaHaebMaeaeagcRcRcRcRcRcRcRaIagaeababababababababaa
-aaabababababababababababaeaeacadadadacaBaJcEaLaBaMaeaeaeaBaNaNaNaOaPaQaRaNaBaeaeaeaeaeabababababababababababababababababaeaKaeaeagaSdkcRcRagaeaeaeaeaUaeaeaedCaeagcfcRcRcRcRdkcRcXagaeababababababababaa
-aaabababababababababababaeaeacadadadacaBaXaYaJaBaeaeezaeaBaZbabbbcbbbbbbaNbdaeaeaeaeaeaeabababababababababababababababababmaaeaeagANcRcRmmbeaeaebMdCaeaeaeaeaebfagagbgagagagagdiagagaeababababababababaa
-aaababababababababababababaeacadadadacaBaJbiaJaBmcaearbjaBbkaQaQaQmdbabbaQaBaeaeaeaeaeaeabababababababababababababababababaeaeaeagblmecRcBagbnaeaeaeaeaemaaeaeaMagbobpbqagagcXcRcXagaeaeaeababababababaa
-aaabababababababababababababacadadadacaBaBbtaBaBaeaeaebuaBaBbvaBaBaQbwbxaQaBaeaeaeaKabababababababababababababababababababaeaemcagagagmgagagbnaeaeaeaeaeaeaeaeaeagbobyboagagcYcRcYagaeaeabababababababaa
-aaabababababababababababababacadadadacbAaeaearaeaeaeaeezaebBaeaeaBbCbwbwbDaBaearaeaeababababababababababababababaeaeaemhaeaeaeaebAmiaearaeaeaeaeaeaearaemaaeaeaeagbqbEbqagagcYdkcYagaeababababababababaa
-aaababababababababababababaeacadadadacbAaMmiaeaebGaebHbHbIbHbHaeaBbJbKbwbDbdaeaKaeabababababababababababababababaeaeaeaeaemhaeaebAaeaemjaeaeaeaeaemjaeaeaMaebLaeagagagagagagcXmkcXagaeababababababababaa
-aaababababababababababababaeacadafbNbObPaBaBbvaBaBaebHbIbQmlbHaeaBaQbDbRbSaBaeaKaeabababababababababababababababaeaeaKaearaeaeaKbTagdiagbVagagbVagagaeaebfaeaMaMaeaeaeaeagagagagagagaeababababababababaa
-aaabababababababababababaeaeacadadadbWaBbXbYaQaNaBaebIbIbZbIbIaeaBaBaBaBaBaBaeaebMabababababababababababababababaeaeaKaeaeaeaeaeagcacRdkcRcRcQmmdjagaeaeaeaeaeaemjaearaeagcfcgcRciagaeababababababababaa
-aaababababababababababababaMacadadadacbdaNbbbcbkaBaebHmlbIcjbHaebMaeaebGbGbAaeaeaeabababababababababababababababaemcaeaeaeaeaeaeagckcRclcXcXcXcXmmagaeaeaeaeaebfaeaemnaecncRcXdkcXagaeababababababababaa
-aaabababababababababababababaccqadadacbdaNbabbaQaBarbHbHbIbHbHaeaebMaraeaebAmhaeaeababababababababaeababababababaearaeaeaeaeaeaeagcrcRclcXcXcXcXcsagaeaeagagbpagagagaeaeagctcgcRcgagabababababababababaa
-aaabababababababababababababacadadadacaBaNaNcucvaBaeaeaeaeaeaKaeaeaeaeaebGbPaeaearmaababababcwcwaeaeababababababaeaeaeaeaeaKaraeagcxcRmHdedecRdkmIagaeaeaxaxmqbpbpaxaeaeagcRcXcRcXagabababababababababaa
-aaabababababababababababababacadadcqlYaBaBbdbdaBaBayczczczczczczczczczaAaBaBaeaeaeaeaeaeaeaecwcwaeaeaeaeabababaKaeaeaeaeaeaeaebfagagagagagagcRcRdhagarmaaxmraxbpaxaxbMaeagcfcRcRcBagabababababababababaa
-aaabababababababababababababmsadadadacacbWacacacmtacacacacacacacacacacacacacacacaecCcwcwcwcwcwcwaemuacacacacacacacacacacacacacacacacacacacagcDmJcRdiaeaebpaxaxaxaxbpaearagcRcXcRcXagaeababababababababaa
-aaabababababababababababababacadafadadadadadadadadadadadcqmwadadadadadadadadadadaecwcwcwcwcwcwcwaeaeadadadadmxadadadadadadmyadadadadadmzacagcXcFcYagaeaebpbpaxmraxaxaemcagctcgcRcgagaeaeabababababababaa
-aaababcHababababababababababacadadadadadadmzbNafadadadadadadadafadadadadadadaraecwcwcCcwcwaraeaeaeadadadafadmAadadadadafadcIadadadadadadacagagagagagaeaeagagcJcJbpagaeaecncRcXdkcXagaraeabababababababaa
-aaababababababababababababaebOlZadadbNadadadbNadadmAadadadadadadadadadadadadaecwcwcCcCcwcwaeadadmzadadadadadadadadadadadadmBadadadadadadacbACHCHCHuFaeaeaemcaenqaebnaeaeagcfcgcRciagaeaeaeababababababaa
-aaababababababababababaMaeaebWbNbNbNbOacacacbOaccLacacacacacacacacacacacaecwcwcwcwaecMacacacacmuacacacacacacacacacacacacacacacmuaccqadadacbAaearaemCaeaeaearnrnpaeaeaeaeagagagagagagaeaeaeabaeaeabababaa
-aaababababababababababaMaearacadadadacaeaeaeababababababaeaeaeabababababababcwcwcwaeaeaeaeaeaeaeababababaeaeaeaebfaraeaeaeaeaeaeacmwafadacbTagagagagagaeaeaeaeaeaemhaeaeaebMaeaeaebAaeaeaeaeaeaeabababaa
-aaabababababababababababaemcacadcqadacaeaeaMababababababababababababababababababcNcOcOcOcOcOcOcOababababmDaeaeaebMaeaeaeaeaeaeaeacadadadacagcPcQmEcSagcTcUaeaKcVaeaeaearaeaeaearaebAaeaeaeaearaeabababaa
-aaababababababababababababaeacadadadmFaraeabababababababababababababababababababcwaeaeaeaeaeaeabababababaeezababababababaeaeaeaeacadadadacbVcXcXcRcYagaeaeaeaecZaeaeaeaeaeaeaeaebMbAaeaeaeaeaeaeaeababaa
-aaabababababababababababababdadbdbdbdacOcOcOababababababababababababababababababaeaeaeaeaeabababababababababababababababaeaeaeaeacadadadacagcXcXcRcRdcaeaKaeaeagagaqagagagagagaqagbTaeaeaeababababababaa
-aaabababababababababababababacadadadacaeaeaeababababababababababababababababababaeaeaeaeaeababababababababababababababaeaearaeaelYadadadacagdedecRcRagaeaKaeaeagdjcRdgcRdjcRmGcRdjagaraeaeababababababaa
-aaabababababababababababababacadafadacaearaeaeabababababababababaeabababababababaearaeabababababababababababababababaeaeaeaeaeaeacadlZadacagdhmHdkcRagagdidiagagcgcXcgcXcRcXcgcXcgagaeaeabababababababaa
-aaabababababababababababaeaeacadadadacaeaKababababababababababaeaeaeaeabababababaeaeaeabababababababababababababababababaeaeaeaeacadadlZacbVcQcRcRcQagdjcRmIdkagcRdkcRmJcRcRcRdkcRagaeababababababababaa
-aaabababababababababababaeaKacadadadacaeaeababababababababababaearaeaeaeababababaeaeababababababababababababababababababababaeaeacadafadacagdlcXcXdlagdkcRcRdoagdncXcgcXdocXcgcXdnagaeababababababaeabaa
-aaababababababababababaeaeaeacadadadacaKababababababababababaeaeaeaeaeaeaeaearaeaeaMabababababababababababababababababababababaeacadadadmKagagbVbVagagagdidiagagagagagagagagagagagagaeababababaeaeaeabaa
+aaabababababababababababababacadadadacabababababababababababababababababababababababababababababababababababababababababaeaeaeabababababaeabababababaeagahaiajajajakalamaganaoagabababababababababababaa
+aaabababababababababababababacadadadacabababababaeaeaeaeababababababababababababababababababababababababababababababababaeaeaeaeababaeaeaeabababababaeagaiaiaiaiapaiaiaiaqaiaiagabababababababababababaa
+aaabababababababababababababacadadadacaeababaearaeaeaeaeaeababababababaeaeaeababababababababababababababababababababababaeaeaeaeaeaeaearaeababababaeaeagasataiaiaiaiatauagaiaiagabababababababababababaa
+aaabababababababababababababacadadadacaeaeaeaeaeaeaeaeaeaeaeababababaeaeaeaeaeaeaeabababababababababababababababababababaearaeaeaeaeaeaeaeaeabababaeaeagavaiaiaiaiaiaiawagaiaiagabababababababababababaa
+aaabababababababababababababacadadadacaeaeaeaeaeaeaeaeaeaeaearaeaeaeaeaeaeaeaearaeabababababababababababababababababababaeaeaeaeagagagagagagayazazazaAagagaqagagagagaqagagaiaiagagagabababababababababaa
+aaabababababababababababaeaeacadafadacaBaBaBaBaBayazaCaAaBaBaBaBaBaBaBaBaBaBaeaeaeaeaeabababababababababababababababababaeaeaKaeagaDaEaIaSagaearaeaFaGaHaebMaeaeagaiaiaiaiaiaiaiaTagaeababababababababaa
+aaabababababababababababaeaeacadadadacaBaJcEaLaBaMaeaeaeaBaNaNaNaOaPaQaRaNaBaeaeaeaeaeabababababababababababababababababaeaKaeaeagaIaVaWaxagaeaeaeaeaUaeaeaedCaeagbeaiaiaiaiataibhagaeababababababababaa
+aaabababababababababababaeaeacadadadacaBaXaYaJaBaeaeezaeaBaZbabbbcbbbbbbaNbdaeaeaeaeaeaeabababababababababababababababababmaaeaeagaEaxaWblbmaeaebMdCaeaeaeaeaebfagagbgagagagagboagagaeababababababababaa
+aaababababababababababababaeacadadadacaBaJbiaJaBmcaearbjaBbkaQaQaQmdbabbaQaBaeaeaeaeaeaeabababababababababababababababababaeaeaeagbpbqaxaSagbnaeaeaeaeaemaaeaeaMagbrbsbyagagbzbEbzagaeaeaeababababababaa
+aaabababababababababababababacadadadacaBaBbtaBaBaeaeaebuaBaBbvaBaBaQbwbxaQaBaeaeaeaKabababababababababababababababababababaeaemcagagagbFagagbnaeaeaeaeaeaeaeaeaeagbrbTbragagbUbEbUagaeaeabababababababaa
+aaabababababababababababababacadadadacbAaeaearaeaeaeaeezaebBaeaeaBbCbwbwbDaBaearaeaeababababababababababababababaeaeaemhaeaeaeaebAmiaearaeaeaeaeaeaearaemaaeaeaeagbycabyagagbUcbbUagaeababababababababaa
+aaababababababababababababaeacadadadacbAaMmiaeaebGaebHbHbIbHbHaeaBbJbKbwbDbdaeaKaeabababababababababababababababaeaeaeaeaemhaeaebAaeaemjaeaeaeaeaemjaeaeaMaebLaeagagagagagagbzccbzagaeababababababababaa
+aaababababababababababababaeacadafbNbObPaBaBbvaBaBaebHbIbQmlbHaeaBaQbDbRbSaBaeaKaeabababababababababababababababaeaeaKaearaeaeaKcdagboagbVagagbVagagaeaebfaeaMaMaeaeaeaeagagagagagagaeababababababababaa
+aaabababababababababababaeaeacadadadbWaBbXbYaQaNaBaebIbIbZbIbIaeaBaBaBaBaBaBaeaebMabababababababababababababababaeaeaKaeaeaeaeaeagcebEcbbEbEcfcgchagaeaeaeaeaeaemjaearaeagcickclcmagaeababababababababaa
+aaababababababababababababaMacadadadacbdaNbbbcbkaBaebHmlbIcjbHaebMaeaebGbGbAaeaeaeabababababababababababababababaemcaeaeaeaeaeaeagcobEcpbzbzbzbzcgagaeaeaeaeaebfaeaemnaecnclcrcscragaeababababababababaa
+aaabababababababababababababaccqadadacbdaNbabbaQaBarbHbHbIbHbHaeaebMaraeaebAmhaeaeababababababababaeababababababaearaeaeaeaeaeaeagctbEcpbzbzbzbzcxagaeaeagagbsagagagaeaeagcyckclckagabababababababababaa
+aaabababababababababababababacadadadacaBaNaNcucvaBaeaeaeaeaeaKaeaeaeaeaebGbPaeaearmaababababcwcwaeaeababababababaeaeaeaeaeaKaraeagcAbEcBcDcDbEcbcFagaeaeaxaxcGbsbsaxaeaeagclcrclcragabababababababababaa
+aaabababababababababababababacadadcqlYaBaBbdbdaBaBayczczczczczczczczczaAaBaBaeaeaeaeaeaeaeaecwcwaeaeaeaeabababaKaeaeaeaeaeaeaebfagagagagagagbEbEcJagarmaaxmraxbsaxaxbMaeagciclclcPagabababababababababaa
+aaabababababababababababababmsadadadacacbWacacacmtacacacacacacacacacacacacacacacaecCcwcwcwcwcwcwaemuacacacacacacacacacacacacacacacacacacacagcQcRbEboaeaebsaxaxaxaxbsaearagclcrclcragaeababababababababaa
+aaabababababababababababababacadafadadadadadadadadadadadcqmwadadadadadadadadadadaecwcwcwcwcwcwcwaeaeadadadadmxadadadadadadmyadadadadadmzacagbzcSbUagaeaeagbsaxmraxaxaemcagcyckclckagaeaeabababababababaa
+aaababcHababababababababababacadadadadadadmzbNafadadadadadadadafadadadadadadaraecwcwcCcwcwaraeaeaeadadadafadmAadadadadafadcIadadadadadadacagagagagagaeaeagagcWcWbsagaeaecnclcrcscragaraeabababababababaa
+aaababababababababababababaebOlZadadbNadadadbNadadmAadadadadadadadadadadadadaecwcwcCcCcwcwaeadadmzadadadadadadadadadadadadmBadadadadadadacbACHCHCHuFaeaeaemcaeaeaebnaeaeagcickclcmagaeaeaeababababababaa
+aaababababababababababaMaeaebWbNbNbNbOacacacbOaccLacacacacacacacacacacacaecwcwcwcwaecMacacacacmuacacacacacacacacacacacacacacacmuaccqadadacbAaearaemCaeaeaearaeaeaeaeaeaeagagagagagagaeaeaeabaeaeabababaa
+aaababababababababababaMaearacadadadacaeaeaeababababababaeaeaeabababababababcwcwcwaeaeaeaeaeaeaeababababaeaeaeaebfaraeaeaeaeaeaeacmwafadaccdagagagagagaeaeaeaeaeaemhaeaeaebMaeaeaebAaeaeaeaeaeaeabababaa
+aaabababababababababababaemcacadcqadacaeaeaMababababababababababababababababababcNcOcOcOcOcOcOcOababababmDaeaeaebMaeaeaeaeaeaeaeacadadadacagcXcYdddeagcTcUaeaKcVaeaeaearaeaeaearaebAaeaeaeaearaeabababaa
+aaababababababababababababaeacadadadmFaraeabababababababababababababababababababcwaeaeaeaeaeaeabababababaeezababababababaeaeaeaeacadadadacbVdfbzbEdgagaeaeaeaecZaeaeaeaeaeaeaeaebMbAaeaeaeaeaeaeaeababaa
+aaabababababababababababababdadbdbdbdacOcOcOababababababababababababababababababaeaeaeaeaeabababababababababababababababaeaeaeaeacadadadacagdfbzbEdhdcaeaKaeaeagagcnagagagagagcnagcdaeaeaeababababababaa
+aaabababababababababababababacadadadacaeaeaeababababababababababababababababababaeaeaeaeaeababababababababababababababaeaearaeaelYadadadacagdicDbEdhagaeaKaeaeagdjcldkcldjcldlcldjagaraeaeababababababaa
+aaabababababababababababababacadafadacaearaeaeabababababababababaeabababababababaearaeabababababababababababababababaeaeaeaeaeaeacadlZadacagdmcBcbdhagagdndnagagckcrckcrclcrckcrckagaeaeabababababababaa
+aaabababababababababababaeaeacadadadacaeaKababababababababababaeaeaeaeabababababaeaeaeabababababababababababababababababaeaeaeaeacadadlZacbVcYbEbEcYagdoeHeOePagclcscleQclclclcsclagaeababababababababaa
+aaabababababababababababaeaKacadadadacaeaeababababababababababaearaeaeaeababababaeaeababababababababababababababababababababaeaeacadafadacageRdfdfeRagePeHeHeXagffcrckcrfgcrckcrffagaeababababababaeabaa
+aaababababababababababaeaeaeacadadadacaKababababababababababaeaeaeaeaeaeaeaearaeaeaMabababababababababababababababababababababaeacadadadmKagagbVbVagagagdndnagagagagagagagagagagagagaeababababaeaeaeabaa
 aaababababababababababaeaeaeacadadadacabababababababababababaeaeaedpdpdpdpdpdpaeaeaeaMababababababababababababababababababababaeacadadadacacacacacacacacacmsacacacacacacacacacacacacacacacacacacacacacaa
 aaabababababababababaearaeaeacadadadacababababababababababaeaeaeardpdqdrdsdtdpaMaKaeaeaebMduababdpdpdpdpdpdpdpdpabababababababaeacadadadadadadadadadadadmLadadadadadadadadadadadadadmwadadadadadadadadaa
 aaababababababababaeaeaeaeaeacadafadacababababababababababaeaeaemMdpdvdrdwdxdpaeaeaeaeardpdpdpdpdpdydzdAdBmNdDdpabababababaeaeaeacadadmOadadadafadadadadadadaflZadadadadadadafadadadadadadafadadadadadaa
 aaababababababababababaeaeaeacadadadacababababababababaeaeaearaeaedpdxdrdEdrdpdFdFaraKdGdpdHdIdJdpdKdLdLdMdMdNdpababababababaearacadadadadmPadadadadadmQadadadadadadadadadadmwadadadadadadadadadadadadaa
 aaababababababababababaeaeaeacadadadacaeabababababababaeaeaemMaeaedpdOdrdPdQdpdRdSdGaedTdUdVdWdVdpdXdYdLdMdzdMdpababababababaeaeacacacacacacacacacacacacacadlZadacacacacacacacmRacacacacacacacacacacacaa
-aaabababababababababababaeaeacadadadacaeaeaeababababaeaedpdpdpdpdZdpdrdrdreadpebecaedueddpdJdVeedpmSefdMdMmTdMdpabababababababaeaeaeaeabababababababaeaKacadadadacByByayazazazazazazaCazaAByByaeaearaeaa
-aaabababababababababababababacadadadacaearaeababababaeaedpegeheiejdpdpdpekdpdpdpeldpdpemdpdpendpdpdpdpdpeodyepdpababababababababaeabababababababababaeaecMadadadcMByaeaeaeaeaedCaeaeaeaebMaeByaeaeaeaeaa
+aaabababababababababababaeaeacadadadacaeaeaeababababaeaedpdpdpdpdZdpdrdrdreadpebecaedueddpdJdVeedpmSefdMdMmTdMdpabababababababaeaeaeaeabababababababaeaKacadadadacaBaBayazazazazazazaCazaAaBaBaeaearaeaa
+aaabababababababababababababacadadadacaearaeababababaeaedpegeheiejdpdpdpekdpdpdpeldpdpemdpdpendpdpdpdpdpeodyepdpababababababababaeabababababababababaeaecMadadadcMaBaeaeaeaeaedCaeaeaeaebMaeaBaeaeaeaeaa
 aaabababababababababababababacadadadacaeabababababaeaeardpeqeresmUetdrdEeudrevdrdrdrdrmVdrewdEdrdrdrdEexdzeydLdpababababababababababababababababababaeaeaccKmWeAacbAaearaeaedCaeaeaearaeaeaebAaeaeaeaeaa
 aaabababababababababababababacadafadacaeabababababaeaeaedpejeiejeBdpeCdrmXdrdPdrdEdrdrdreDdreEdrdrdreFdpefeGdLdpabababababababababababababababababababaeacadadadacbAmjaeaeaeaeaemnaeaeaeaeaebAaeaeaeaeaa
-aaabababababababababababababacmLadadacabababababaeaeaeaedpdpdpdpdpdpdpdpdpdpdpdrdrdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpababababababababababababababababababababcLadafadacYhByByGoByByaeaebnByByeHByYhaeaeaeaeaa
-aaabababababababababababababacadadadacaeababababaraeaeaeaeaMaedpdVdVdVdVdVdVdpdrmYdpeIeJeKeJeIeJeKeLeMdpeNdpaeaeaeabababababababababababababababababababbWadadadacByoEeQeQeOBymjaebnByePeQeRByaearaeabaa
-aaabababababababababababababacadadadacaeababababaeaeaeaeaeaeaedpdVdpdpdpdpdpdpdreFdpeSeTeUmZeSeSeTeVeSeleWdpaearaeaeababababababababababababababababababacadadlZacbdePeQeQePBymjaeaeByfqnafqByaeaeaeabaa
-aaabababababababababababababacadlXadacabababababaeaeaeaeaeeYaedpdVdpeZeZfafbdpnbdrdpeKfceKeJeKeJeKfdeTdpfedpaeaeaeaeaeaeaeababababababababababababababablYadadlZacbdePfftHePByaearaeByfgtHePByaeaeababaa
-aaabababababababababababfhfhlYadadadacabababababababaeaeaeaeaMdpdVdpfifjfkfafldrdrfmfneSeTeSfoeSeUncfndpdpdpaeaeaeaearaeabababababababababababababababaeacadbNadacByePfpeQeRByaeaeaeByfqfrfqByababababaa
-aaababababababababababababfhacadadadacabababababababaeaeaeaKaMdpdVdpfafsfaftdpdEdrdpdpfudpdpdpdpdpfudpdpdVdpaeaeaeaeaeababababababababababababababaeaKaecMlXbNbNbOByByByByByByayazaAByByByByByababababaa
+aaabababababababababababababacmLadadacabababababaeaeaeaedpdpdpdpdpdpdpdpdpdpdpdrdrdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpababababababababababababababababababababcLadafadacbPaBaBfpaBaBaeaebnaBaBfqaBbPaeaeaeaeaa
+aaabababababababababababababacadadadacaeababababaraeaeaeaeaMaedpdVdVdVdVdVdVdpdrmYdpeIeJeKeJeIeJeKeLeMdpeNdpaeaeaeabababababababababababababababababababbWadadadacaBfrmbmbmeaBmjaebnaBmgmkmmaBaearaeabaa
+aaabababababababababababababacadadadacaeababababaeaeaeaeaeaeaedpdVdpdpdpdpdpdpdreFdpeSeTeUmZeSeSeTeVeSeleWdpaearaeaeababababababababababababababababababacadadlZacbdmombmbmoaBmjaeaeaBmpmqmpaBaeaeaeabaa
+aaabababababababababababababacadlXadacabababababaeaeaeaeaeeYaedpdVdpeZeZfafbdpnbdrdpeKfceKeJeKeJeKfdeTdpfedpaeaeaeaeaeaeaeababababababababababababababablYadadlZacbdmomvmEmoaBaearaeaBmGmHmgaBaeaeababaa
+aaabababababababababababfhfhlYadadadacabababababababaeaeaeaeaMdpdVdpfifjfkfafldrdrfmfneSeTeSfoeSeUncfndpdpdpaeaeaeaearaeabababababababababababababababaeacadbNadacaBmomImbmJaBaeaeaeaBmpnampaBababababaa
+aaababababababababababababfhacadadadacabababababababaeaeaeaKaMdpdVdpfafsfaftdpdEdrdpdpfudpdpdpdpdpfudpdpdVdpaeaeaeaeaeababababababababababababababaeaKaecMlXbNbNbOaBaBaBaBaBaBayazaAaBaBaBaBaBababababaa
 aaababababababababababababfhacadaflZacababababababababfvaeaefvdpdVdpfwfxfafydpdrnddrfzdrdrdrevdPdrdEfAdpdVdpaeaeaeabababababababababababababababaMaraefBacadadadacaeaMababababababaeaeaeaeababababababaa
 aaababababababababababababfhfCadlZadacababababababababmcaeaeardpdpdpdpdpfldpdpfDdrdrdrdrdrdEdrdrnedrfEdpdVdpaeaeababababababababababababababababababaMfBacadafadcLmcaMabababababababaeaeaeababababababaa
 aaababababababababababababacacadadadacaeabababababababaeaeaeaKdpfFfafGeZfkfbdpfHdrdpdpfudpdpdpdpdpfudpdpdVdpaeaeabababababababababababababababababababfBmKcqadadacaeaeabababababababaeababababababababaa

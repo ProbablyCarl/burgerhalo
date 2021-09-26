@@ -411,6 +411,19 @@
 		/obj/item/magazine/halo/covenant/needler
 	)
 
+/loadout/nt/halo/covenant/kigyar_player
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/covenant/kigyar,
+		/obj/item/clothing/mask/gas/halo/kigyar,
+		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/covenant/needlerifle,
+		/obj/item/weapon/melee/energy/halo/edagger,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/magazine/halo/covenant/needler,
+		/obj/item/weapon/melee/energy/shield/blue
+	)
+
 /loadout/nt/halo/covenant/elite_minor
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
@@ -463,7 +476,7 @@
 		/obj/item/clothing/feet/shoes/halo/covenant/elite/ultra,
 		/obj/item/clothing/feet/shoes/halo/covenant/elite/ultra/left,
 		/obj/item/clothing/belt/storage/colored/black,
-		/obj/item/weapon/ranged/energy/halo/cov_rifle,
+		/obj/item/weapon/ranged/energy/halo/cov_lmg,
 		/obj/item/weapon/melee/energy/halo/esword
 	)
 

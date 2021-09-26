@@ -40,7 +40,7 @@
 	icon_state = "wall_ref"
 	reinforced_material_id = /material/plasteel
 	reinforced_color = COLOR_PLASTEEL
-	health_base = 3000
+	health_base = 2000
 
 /turf/simulated/wall/metal/reinforced/hull
 	name = "adamantium-carbon reinforced plasteel wall"

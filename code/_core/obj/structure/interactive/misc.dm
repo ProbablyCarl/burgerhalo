@@ -216,16 +216,40 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 /obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/on_destruction(var/mob/caller,var/damage = FALSE)
 
 	icon_state = "tower_broke"
-	world.end(WORLD_END_DRAW)
+
+	return ..()
+
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/urf
+	name = "Main Radio-Tower"
+	icon = 'icons/halo/icons/machinery/radio_tower.dmi'
+	icon_state = "tower_on"
+	layer = LAYER_LARGE_OBJ
+	plane = PLANE_SCENERY
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
+	bound_width = TILE_SIZE*3
+	bound_height = TILE_SIZE*3
+	health = /health/construction
+	health_base = 4000
+	density = TRUE
+	bullet_block_chance = 50
+
+/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/urf/on_destruction(var/mob/caller,var/damage = FALSE)
+
+	icon_state = "tower_broke"
+	world.end(WORLD_END_NANOTRASEN_VICTORY)
 
 	return ..()
 
 /obj/structure/interactive/misc/halo/decor/vehicles
+	density = TRUE
 
 /obj/structure/interactive/misc/halo/decor/vehicles/spirit
 	name = "Type-25 Spirit"
 	icon = 'icons/halo/vehicles/types/spirit.dmi'
 	icon_state = "base"
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
 	bound_width = TILE_SIZE*4
 	bound_height = TILE_SIZE*8
 
@@ -233,16 +257,16 @@ obj/structure/interactive/misc/coatrack/PostInitialize() //Random shelf.
 	name = "M808B Scorpion"
 	icon = 'icons/halo/vehicles/types/Scorpion.dmi'
 	icon_state = "west"
-/obj/structure/interactive/misc/halo/decor/vehicles/scorpion
-	name = "M808B Scorpion"
-	icon = 'icons/halo/vehicles/types/Scorpion.dmi'
-	icon_state = "west"
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
 	bound_width = TILE_SIZE*3
 
 /obj/structure/interactive/misc/halo/decor/vehicles/warthog
 	name = "M12 Warthog"
 	icon = 'icons/halo/vehicles/types/finalwarthog.dmi'
 	icon_state = "Warthog"
+	collision_flags = FLAG_COLLISION_WALL
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
 	bound_width = TILE_SIZE*2
 
 /obj/structure/interactive/misc/halo/decor/tanktrap

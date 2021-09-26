@@ -1,6 +1,6 @@
-/dialogue/npc/soldier/second
+/dialogue/npc/covenant/
 
-/dialogue/npc/soldier/second/get_dialogue_options(var/mob/living/advanced/player/antagonist/halo/soe/P,var/list/known_options)
+/dialogue/npc/covenant/get_dialogue_options(var/mob/living/advanced/player/P,var/list/known_options)
 
 	var/mob/living/L = P.dialogue_target
 
@@ -40,7 +40,7 @@
 	return .
 
 
-/dialogue/npc/soldier/second/set_topic(var/mob/living/advanced/player/antagonist/halo/soe/P,var/topic)
+/dialogue/npc/covenant/set_topic(var/mob/living/advanced/player/covenant/P,var/topic)
 
 	. = ..()
 

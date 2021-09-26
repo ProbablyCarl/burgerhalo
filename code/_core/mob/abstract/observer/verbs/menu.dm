@@ -113,11 +113,11 @@
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-//	var/gamemode_state = SSgamemode.active_gamemode.state
+	var/gamemode_state = SSgamemode.active_gamemode.state
 
-//	if(gamemode_state <= GAMEMODE_WAITING)
-//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-//		return FALSE
+	if(gamemode_state <= GAMEMODE_WAITING)
+		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an UNSC!"))
+		return FALSE
 
 /*	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
@@ -213,11 +213,11 @@
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-//	var/gamemode_state = SSgamemode.active_gamemode.state
+	var/gamemode_state = SSgamemode.active_gamemode.state
 
-//	if(gamemode_state <= GAMEMODE_WAITING)
-//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-//		return FALSE
+	if(gamemode_state <= GAMEMODE_WAITING)
+		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an Insurrectionist!"))
+		return FALSE
 
 /*	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))
@@ -313,11 +313,11 @@
 //		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
 //		return FALSE
 
-//	var/gamemode_state = SSgamemode.active_gamemode.state
+	var/gamemode_state = SSgamemode.active_gamemode.state
 
-//	if(gamemode_state <= GAMEMODE_WAITING)
-//		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an antagonist!"))
-//		return FALSE
+	if(gamemode_state == GAMEMODE_WAITING)
+		src.to_chat(span("warning","The game has not started yet! Wait until objectives are announced before becoming an Covenant!"))
+		return FALSE
 
 /*	if(gamemode_state >= GAMEMODE_FIGHTING)
 		src.to_chat(span("warning","The game has already started! It's too late to become an antagonist!"))

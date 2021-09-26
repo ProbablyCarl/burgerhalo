@@ -126,7 +126,7 @@
 			on_launching()
 		if(GAMEMODE_FIGHTING)
 			points -= FLOOR(1/60,0.01)
-//			on_fighting()
+			on_fighting()
 
 	return ..()
 
@@ -143,7 +143,7 @@
 	announce(
 		"Central Command Update",
 		"Prepare for Landfall",
-		"All landfall crew are ordered to gear up for planetside combat. Estimated time until shuttle and drop pod functionality: 5 minutes.",
+		"All landfall crew are ordered to gear up for planetside combat. Estimated time until shuttle and drop pod functionality: 8 minutes.",
 		ANNOUNCEMENT_STATION,
 		'sound/voice/announcement/landfall_crew_8_minutes.ogg'
 	)
@@ -193,13 +193,25 @@
 	for(var/k in all_fog)
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
+/*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+		world.end(WORLD_END_COVENANT_VICTORY)
+	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
+		world.end(WORLD_END_NANOTRASEN_VICTORY)
+	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
+		world.end(WORLD_END_SYNDICATE_VICTORY)*/
 //	for(var/objective/O in crew_active_objectives)
 //		O.on_gamemode_playable()
 	return TRUE
 
-/*/gamemode/horde/proc/on_fighting()
+/gamemode/horde/proc/on_fighting()
+	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+		world.end(WORLD_END_COVENANT_VICTORY)
+	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
+		world.end(WORLD_END_NANOTRASEN_VICTORY)
+	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
+		world.end(WORLD_END_SYNDICATE_VICTORY)
 
-	if(next_spawn_check > world.time)
+/*	if(next_spawn_check > world.time)
 		return TRUE
 
 	next_spawn_check = world.time + SECONDS_TO_DECISECONDS(1) //Incase a check fails.

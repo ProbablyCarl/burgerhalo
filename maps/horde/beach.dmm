@@ -545,6 +545,7 @@
 "ky" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kz" = (/obj/structure/interactive/lighting/fixture/bulb{icon_state = "preview"; dir = 1},/obj/structure/interactive/chair/stool,/turf/simulated/floor/wood/rich,/area/halo/interior/hospital)
 "kA" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/tile/command,/area/halo/interior/urf_outpost)
+"kB" = (/obj/structure/interactive/misc/halo/decor/machinery/radio_tower_gm/urf,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "kC" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 1},/turf/simulated/floor/wood/rich,/area/halo/interior/urf_outpost)
 "kD" = (/obj/structure/interactive/chair{dir = 1},/obj/decal/tile/cross/medical,/turf/simulated/floor/tile,/area/halo/interior/hospital)
 "kE" = (/obj/structure/interactive/crate/trash,/obj/decal/tile/cross/medical,/obj/item/grenade/timed/explosive/halo,/turf/simulated/floor/tile,/area/halo/interior/hospital)
@@ -671,7 +672,7 @@ acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaeaeadfOgimlfVfOgNaTaTaTfOgngogpmmgphGgpfYgqaTaT
 acaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadfOfVgjfVfOaTaTaGiZfOgwgdgdgdgdgogpgdfOaTaTaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTbZgxfRmBfTbZiajsaTaTaTaTaTaTaTfKbZgygzgAbZbZgBgCgBbZaTaTaTaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadfOfOgDfOfOaTaTaTjcfOfOgEfOfOgdgFgGgdfOaTaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTbZbZbZbZbZbZiaaTaTaTaTaTaTaTaTaTbZgymngybZbZgHgCgHbZaTaTaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaaadaeaeaeadfEaTaTaGaTaTaTaTaTaTjeaTaTfOgIgFgFkpfOaTaGaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTfEaTaTaGaTaTaTaTaTaTaGaTaTaTaTaTbZgAgKgAbZbZgHmogHbZaTaaaaaaaaaaaaaaaaac
-acaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadfEfKaTaTaTicaTgLgLgMgLgLaTfOktgOgFgJgqaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTfEkvaTkvaTaTaTaTaTaTaTaTfKaThWaTbZbZbZbZbZbZgBgPgBbZaTaaaaaaaaaaaaaaaaac
+acaaaaaaaaaaaaaaaaaaaaaaaaaTadaeaeaeadfEfKaTaTaTicaTgLgLgMgLgLaTfOktgOgFgJgqaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTfEkvaTkvaTaTaTaTaTaTaTaTfKkBaTaTbZbZbZbZbZbZgBgPgBbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaaaTadaebPbbbagQfOfOgEfOfOaTgLgMmpgMgLaTfOgdkpmqgRfOaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaGaTaTaTgSbZgTbZgUbZbZgUbZbZaTaTbOaTfKfKaTaTaTaTbZbZbZbZbZbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaTaTadaeaeaeagfOgVgWgdfYfOaTgMltgXlugMaTfOfOfOfOfOfOaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTbZgYgZmrlvgZhagZhbbZaTaTaTaTaTaTaTaTaGaTbZhchdhehfbZaTaaaaaaaaaaaaaaaaac
 acaaaaaaaaaaaaaaaaaaaaaaaafKadaeaeaeadgqfYgpmmgwfOaTgLgMgMhggLaTaTaTaTicicfEaTaTaTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTaTaTaTaTaTaTaTbZhhgZdChjhjhjhjgZbZaTaTaTaTaTbOaTaTaTaThkhehlmshlbZaTaaaaaaaaaaaaaaaaac

@@ -35,3 +35,7 @@ var/global/list/all_covenant_markers = list()
 /obj/marker/covenant/grunt_m
 	name = "Grunt Minor"
 	spawn_type = /mob/living/advanced/player/covenant/unggoy_minor
+
+/obj/marker/covenant/kig_yar
+	name = "Jackal Marksman"
+	spawn_type = /mob/living/advanced/player/covenant/kig_yar

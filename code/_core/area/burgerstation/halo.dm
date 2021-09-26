@@ -40,3 +40,35 @@
 /area/halo/interior/hospital
 	name = "Hospital"
 	icon_state = "med"
+
+/area/halo/interior/geminus/medbay
+	name = "City Hospital"
+	icon_state = "med"
+
+/area/halo/interior/geminus/morgue
+	name = "City Morgue"
+	icon_state = "med"
+
+/area/halo/interior/geminus/church
+	name = "City Church"
+	icon_state = "library"
+
+/area/halo/interior/geminus/cargo
+	name = "City Cargo"
+	icon_state = "cargo"
+
+/area/halo/interior/geminus/shuttle
+	name = "Cargo Shuttle"
+	icon_state = "cargo"
+
+/area/halo/interior/geminus/core
+	name = "City Energy Core"
+	icon_state = "eng"
+
+/area/halo/interior/geminus/mining
+	name = "City Shaft"
+	icon_state = "mining"
+
+/area/halo/interior/geminus/car_storage
+	name = "City Repair Station"
+	icon_state = "eng"

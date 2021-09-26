@@ -11,8 +11,7 @@
 	bullet_color = "#466ab6"
 
 	projectile_speed = TILE_SIZE - 1
-	shoot_delay = 1.5
-	max_bursts = 6
+	shoot_delay = 1
 
 	automatic = TRUE
 	can_wield = TRUE

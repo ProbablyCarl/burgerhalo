@@ -54,7 +54,7 @@ obj/structure/interactive/chair/stool/bar
 	desc_extended = "A chair without back or arm rests, also known as a stool. This one is raised up, therefore it classifies as a bar stool."
 	icon_state = "bar"
 
-obj/structure/interactive/chair/stool/bar
+obj/structure/interactive/chair/stool/covies/bar
 	name = "covenant stool"
 	desc = "Apply butt."
 	desc_extended = "A chair without back or arm rests, also known as a stool. This one is raised up, therefore it classifies as a bar stool."

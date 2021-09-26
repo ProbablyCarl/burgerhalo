@@ -1,6 +1,6 @@
 /dialogue/npc/soldier/
 
-/dialogue/npc/soldier/get_dialogue_options(var/mob/living/advanced/player/P,var/list/known_options)
+/dialogue/npc/soldier/get_dialogue_options(var/mob/living/advanced/player/nt/halo/P,var/list/known_options)
 
 	var/mob/living/L = P.dialogue_target
 
@@ -40,7 +40,7 @@
 	return .
 
 
-/dialogue/npc/soldier/set_topic(var/mob/living/advanced/player/P,var/topic)
+/dialogue/npc/soldier/set_topic(var/mob/living/advanced/player/nt/halo/P,var/topic)
 
 	. = ..()
 
