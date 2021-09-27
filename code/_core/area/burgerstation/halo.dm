@@ -4,8 +4,8 @@
 	weather = WEATHER_RAIN
 	ambient_temperature = T0C + 40
 
-	sunlight_freq = 2
-	sunlight_color = "#618971"
+	sunlight_freq = 7
+	sunlight_color = "#ffffff"
 
 /area/halo/interior
 	name = "House"
