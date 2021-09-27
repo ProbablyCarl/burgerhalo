@@ -212,6 +212,22 @@
 	length = 2*60 + 30
 
 /track/halo //Menu Music
-	name = "Halo OST"
-	path = 'sound/music/Halo Theme Song Original.ogg'
-	length = 5*60 + 30
+	name = "Halo 3 Theme"
+	path = 'sound/music/halo3theme.ogg'
+	length = 3*18 + 30
+
+/track/halo2 //Menu Music
+	name = "The Rookie"
+	path = 'sound/music/therookie.ogg'
+	length = 4*49 + 30
+
+/track/halo3 //Menu Music
+	name = "NMPDHQ"
+	path = 'sound/music/NMPDHQ.ogg'
+	length = 1*61 + 30
+
+/track/halo4 //Menu Music
+	name = "Halo 2 Theme"
+	path = 'sound/music/halo2theme.ogg'
+	length = 3*47 + 30
+
