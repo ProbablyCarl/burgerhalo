@@ -19,7 +19,7 @@
 	view_punch = 20
 
 	zoom_mul = 1
-	item_slot = SLOT_GROIN_O | SLOT_TORSO_B
+	item_slot = SLOT_TORSO_B
 	worn_layer = LAYER_MOB_CLOTHING_BACK
 
 	size = SIZE_4
