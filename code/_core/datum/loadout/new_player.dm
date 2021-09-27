@@ -378,6 +378,7 @@
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/unggoy,
 		/obj/item/clothing/overwear/armor/halo/covenant/unggoy,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/mask/gas/halo/unggoy,
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/weapon/ranged/energy/halo/cov_pistol,
@@ -390,6 +391,7 @@
 /loadout/nt/halo/covenant/kigyar
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/kigyar/less,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
 		/obj/item/clothing/mask/gas/halo/kigyar,
 		/obj/item/weapon/melee/sword/bdagger
@@ -398,6 +400,7 @@
 /loadout/nt/halo/covenant/kigyar_ranged
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/kigyar,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/mask/gas/halo/kigyar,
 		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
 		/obj/item/clothing/belt/storage/colored/black,
@@ -414,6 +417,7 @@
 /loadout/nt/halo/covenant/kigyar_player
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/kigyar,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/mask/gas/halo/kigyar,
 		/obj/item/clothing/overwear/armor/halo/covenant/kigyar,
 		/obj/item/clothing/belt/storage/colored/black,
@@ -427,6 +431,7 @@
 /loadout/nt/halo/covenant/elite_minor
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/overwear/armor/halo/covenant/elite,
 		/obj/item/clothing/head/helmet/halo/covenant/elite,
 		/obj/item/clothing/hands/gloves/halo/covenant/elite,
@@ -441,6 +446,7 @@
 /loadout/nt/halo/covenant/elite_major
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/overwear/armor/halo/covenant/elite/major,
 		/obj/item/clothing/head/helmet/halo/covenant/elite/major,
 		/obj/item/clothing/hands/gloves/halo/covenant/elite/major,
@@ -455,6 +461,7 @@
 /loadout/nt/halo/covenant/elite_shipmaster
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/overwear/armor/halo/covenant/elite/shipmaster,
 		/obj/item/clothing/head/helmet/halo/covenant/elite/shipmaster,
 		/obj/item/clothing/hands/gloves/halo/covenant/elite/shipmaster,
@@ -469,6 +476,7 @@
 /loadout/nt/halo/covenant/elite_ultra
 	spawning_items = list(
 		/obj/item/clothing/uniform/halo/covenant/elite,
+		/obj/item/clothing/ears/headset/covenant,
 		/obj/item/clothing/overwear/armor/halo/covenant/elite/ultra,
 		/obj/item/clothing/head/helmet/halo/covenant/elite/ultra,
 		/obj/item/clothing/hands/gloves/halo/covenant/elite/ultra,
