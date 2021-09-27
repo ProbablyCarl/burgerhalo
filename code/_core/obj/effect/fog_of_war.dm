@@ -12,7 +12,7 @@ var/global/list/all_fog = list()
 	opacity = 1
 
 	collision_flags = FLAG_COLLISION_WALL
-	collision_bullet_flags = FLAG_COLLISION_BULLET_ORGANIC
+	collision_bullet_flags = FLAG_COLLISION_BULLET_INORGANIC
 
 	density = TRUE
 

@@ -7,6 +7,8 @@
 	projectile = /obj/projectile/bullet/laser/strong
 	ranged_damage_type = /damagetype/ranged/laser/rifle/hardlight
 	battery = /obj/item/powercell/recharging/big
+	item_slot = SLOT_GROIN_O | SLOT_TORSO_B
+	worn_layer = LAYER_MOB_CLOTHING_BACK
 
 	bullet_color = "#466ab6"
 

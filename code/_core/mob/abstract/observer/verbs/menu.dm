@@ -386,5 +386,5 @@
 	var/savedata/client/mob/mobdata = MOBDATA(C.ckey)
 	mobdata.reset_data()
 
-	var/mob/living/advanced/player/covenant/elite_minor/P = new chosen_marker.spawn_type(get_turf(chosen_marker),C)
+	var/mob/living/advanced/player/covenant/P = new chosen_marker.spawn_type(get_turf(chosen_marker),C)
 	P.prepare()

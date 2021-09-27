@@ -33,7 +33,7 @@ SUBSYSTEM_DEF(shuttle) //Also controls drop pods.
 
 		if(time_left <= 0)
 
-			next_pod_launch = world.time + SECONDS_TO_DECISECONDS(120)
+			next_pod_launch = world.time + SECONDS_TO_DECISECONDS(20)
 
 			var/list/valid_pods = list()
 			for(var/k in all_drop_pods)

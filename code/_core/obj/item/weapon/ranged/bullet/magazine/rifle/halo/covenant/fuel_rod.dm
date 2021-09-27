@@ -7,6 +7,8 @@
 	shoot_delay = SECONDS_TO_DECISECONDS(2)
 
 	automatic = FALSE
+	item_slot = SLOT_GROIN_O | SLOT_TORSO_B
+	worn_layer = LAYER_MOB_CLOTHING_BACK
 
 	view_punch = TILE_SIZE - 1
 	override_icon_state = TRUE
