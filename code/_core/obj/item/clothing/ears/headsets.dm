@@ -42,9 +42,9 @@
 	stored_radio = /obj/item/device/radio/syndicate
 
 /obj/item/clothing/ears/headset/covenant
-	name = "headset"
+	name = "Covenant headset"
 	stored_radio = /obj/item/device/radio/covenant
 
 /obj/item/clothing/ears/headset/urf
-	name = "headset"
-	stored_radio = /obj/item/device/radio/covenant
+	name = "URF headset"
+	stored_radio = /obj/item/device/radio/urf

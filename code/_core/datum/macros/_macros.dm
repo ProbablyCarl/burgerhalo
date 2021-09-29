@@ -13,7 +13,21 @@
 		"c" = RADIO_FREQ_CHARLIE,
 		"3" = RADIO_FREQ_CHARLIE,
 		"4" = RADIO_FREQ_DELTA,
-		"d" = RADIO_FREQ_DELTA
+		"d" = RADIO_FREQ_DELTA,
+		"u" = RADIO_FREQ_URF,
+		"y" = RADIO_FREQ_ANNA,
+		"t" = RADIO_FREQ_BORIS,
+		"v" = RADIO_FREQ_VASILY,
+		"e" = RADIO_FREQ_GREGORY,
+		"/" = RADIO_FREQ_COVENANT,
+		"." = RADIO_FREQ_COVS1,
+		"," = RADIO_FREQ_COVS2,
+		"'" = RADIO_FREQ_COVS3,
+		"]" = RADIO_FREQ_COVS4
+
+
+
+
 	)
 
 	var/list/language_keys = list(

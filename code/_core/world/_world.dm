@@ -12,7 +12,7 @@ var/global/world_state = STATE_STARTING
 	map_format = TOPDOWN_MAP
 	sleep_offline = TRUE
 
-	name = "BurgerHalo 13"
+	name = "Halo : Winter Contingency"
 	hub = "Exadv1.spacestation13"
 	hub_password = "kMZy3U5jJHSiBQjr"
 
