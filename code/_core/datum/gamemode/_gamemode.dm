@@ -2,13 +2,13 @@
 	var/name = "Gamemode Name"
 	var/desc = "Gamemode Description"
 
-	var/objective/list/crew_active_objectives = list()
-	var/objective/list/crew_completed_objectives = list()
-	var/objective/list/crew_failed_objectives = list()
+	var/list/objective/crew_active_objectives = list()
+	var/list/objective/crew_completed_objectives = list()
+	var/list/objective/crew_failed_objectives = list()
 
-	var/objective/list/antagonist_active_objectives = list()
-	var/objective/list/antagonist_completed_objectives = list()
-	var/objective/list/antagonist_failed_objectives = list()
+	var/list/objective/antagonist_active_objectives = list()
+	var/list/objective/antagonist_completed_objectives = list()
+	var/list/objective/antagonist_failed_objectives = list()
 
 	var/allow_launch = FALSE
 
@@ -52,9 +52,7 @@
 /gamemode/proc/handle_alert_level()
 	var/desired_alert_level = CODE_GREEN //Failsafe.
 	switch(points)
-		if(-INFINITY to 0)
-			desired_alert_level = CODE_DELTA
-		if(0 to 15)
+		if(-INFINITY to 15)
 			desired_alert_level = CODE_RED
 		if(15 to 25)
 			desired_alert_level = CODE_AMBER
@@ -65,7 +63,6 @@
 
 	if(desired_alert_level > alert_level)
 		alert_level = desired_alert_level
-		set_message("Code [alert_level]",TRUE)
 		switch(alert_level)
 			if(CODE_BLUE)
 				CALLBACK_GLOBAL(\

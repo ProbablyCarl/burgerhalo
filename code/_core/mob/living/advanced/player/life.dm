@@ -8,6 +8,15 @@
 
 	return .
 
+/mob/living/advanced/player/on_killed(var/list/attackers)
+
+	. = ..()
+
+	play_sound_target(pick('sound/ambient/death_1.ogg','sound/ambient/death_2.ogg','sound/ambient/death_3.ogg'),src,channel=SOUND_CHANNEL_MUSIC)
+
+	var/turf/T = get_turf(src)
+	notify_ghosts("[src.name] was killed by [english_list(attackers)]!",T)
+
 /mob/living/advanced/player/post_death()
 
 	play_sound_target(pick('sound/ambient/death_1.ogg','sound/ambient/death_2.ogg','sound/ambient/death_3.ogg'),src,channel=SOUND_CHANNEL_MUSIC)
@@ -58,3 +67,7 @@
 	attack_logs = list()
 
 	return ..()
+
+/mob/living/advanced/player/proc/on_kill_player(var/mob/living/advanced/player/P)
+	HOOK_CALL("on_kill_player")
+	return TRUE

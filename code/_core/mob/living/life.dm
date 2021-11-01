@@ -134,6 +134,17 @@
 	HOOK_CALL("post_death")
 	return TRUE
 
+/mob/living/proc/on_kill(var/mob/living/victim)
+	HOOK_CALL("on_kill")
+	return TRUE
+
+/mob/living/proc/on_killed(var/list/attackers)
+	for(var/k in attackers)
+		var/mob/living/L = k
+		L.on_kill(src)
+	HOOK_CALL("on_killed")
+	return TRUE
+
 /mob/living/can_attack(var/atom/victim,var/atom/weapon,var/params,var/damagetype/damage_type)
 
 	if(dead)

@@ -31,8 +31,7 @@ SUBSYSTEM_DEF(gamemode)
 
 /subsystem/gamemode/PostInitialize()
 	. = ..()
-	set_active_gamemode(/gamemode/horde,"Gamemode PostInitialize()")
-	return .
+	set_active_gamemode(/gamemode/lobby,"Gamemode PostInitialize()")
 
 
 /subsystem/gamemode/on_life()

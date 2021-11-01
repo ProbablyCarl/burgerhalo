@@ -85,9 +85,9 @@
 
 
 /obj/item/bullet_cartridge/rifle_223
-	name = "\improper .223 rifle bullet"
+	name = "\improper .30 rifle bullet"
 	desc = "The round of choice for soldier cosplayers."
-	desc_extended = "For rifles and machineguns that requre .223."
+	desc_extended = "For rifles and machineguns that requre .30."
 	icon = 'icons/obj/item/bullet/223.dmi'
 	rarity = RARITY_COMMON
 
@@ -120,9 +120,9 @@
 
 
 /obj/item/bullet_cartridge/rifle_223/nato
-	name = "\improper 5.56mm rifle bullet"
+	name = "\improper 7.62mm rifle bullet"
 	desc = "The poodle shooter's favorite."
-	desc_extended = "For rifles and machineguns that requre 5,56mm."
+	desc_extended = "For rifles and machineguns that requre 7.62mm."
 	rarity = RARITY_COMMON
 
 	item_count_max = 5

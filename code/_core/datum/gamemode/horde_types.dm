@@ -112,10 +112,13 @@
 	)
 	hidden = FALSE*/
 
-	name = "Rainbow 6 Mode"
-	desc = "Fight off an group of Syndicate Operatives while compliting objectives."
+/gamemode/horde/halo
+	name = "URF vs UNSC"
+	desc = "Fight off an group of insurrectionists or marines, while compliting objectives."
 	enemy_types_to_spawn = list()
 	hidden = FALSE
+	unsc_points = 100
+	urf_points = 100
 
 /*/gamemode/horde/boss_rush
 	name = "Horde Mode (Boss Rush)"
