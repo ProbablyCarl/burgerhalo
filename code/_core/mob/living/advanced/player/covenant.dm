@@ -32,6 +32,15 @@
 
 	return TRUE
 
+/mob/living/advanced/player/covenant/proc/hook_faction()
+	HOOK_ADD("post_death", "faction_ticket", src, .proc/covenant_point_loss)
+	return TRUE
+
+/mob/living/advanced/player/covenant/proc/covenant_point_loss()
+	var/gamemode/halo/penisshit = SSgamemode.active_gamemode
+	if(istype(penisshit))
+		penisshit.covenant_points -= 1
+
 /mob/living/advanced/player/covenant/default_appearance()
 	var/species/S = SPECIES(species)
 	handle_hairstyle_chargen(sex == MALE ? S.default_hairstyle_chargen_male : S.default_hairstyle_chargen_female,S.default_color_hair,FALSE)
