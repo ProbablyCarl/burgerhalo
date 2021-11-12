@@ -39,7 +39,7 @@
 	return TRUE
 
 /mob/living/advanced/player/antagonist/proc/syndicate_point_loss()
-	var/gamemode/halo/penisshit = SSgamemode.active_gamemode
+	var/gamemode/horde/halo/penisshit = SSgamemode.active_gamemode
 	if(istype(penisshit))
 		penisshit.urf_points -= 1
 
