@@ -30,7 +30,18 @@
 
 	equip_loadout(loadout_to_use)
 
+	hook_faction()
+
 	return TRUE
+
+/mob/living/advanced/player/nt/proc/hook_faction()
+	HOOK_ADD("post_death", "faction_ticket", src, src, .proc/nt_point_loss)
+	return TRUE
+
+/mob/living/advanced/player/nt/proc/nt_point_loss()
+	var/gamemode/halo/penisshit = SSgamemode.active_gamemode
+	if(istype(penisshit))
+		penisshit.unsc_points -= 1
 
 /mob/living/advanced/player/nt/default_appearance()
 	var/species/S = SPECIES(species)
