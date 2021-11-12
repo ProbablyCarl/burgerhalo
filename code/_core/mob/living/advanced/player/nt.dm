@@ -35,7 +35,7 @@
 	return TRUE
 
 /mob/living/advanced/player/nt/proc/hook_faction()
-	HOOK_ADD("post_death", "faction_ticket", src, .proc/nt_point_loss)
+	HOOK_ADD("post_death", "faction_ticket", src, src, .proc/nt_point_loss)
 	return TRUE
 
 /mob/living/advanced/player/nt/proc/nt_point_loss()

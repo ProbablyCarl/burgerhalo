@@ -33,7 +33,7 @@
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/hook_faction()
-	HOOK_ADD("post_death", "faction_ticket", src, .proc/covenant_point_loss)
+	HOOK_ADD("post_death", "faction_ticket", src, src, .proc/covenant_point_loss)
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/covenant_point_loss()

@@ -35,7 +35,7 @@
 	return TRUE
 
 /mob/living/advanced/player/antagonist/proc/hook_faction()
-	HOOK_ADD("post_death", "faction_ticket", src, .proc/syndicate_point_loss)
+	HOOK_ADD("post_death", "faction_ticket", src, src, .proc/syndicate_point_loss)
 	return TRUE
 
 /mob/living/advanced/player/antagonist/proc/syndicate_point_loss()
