@@ -512,8 +512,6 @@
 
 /loot/weapon/halo/heavy
 	loot_table_guaranteed = list(
-		/obj/item/magazine/halo/kv32,
-		/obj/item/magazine/halo/kv32,
 		/obj/item/magazine/halo/m739,
 		/obj/item/bullet_cartridge/halo/spnkr,
 		/obj/item/bullet_cartridge/halo/spnkr,

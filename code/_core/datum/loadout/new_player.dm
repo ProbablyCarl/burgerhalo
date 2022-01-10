@@ -191,8 +191,6 @@
 		/obj/item/clothing/back/storage/backpack/halo/odst/cqb,
 		/obj/item/weapon/melee/sword/machete,
 		/obj/item/weapon/ranged/bullet/magazine/smg/halo/m7,
-		/obj/item/weapon/ranged/bullet/magazine/smg/halo/m7,
-		/obj/item/weapon/ranged/bullet/magazine/shotgun/halo/kv32,
 		/obj/item/magazine/halo/m7,
 		/obj/item/magazine/halo/m7,
 		/obj/item/magazine/halo/m7,
@@ -200,10 +198,6 @@
 		/obj/item/magazine/halo/m7,
 		/obj/item/magazine/halo/m7,
 		/obj/item/magazine/halo/m7,
-		/obj/item/magazine/halo/kv32,
-		/obj/item/magazine/halo/kv32,
-		/obj/item/magazine/halo/kv32,
-		/obj/item/magazine/halo/kv32,
 		/obj/item/container/syringe/medipen/bicaridine,
 		/obj/item/container/syringe/medipen/kelotane
 	)
