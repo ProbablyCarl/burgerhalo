@@ -18,7 +18,6 @@
 		winset(src,"chat_say.output","style='body{background-color:[white];}[STYLESHEET]'")
 
 		winset(src,"control.input","text-color=[white]")
-		winset(src,"control.wiki","background-color=[light];text-color=[white]")
 		winset(src,"control.discord","background-color=[light];text-color=[white]")
 		winset(src,"control.github","background-color=[light];text-color=[white]")
 		winset(src,"control.splitter","background-color=[dark]")
