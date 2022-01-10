@@ -1,5 +1,5 @@
 /obj/item/clothing/ears/headset
-	name = "headset"
+	name = "UNSC headset"
 	desc = "; HELP MAINT!"
 	desc_extended = "A headset for communicating with your fellows. Use the mouse wheel to change frequencies, and use the ';' prefix while speaking to talk into it."
 	icon = 'icons/obj/item/clothing/ears/headset.dmi'
@@ -38,13 +38,13 @@
 
 
 /obj/item/clothing/ears/headset/syndicate
-	name = "headset"
+	name = "old headset"
 	stored_radio = /obj/item/device/radio/syndicate
 
 /obj/item/clothing/ears/headset/covenant
-	name = "headset"
+	name = "Covenant headset"
 	stored_radio = /obj/item/device/radio/covenant
 
 /obj/item/clothing/ears/headset/urf
-	name = "headset"
-	stored_radio = /obj/item/device/radio/covenant
+	name = "URF headset"
+	stored_radio = /obj/item/device/radio/urf
