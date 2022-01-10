@@ -1,3 +1,7 @@
+/*
+Do not, for the love of god, use this anywhere.
+It's a shitty HaloStation insert.
+*/
 /obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5p
 	name = "MA5P Laser Rifle"
 	desc = "Pew pew pew!"

@@ -2,20 +2,13 @@
 	set name = "Open Discord"
 	set category = "Menu"
 	to_chat(span("notice","Opening discord in your browser."))
-	src << link("https://discord.gg/yEaV92a")
+	src << link("https://discord.gg/3MBT2Qcs6A")
 
 /client/verb/open_github()
 	set name = "Open Github"
 	set category = "Menu"
 	to_chat(span("notice","Opening github in your browser."))
-	src << link("https://github.com/BurgerLUA/burgerstation")
-
-
-/client/verb/open_patreon()
-	set name = "Open Patreon"
-	set category = "Menu"
-	to_chat(span("notice","Opening patreon in your browser."))
-	src << link("https://www.patreon.com/burgerstation")
+	src << link("https://github.com/Winter-Contingency/burgerhalo")
 
 
 
