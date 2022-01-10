@@ -34,7 +34,6 @@
 "aH" = (/obj/structure/interactive/smelter,/turf/simulated/floor/tile/cargo,/area/halo/exterior/jungle)
 "aI" = (/obj/decal/tile/cargo{dir = 8; icon_state = "tile"},/turf/simulated/floor/tile/grey,/area/halo/interior/geminus/mining)
 "aJ" = (/obj/decal/hazard{dir = 8},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
-"aK" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area/halo/interior/geminus/church)
 "aL" = (/obj/decal/sidewalk/corner{dir = 8; icon_state = "cobble_corner2"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "aM" = (/obj/effect/fog_of_war,/turf/simulated/wall/plastic/office/darker,/area/halo/interior)
 "aN" = (/turf/simulated/wall/plastic/office/darker,/area/halo/interior)
@@ -632,7 +631,7 @@
 "mh" = (/obj/structure/interactive/atmospherics/fan,/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
 "mi" = (/obj/decal/sidewalk/side,/obj/structure/interactive/fence/end{dir = 4; icon_state = "end"},/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "mj" = (/obj/decal/sidewalk/side,/obj/structure/interactive/fence/end{dir = 8; icon_state = "end"},/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"mk" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
+"mk" = (/obj/decal/sidewalk/corner{dir = 8; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "ml" = (/obj/decal/sidewalk/side,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "mm" = (/obj/decal/sidewalk/corner{dir = 4; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "mn" = (/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/tile/dark/er,/area/halo/interior/geminus/core)
@@ -704,7 +703,7 @@
 "nB" = (/obj/structure/interactive/construction/grille,/obj/structure/smooth/window/reinforced,/turf/simulated/floor/plating,/area/halo/interior/geminus/church)
 "nC" = (/turf/simulated/wall/plastic/office/darker,/area/halo/interior/geminus/church)
 "nD" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
-"nE" = (/obj/structure/interactive/vending/medical/medicine,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
+"nE" = (/obj/structure/interactive/vending/medical,/turf/simulated/floor/tile/chapel{dir = 1; icon_state = "floor"},/area/halo/interior/geminus/church)
 "nF" = (/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
 "nG" = (/obj/structure/interactive/potted_plant/nanotrasen,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
 "nH" = (/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
@@ -821,7 +820,7 @@
 "pO" = (/obj/marker/spawning/window,/turf/simulated/floor/plating,/area/halo/interior)
 "pP" = (/turf/simulated/floor/tile/morphing/green,/area/halo/interior)
 "pQ" = (/obj/structure/interactive/lighting/fixture/tube/station/strong,/turf/simulated/floor/tile/morphing/green,/area/halo/interior)
-"pR" = (/obj/decal/sidewalk/corner{dir = 8; icon_state = "cobble_corner2"},/obj/structure/interactive/lighting/fixture/floor,/obj/structure/interactive/misc/halo/decor/vehicles/spirit,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
+"pR" = (/obj/structure/interactive/vending/medical,/turf/simulated/floor/tile/chapel{dir = 4; icon_state = "floor"},/area/halo/interior/geminus/church)
 "pS" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/morphing/green,/area/halo/interior)
 "pT" = (/turf/simulated/floor/tile/grey,/area/halo/interior)
 "pU" = (/obj/structure/interactive/vending/hydroponics/nutri,/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/morphing/green,/area/halo/interior)
@@ -845,6 +844,7 @@
 "qm" = (/mob/living/advanced/npc/halo/unggoy{dir = 4; icon_state = "halo_unggoy"},/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/church)
 "qn" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "qo" = (/obj/decal/sidewalk/side{dir = 4; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
+"qp" = (/obj/structure/interactive/vending/medical,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "qq" = (/obj/decal/tile/cargo{dir = 1; icon_state = "tile"},/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/grey,/area/halo/interior/geminus/mining)
 "qr" = (/mob/living/advanced/npc/halo/marine{dir = 4; icon_state = "directional"},/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "qs" = (/mob/living/advanced/npc/halo/kigyar/ranged{dir = 8; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
@@ -1037,6 +1037,7 @@
 "tX" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "tY" = (/obj/decal/sidewalk/side{dir = 1; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/kigyar,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "tZ" = (/mob/living/advanced/npc/halo/unggoy,/turf/simulated/floor/colored/dirt/soil,/area/halo/exterior/jungle)
+"ua" = (/obj/decal/sidewalk/side{dir = 8; icon_state = "cobble_side2"},/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "ub" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/tile/grey,/area/halo/interior)
 "uc" = (/mob/living/advanced/npc/halo/marine{dir = 4; icon_state = "directional"},/turf/simulated/floor/colored/dirt/soil,/area/halo/exterior/jungle)
 "ud" = (/obj/structure/interactive/barricade/covenant{dir = 4; icon_state = "cov"},/mob/living/advanced/npc/halo/kigyar/ranged{dir = 4; icon_state = "halo_kigyar1"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
@@ -1053,6 +1054,7 @@
 "uo" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/plating,/area/halo/interior)
 "up" = (/obj/item/storage/heavy/trash_pile,/obj/structure/interactive/lighting/fixture/bulb{dir = 8},/turf/simulated/floor/plating,/area/halo/interior)
 "uq" = (/obj/item/storage/heavy/trash_pile,/obj/structure/interactive/lighting/fixture/bulb{dir = 4},/turf/simulated/floor/plating,/area/halo/interior)
+"Dy" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{dir = 8},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "WS" = (/mob/living/advanced/npc/halo/elite,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 
 (1,1,1) = {"
@@ -1140,22 +1142,22 @@ cjaeaaaahBamamtlamamamjWamamamamamjWamamamamameJaaqgaaaadaaaaabDbDbDbDbDaaeUeUeU
 cjaejjaaaaeUtKeUeUpZeUaaeUeUeUeUeUavjgjgqhjgjgavaaaaaaqidaaaaabDbDbDtxbDbDaaaaaaaaaaaahshsaarRaaaaaaaaaaqUaaaaaaaaaahshsaaaaaaaaaaaabDbDbDbDbDbDaajhaaaaaatLaaaaalaaaaaaaaaaaaaaaacUcVtMcVcVcVcVcWaaaaaecj
 cjaeaaaaaajjaajjaaaaqaaaaaqaaajjhBamamamjkamamameJqjaaaadarRaabDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDrvbDbDbDbDbDbDaaaaaaaaaajietalaaaaaaaaaaaaaaaaqsaaaaaaaaaaaaaaaaaaaaaecj
 cjaeaaaljjaaaaaaaaiZiZiZaaaaaaavnCnCnBnCnDnCnBnCnCavaaqjdaaaaabDbDtNbDbDbDtxbDbDbDbDbDbDbDbDbDbDbDbDbDrkbDbDbDbDbDbDbDbDbDbDrkbDbDrjbDbDmFbDbDbDaaaaltltltltajalluajltalltltltaabvazkXbvaaaaaaaaaaaaaaaecj
-cjaeaaoJoJqbaljopLoJjpoJoJoJhBamnCaKnFnGnHnGqkmknCameJaadaaaaabDbDbDbDbDbDbDbDbDbDbDbDrkbDrkbDrhbDbDbDbDbDrdbDbDbDbDbDbDbDbDbDrjbDbDbDbDbDbDbDbDaarRltlvlxlxltlualalalbFlylzltaajualaljvaalAlAlAlAlAlAlBcj
+cjaeaaoJoJqbaljopLoJjpoJoJoJhBamnCnEnFnGnHnGqkpRnCameJaadaaaaabDbDbDbDbDbDbDbDbDbDbDbDrkbDrkbDrhbDbDbDbDbDrdbDbDbDbDbDbDbDbDbDrjbDbDbDbDbDbDbDbDaarRltlvlxlxltlualalalbFlylzltaajualaljvaalAlAlAlAlAlAlBcj
 cjaeaaoJjpjpkojojpoJajjwjxjypMjznBnInJnHnHnHnInJnBameJaadaaaaaaabDbDbDbDtNbDbDbDbDbDbDbDbDbDbDrjbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDaaaaaaltlClylylDajqlalajlylylxltjhlFalallFaalAiGiIiIlLlMlBcj
 cjaejjjpjpjyoJjwjpjHajjIjJaaaaamnCnKnLqcqcnHnMnNnCameJaadaaaduaaaabDbDtxbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDtObDbDbDbDbDbDbDbDbDbDaaaaaaaaltlNlOlyltajtPajltlzlPlQltaabvamalbvaalAlTiIlUkmiIlBcj
 cjaealjpjooJoJoJjojpqbaaalaajRamnBnInJnHnHqcnInJnBameJaadaaaaaaaaaaaaaavavavaaavavavaaaaaaaaaarRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaduaaltltltltltltlVltltltltltltaajTalamjUaalAiIiIkxkyiIlBcj
 cjaealaljpjwoJjyjpjValalaaaahBamnCnMnLqcnHnHnMnLnCameJaadaaaaaaaaaaahBamamamjWamamameJaaaaaaaaaaduaaaaaaaaaaaaaaaaaaalalaaalaaaaaaaaaaaaaaaaaaaaaaaaaaltltlWlutQlulXmblultltaatRlFkaaVlFaamelLiIiIlLiIlBcj
-cjaealoJjIajnEjpkboJalkckdkcaaeUnCnOnPqdqeqdnOnPnCnCnCnCnQaagTgTgTmfgTgTgUgUgUgUgUgTgTgTaaaaavavsCavavaaaakgkhkhkhkhkhalalalkhkhkhkhkhkhkhkhkhkhkhkiaaltltmglultmhltlumnltltaaaatRaaaaaaaalAmVnciIiIndlBcj
+cjaealoJjIajqpjpkboJalkckdkcaaeUnCnOnPqdqeqdnOnPnCnCnCnCnQaagTgTgTmfgTgTgUgUgUgUgUgTgTgTaaaaavavsCavavaaaakgkhkhkhkhkhalalalkhkhkhkhkhkhkhkhkhkhkhkiaaltltmglultmhltlumnltltaaaatRaaaaaaaalAmVnciIiIndlBcj
 cjaealoJpNalkojpoJoJkpaaaaaakqaanCnRnSnTnUnVnTnWnCnXnXnXnQaagTnhnitSlmninininininjnknmgTtRhBamamamamameJaakzkAamamamamalalamqnkAamamamamszamamamkAkzaltTajltlululutUlultltlttVaalAlAlAlAlAlAlAlAlAnnlAlBcj
 cjaeaaalalalaajjaaaaaaaakBaaaajjnCnHnYnPnHnOnZnHnCnXnXnXnQaagTnjnitWnilmninilmninilmnogTaabvpOpObvpOpObvaakzamkFkFamkFaltXkFkFamkFkFamkFkFamkFkFamkzaaajltltltnplunrltltltltaaaalAnsiIiImentlAnwopkUoqlBcj
 cjaeaaaaqlalaakNkOkOkOtYkOkOkPaanCnHnHnHoanHqmnHnCnXnXnXnQaagTgTgTgTgTgTorosososgTifgTgTaabvpPpPpQpPpPbvaakzamkFkFamtZkFamkFkFamkFkFamkFkFamkFkFamkzaaltalltltltlVltltltltltgmaalAotlLiIlAlAlAkUnioukUlBcj
-cjaekWkXbvjjaakYamamamamkZWSlaaanCnCnCobnCnCnCnCnCnCnCnCnQaagTovowhhoxgTkUlmoykUgThHozgTaapSpPpTubpTpPbvaalfsykFkFamkFkFqnkFkFamuckFamkFkFamkFkFamkzrlltltoAoBlulualoCoBltltaaaalAoDiIiImeoElAoFoGoHoIlBcj
-cjaeamaloJlplpkYamamamamkZamqoaaudaaaaaaaaaaaaaaaaaaaaaadaaagTkIuehHhHiflmkUkUkUifhHoKgTaabvpPpTpTpTpPpSaalsamkFkFamkFkFamufkFamkFkFamkFkFamkFkFamkzaaltltoLluluoMluqDlXltltaaaalAlAmelAlAlAlAhYughYoNlBcj
+cjaekWkXbvjjaauaamkZqnamkZWSlaaanCnCnCobnCnCnCnCnCnCnCnCnQaagTovowhhoxgTkUlmoykUgThHozgTaapSpPpTubpTpPbvaalfsykFkFamkFkFqnkFkFamuckFamkFkFamkFkFamkzrlltltoAoBlulualoCoBltltaaaalAoDiIiImeoElAoFoGoHoIlBcj
+cjaeamaloJlplpkYamkZamamkZamqoaaudaaaaaaaaaaaaaaaaaaaaaadaaagTkIuehHhHiflmkUkUkUifhHoKgTaabvpPpTpTpTpPpSaalsamkFkFamkFkFamufkFamkFkFamkFkFamkFkFamkzaaltltoLluluoMluqDlXltltaaaalAlAmelAlAlAlAhYughYoNlBcj
 cjaeamaloJaaaakYamamamamamamlaaanCnCnCnCnCnCnCocnCnCnCnCnQaagToOhhoPhngToQoRoSoTgTgTgTgTaabvpPpTpTpTpPpSaakzamkFkFamkFkFuhkFkFamkFkFamkFkFqxkFkFamkzaaltltlulXoUlucfalluoVltaaaalAgYsgoWgYoXoYgYuigYgYlBcj
-cjaealamoZaaaakYamamamamWSamlalpnCodoeofognCohofnCoioioinQaagTgTgTgTgTgTgTgTgTgTgTrRaaaaaabvpUpTpTpTpVbvaakzamkFkFamkFkFamkFkFuhkFkFamkFkFamkFkFamkzaaltpalupbltpcltpbpdpeltqtgmlAsgpfgYujgYgYgYgYpfpglBcj
+cjaealamoZaaaakYamamamamamamlalpnCodoeofognCohofnCoioioinQaagTgTgTgTgTgTgTgTgTgTgTrRaaaaaabvpUpTpTpTpVbvaakzamkFkFamkFkFamkFkFuhkFkFamkFkFamkFkFamkzaaltpalupbltpcltpbpdpeltqtgmlAsgpfgYujgYgYgYgYpfpglBcj
 cjaealaloJaaaakYamamamamamamlaaanCojofofofocofofocofofoknQaaaaaaaaaascaaaaaaaaaaaaaaaarRaabvpWpTpTukpXbvaakzkAamamamamamamamamkAamamamamamamamamkAkzaaltlttQmnltltltphluoVtJaaaalApihEhEpjpipkplpjgYpmlBcj
-cjaeamambvaaaakYamamamamkZqnlaaanCofofolomnConoonCoioioinQaaaaaaaaaaaaaaaaaaaaaaaabvbvaaaabvulpPpYpPpPbvaamckhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhmdjhltltlulululuqrrYalalajaaaalApnhEpopjpphEhEpjumpqlBcj
-cjaemimjoJaaaapRmlmlmlmlmlmlmmaanCnCnCnCnCnCnCnCnCnCnCnCnQaaaabvbvbvbvbvbvaaaaaabvbvaaaaaabvbvbvbvbvbvbvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaltltltltltltltltalltltaaaalAlAgUgUlAlAgUgUlAprlAlBcj
+cjaeamambvaaDykYamamamamkZamlaaanCofofolomnConoonCoioioinQaaaaaaaaaaaaaaaaaaaaaaaabvbvaaaabvulpPpYpPpPbvaamckhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhkhmdjhltltlulululuqrrYalalajaaaalApnhEpopjpphEhEpjumpqlBcj
+cjaemimjoJaaaamkmlmlmlmlmlmlmmaanCnCnCnCnCnCnCnCnCnCnCnCnQaaaabvbvbvbvbvbvaaaaaabvbvaaaaaabvbvbvbvbvbvbvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaltltltltltltltltalltltaaaalAlAgUgUlAlAgUgUlAprlAlBcj
 cjaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqjaaaaaaaaaaaadaaaaaaaaaaaaaqtaaqKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaanaaaaanaaaaaaaaaaanaaaaanaaaaaaaaaaaaqjaaaaaaaaaaaaaaaaaaalaaaaaaaaaaaaaaaarRaaaaaaaaaaaecj
 cjaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaecj
 cjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcj

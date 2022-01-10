@@ -30,18 +30,7 @@
 
 	equip_loadout(loadout_to_use)
 
-	hook_faction()
-
 	return TRUE
-
-/mob/living/advanced/player/antagonist/proc/hook_faction()
-	HOOK_ADD("post_death", "faction_ticket", src, src, .proc/syndicate_point_loss)
-	return TRUE
-
-/mob/living/advanced/player/antagonist/proc/syndicate_point_loss()
-	var/gamemode/horde/halo/penisshit = SSgamemode.active_gamemode
-	if(istype(penisshit))
-		penisshit.urf_points -= 1
 
 /mob/living/advanced/player/antagonist/default_appearance()
 	var/species/S = SPECIES(species)

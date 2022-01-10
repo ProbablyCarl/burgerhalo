@@ -1,6 +1,6 @@
 /vote/gamemode //Vote instance
 	name = "Gamemode Vote" //The name of the vote. Usually the question.
-	options = list() //Just a list of possible choices.
+	options = list("Halo Mode") //Just a list of possible choices.
 	time_limit = 60 //In seconds.
 
 	var/list/gamemode_name_to_type = list()
