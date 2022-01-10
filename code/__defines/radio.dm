@@ -11,13 +11,13 @@
 
 #define RADIO_FREQ_CENTCOMM 1337
 
-#define RADIO_FREQ_SYNDICATE 1213
-
 
 
 
 //In use.
 #define RADIO_FREQ_MIN 110.1
+
+#define RADIO_FREQ_SYNDICATE 1213
 
 #define RADIO_FREQ_ALPHA    1451
 #define RADIO_FREQ_BRAVO    1453
@@ -79,4 +79,6 @@
 			return "Combat Lance 3"
 		if(RADIO_FREQ_COVS4)
 			return "Combat Lance 4"
+		if(RADIO_FREQ_SYNDICATE)
+			return "Syndicate"
 	return "Unknown"

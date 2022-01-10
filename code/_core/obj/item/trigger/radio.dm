@@ -136,37 +136,43 @@ list(
 /obj/item/device/radio/nanotrasen
 	name = "\improper UNSC Radio"
 
-	frequency_min = RADIO_FREQ_ALPHA - 20
-	frequency_max = RADIO_FREQ_SHIP + 20
-
+//	frequency_min = RADIO_FREQ_ALPHA - 20
+//	frequency_max = RADIO_FREQ_SHIP + 20
+	frequency = RADIO_FREQ_COMMON
+	listening_frequencies = list(
+		RADIO_FREQ_COMMON
+	)
 	value = 15
 
 /obj/item/device/radio/syndicate
 	name = "\improper NanoTrasen Radio"
 
-	frequency_min = RADIO_FREQ_SYNDICATE
-	frequency_max = RADIO_FREQ_COMMON
-
+//	frequency_min = RADIO_FREQ_SYNDICATE
+//	frequency_max = RADIO_FREQ_COMMON
 	frequency = RADIO_FREQ_SYNDICATE
-
+	listening_frequencies = list(
+		RADIO_FREQ_SYNDICATE
+	)
 	value = 100
 
 /obj/item/device/radio/covenant
 	name = "\improper Covenant Radio"
 
-	frequency_min = RADIO_FREQ_COVENANT
-	frequency_max = RADIO_FREQ_COVS4
-
+//	frequency_min = RADIO_FREQ_COVENANT
+//	frequency_max = RADIO_FREQ_COVS4
 	frequency = RADIO_FREQ_COVENANT
-
+	listening_frequencies = list(
+		RADIO_FREQ_COVENANT
+	)
 	value = 100
 
 /obj/item/device/radio/urf
 	name = "\improper URF Radio"
 
-	frequency_min = RADIO_FREQ_URF
-	frequency_max = RADIO_FREQ_GREGORY
-
+//	frequency_min = RADIO_FREQ_URF
+//	frequency_max = RADIO_FREQ_GREGORY
 	frequency = RADIO_FREQ_URF
-
+	listening_frequencies = list(
+		RADIO_FREQ_URF
+	)
 	value = 100

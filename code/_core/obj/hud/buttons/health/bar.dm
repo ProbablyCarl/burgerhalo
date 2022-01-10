@@ -34,7 +34,7 @@
 	min = 0
 	color = "#FF0000"
 
-	screen_loc = "RIGHT-0.25,CENTER-1"
+	screen_loc = "RIGHT,CENTER-1"
 
 	flags = FLAGS_HUD_MOB
 
@@ -60,7 +60,7 @@
 	min = 0
 	color = "#00ff00"
 
-	screen_loc = "RIGHT,CENTER-1"
+	screen_loc = "RIGHT+0.25,CENTER-1"
 
 	flags = FLAGS_HUD_MOB
 
@@ -77,7 +77,7 @@
 	current = FLOOR(M.health.stamina_current, 1)
 
 	return ..()
-
+/*
 /obj/hud/button/health/bar/mp
 	name = "mana"
 	id = "mana"
@@ -102,4 +102,4 @@
 	max = FLOOR(M.health.mana_max, 1)
 	current = FLOOR(M.health.mana_current, 1)
 
-	return ..()
+	return ..()*/
