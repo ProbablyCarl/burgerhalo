@@ -241,8 +241,8 @@ var/global/list/all_clients = list() //Assoc list
 	return TRUE
 
 /client/proc/welcome()
-	to_chat("<title>Welcome to BurgerHalo 13</title><p>Welcome to the actively development server in the Halo universe. Everything you see for now - can be changed in the future. If you want to join the discord server, please: https://discord.gg/EFWzuycgwV</p>")
-	to_chat(span("notice","<h1>Also be sure to read the rules before playing!</h1>"))
+	to_chat("<title>Halo: Winter Contingency</title><p>Welcome to an in development server set within the Halo universe.</p>")
+	to_chat(span("notice","<h1>Be sure to join the Discord, for both the rules and more information!</h1>"))
 	return TRUE
 
 /*

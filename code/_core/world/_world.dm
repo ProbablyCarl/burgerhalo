@@ -39,7 +39,7 @@ var/global/world_state = STATE_STARTING
 
 	var/server_name = CONFIG("SERVER_NAME","Halo : Winter Contingency")
 	var/server_link = CONFIG("SERVER_DISCORD","https://discord.gg/8h6PUVt")
-	var/github_name = "Halo Station <b>REMADE</b>"
+	var/github_name = "Halo : Winter Contingency"
 
 	var/minutes = FLOOR(world.time / 600, 1)
 	var/hours = FLOOR(world.time / 36000, 1)
