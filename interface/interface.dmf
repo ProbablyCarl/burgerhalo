@@ -17,10 +17,6 @@ macro "macro"
 	elem 
 		name = "F12"
 		command = ".screenshot auto"
-	elem 
-		name = "`"
-		command = ".command"
-
 
 menu "menu"
 	elem "file"
@@ -148,6 +144,7 @@ window "chat"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Chat Tabs"
 		titlebar = false
@@ -156,6 +153,8 @@ window "chat"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "tab"
 		type = TAB
 		pos = 0,0
@@ -164,6 +163,7 @@ window "chat"
 		anchor2 = 100,100
 		font-family = "Arial Narrow"
 		font-size = 10
+		background-color = none
 		saved-params = ""
 		tabs = "chat_all,chat_say,chat_looc,chat_ooc,chat_combat"
 		current-tab = "chat_all"
@@ -175,6 +175,7 @@ window "chat_all"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "All"
 		titlebar = false
@@ -183,6 +184,8 @@ window "chat_all"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -298,7 +301,6 @@ window "control"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -306,8 +308,6 @@ window "control"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "input"
 		type = INPUT
 		pos = 0,780
@@ -323,7 +323,6 @@ window "control"
 		size = 408x20
 		anchor1 = 50,0
 		anchor2 = 75,0
-		background-color = none
 		saved-params = "is-checked"
 		text = "Github"
 		command = "open-github"
@@ -333,7 +332,6 @@ window "control"
 		size = 384x20
 		anchor1 = 25,0
 		anchor2 = 50,0
-		background-color = none
 		saved-params = "is-checked"
 		text = "Discord"
 		command = "open-discord"
@@ -343,7 +341,6 @@ window "control"
 		size = 800x760
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = none
 		is-default = true
 		saved-params = "splitter"
 		left = "info"
@@ -390,6 +387,7 @@ window "info"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -397,6 +395,8 @@ window "info"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "info"
 		type = INFO
 		pos = 0,0
@@ -410,6 +410,7 @@ window "info"
 		right-click = true
 		saved-params = ""
 		highlight-color = #000000
+		tab-background-color = none
 		tab-font-family = "Arial Narrow"
 		tab-font-size = 10
 
@@ -420,19 +421,23 @@ window "main"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Burgerstation 13"
-		icon = 'interface\\icons\\burger.png'
+		title = "Halo: Winter Contingency"
+		icon = 'interface\\icons\\wc_32.png'
 		image-mode = center
 		macro = "macro"
 		menu = "menu"
+		outer-size = 816x878
+		inner-size = 800x819
 	elem "splitter"
 		type = CHILD
 		pos = 0,0
 		size = 800x800
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = none
 		is-default = true
 		saved-params = "splitter"
 		left = "map"
