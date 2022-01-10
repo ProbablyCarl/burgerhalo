@@ -10,7 +10,7 @@
 
 	var/list/mob/living/enemy_types_to_spawn = list()
 
-	hidden = TRUE
+	hidden = FALSE
 
 	var/enemies_to_spawn_base = 4
 	var/enemies_to_spawn_per_player = 0.5

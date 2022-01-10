@@ -8,7 +8,7 @@
 	interaction_flags = FLAG_INTERACTION_LIVING | FLAG_INTERACTION_DEAD | FLAG_INTERACTION_NO_DISTANCE
 
 /obj/hud/button/menu/title
-	name = "Halostation 13"
+	name = "Halo: Winter Contingency"
 	icon_state = "title"
 	screen_loc = "LEFT+1,CENTER+2"
 

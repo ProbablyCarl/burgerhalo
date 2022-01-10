@@ -116,7 +116,7 @@
 	name = "URF vs UNSC"
 	desc = "Fight off an group of insurrectionists or marines, while compliting objectives."
 	enemy_types_to_spawn = list()
-	hidden = FALSE
+	hidden = TRUE //temp
 	unsc_points = 100
 	urf_points = 100
 
