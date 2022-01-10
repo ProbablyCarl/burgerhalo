@@ -21,7 +21,6 @@
 		winset(src,"control.wiki","background-color=[light];text-color=[white]")
 		winset(src,"control.discord","background-color=[light];text-color=[white]")
 		winset(src,"control.github","background-color=[light];text-color=[white]")
-		winset(src,"control.patreon","background-color=[light];text-color=[white]")
 		winset(src,"control.splitter","background-color=[dark]")
 
 		winset(src,"info.info","text-color=[white];background-color=[dark];tab-background-color=[normal];tab-text-color=[white]")

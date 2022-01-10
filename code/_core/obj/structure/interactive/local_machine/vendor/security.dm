@@ -172,7 +172,6 @@
 	stored_types = list(
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m739,
-		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5p,
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/srs,
 
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b,
@@ -213,7 +212,6 @@
 
 	stored_types = list(
 		/obj/item/magazine/halo/m739,
-		/obj/item/magazine/halo/ma5p,
 		/obj/item/magazine/halo/m41,
 		/obj/item/magazine/halo/srs,
 		/obj/item/magazine/halo/srs/explosive,

@@ -146,8 +146,9 @@ window "chat"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Chat Tabs"
 		titlebar = false
@@ -156,6 +157,8 @@ window "chat"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "tab"
 		type = TAB
 		pos = 0,0
@@ -164,6 +167,7 @@ window "chat"
 		anchor2 = 100,100
 		font-family = "Arial Narrow"
 		font-size = 10
+		background-color = none
 		saved-params = ""
 		tabs = "chat_all,chat_say,chat_looc,chat_ooc,chat_combat"
 		current-tab = "chat_all"
@@ -173,8 +177,9 @@ window "chat_all"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "All"
 		titlebar = false
@@ -183,6 +188,8 @@ window "chat_all"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -201,8 +208,8 @@ window "chat_combat"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Combat"
 		titlebar = false
@@ -224,8 +231,9 @@ window "chat_looc"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "LOOC"
 		titlebar = false
@@ -234,6 +242,8 @@ window "chat_looc"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -248,8 +258,9 @@ window "chat_ooc"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "OOC"
 		titlebar = false
@@ -258,6 +269,8 @@ window "chat_ooc"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -272,8 +285,8 @@ window "chat_say"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Say"
 		titlebar = false
@@ -296,8 +309,8 @@ window "control"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
@@ -317,22 +330,9 @@ window "control"
 		is-default = true
 		border = sunken
 		saved-params = ""
-	elem "patreon"
-		type = BUTTON
-		pos = 600,0
-		size = 200x20
-		anchor1 = 75,0
-		anchor2 = 100,0
-		font-size = 8
-		font-style = "bold"
-		text-color = #ffffff
-		background-color = #ff3300
-		saved-params = "is-checked"
-		text = "Donate!"
-		command = "open-patreon"
 	elem "github"
 		type = BUTTON
-		pos = 400,0
+		pos = 200,0
 		size = 200x20
 		anchor1 = 50,0
 		anchor2 = 75,0
@@ -342,7 +342,7 @@ window "control"
 		command = "open-github"
 	elem "discord"
 		type = BUTTON
-		pos = 200,0
+		pos = 0,0
 		size = 200x20
 		anchor1 = 25,0
 		anchor2 = 50,0
@@ -350,16 +350,6 @@ window "control"
 		saved-params = "is-checked"
 		text = "Discord"
 		command = "open-discord"
-	elem "wiki"
-		type = BUTTON
-		pos = 0,0
-		size = 200x20
-		anchor1 = 0,0
-		anchor2 = 25,0
-		background-color = none
-		saved-params = "is-checked"
-		text = "Wiki"
-		command = ""
 	elem "splitter"
 		type = CHILD
 		pos = 0,20
@@ -379,8 +369,8 @@ window "edit"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		is-visible = false
 		border = sunken
@@ -415,8 +405,9 @@ window "info"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -424,6 +415,8 @@ window "info"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+		outer-size = 814x814
+		inner-size = 800x800
 	elem "info"
 		type = INFO
 		pos = 0,0
@@ -437,6 +430,7 @@ window "info"
 		right-click = true
 		saved-params = ""
 		highlight-color = #000000
+		tab-background-color = none
 		tab-font-family = "Arial Narrow"
 		tab-font-size = 10
 
@@ -445,8 +439,9 @@ window "main"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Burgerstation 13"
@@ -454,12 +449,15 @@ window "main"
 		image-mode = center
 		macro = "macro"
 		menu = "menu"
+		outer-size = 816x878
+		inner-size = 800x819
 	elem "splitter"
 		type = CHILD
 		pos = 0,0
 		size = 800x800
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = none
 		is-default = true
 		saved-params = "splitter"
 		left = "map"
@@ -472,8 +470,8 @@ window "map"
 		type = MAIN
 		pos = 281,0
 		size = 800x800
-		anchor1 = none
-		anchor2 = none
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
