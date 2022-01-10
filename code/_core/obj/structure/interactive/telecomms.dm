@@ -82,5 +82,19 @@ var/global/list/all_telecomms = list()
 	add_telecomm("Burgerstation")
 	add_telecomm("Mission")
 	add_telecomm("Central Command")
+//unsc
+	add_telecomm("Common")
+	add_telecomm("Alpha")
+	add_telecomm("Bravo")
+	add_telecomm("Charlie")
+	add_telecomm("Delta")
+//covie
+	add_telecomm("Covenant Battlenet")
+	add_telecomm("Combat Lance 1")
+	add_telecomm("Combat Lance 2")
+	add_telecomm("Combat Lance 3")
+	add_telecomm("Combat Lance 4")
+//urf
+	add_telecomm("Bearcomm")
 
 	return ..()

@@ -179,7 +179,6 @@
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m395,
 
 		/obj/item/weapon/ranged/bullet/pump/shotgun/halo/m90,
-		/obj/item/weapon/ranged/bullet/magazine/shotgun/halo/kv32,
 
 		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/socom,
 		/obj/item/weapon/ranged/bullet/magazine/smg/halo/m7
