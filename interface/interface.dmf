@@ -148,7 +148,6 @@ window "chat"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Chat Tabs"
 		titlebar = false
@@ -157,8 +156,6 @@ window "chat"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "tab"
 		type = TAB
 		pos = 0,0
@@ -167,7 +164,6 @@ window "chat"
 		anchor2 = 100,100
 		font-family = "Arial Narrow"
 		font-size = 10
-		background-color = none
 		saved-params = ""
 		tabs = "chat_all,chat_say,chat_looc,chat_ooc,chat_combat"
 		current-tab = "chat_all"
@@ -179,7 +175,6 @@ window "chat_all"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "All"
 		titlebar = false
@@ -188,8 +183,6 @@ window "chat_all"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -233,7 +226,6 @@ window "chat_looc"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "LOOC"
 		titlebar = false
@@ -242,8 +234,6 @@ window "chat_looc"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -260,7 +250,6 @@ window "chat_ooc"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "OOC"
 		titlebar = false
@@ -269,8 +258,6 @@ window "chat_ooc"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -332,8 +319,8 @@ window "control"
 		saved-params = ""
 	elem "github"
 		type = BUTTON
-		pos = 200,0
-		size = 200x20
+		pos = 384,0
+		size = 408x20
 		anchor1 = 50,0
 		anchor2 = 75,0
 		background-color = none
@@ -343,7 +330,7 @@ window "control"
 	elem "discord"
 		type = BUTTON
 		pos = 0,0
-		size = 200x20
+		size = 384x20
 		anchor1 = 25,0
 		anchor2 = 50,0
 		background-color = none
@@ -371,20 +358,16 @@ window "edit"
 		size = 640x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		is-visible = false
 		border = sunken
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Edit"
-		outer-size = 656x538
-		inner-size = 640x499
 	elem "exit"
 		type = BUTTON
 		pos = 540,460
 		size = 100x20
 		anchor1 = 100,100
 		anchor2 = 100,100
-		background-color = none
 		saved-params = "is-checked"
 		text = "Save and Exit"
 		command = ""
@@ -407,7 +390,6 @@ window "info"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -415,8 +397,6 @@ window "info"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "info"
 		type = INFO
 		pos = 0,0
@@ -430,7 +410,6 @@ window "info"
 		right-click = true
 		saved-params = ""
 		highlight-color = #000000
-		tab-background-color = none
 		tab-font-family = "Arial Narrow"
 		tab-font-size = 10
 
@@ -441,7 +420,6 @@ window "main"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Burgerstation 13"
@@ -449,15 +427,12 @@ window "main"
 		image-mode = center
 		macro = "macro"
 		menu = "menu"
-		outer-size = 816x878
-		inner-size = 800x819
 	elem "splitter"
 		type = CHILD
 		pos = 0,0
 		size = 800x800
 		anchor1 = 0,0
 		anchor2 = 100,100
-		background-color = none
 		is-default = true
 		saved-params = "splitter"
 		left = "map"
@@ -472,7 +447,6 @@ window "map"
 		size = 800x800
 		anchor1 = -1,-1
 		anchor2 = -1,-1
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -480,8 +454,6 @@ window "map"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
-		outer-size = 814x814
-		inner-size = 800x800
 	elem "map"
 		type = MAP
 		pos = 0,0
@@ -511,7 +483,6 @@ window "map"
 		size = 680x320
 		anchor1 = 0,100
 		anchor2 = 100,100
-		background-color = none
 		is-visible = false
 		saved-params = ""
 
