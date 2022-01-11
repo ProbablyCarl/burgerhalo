@@ -130,8 +130,19 @@ var/global/list/mob/living/advanced/player/all_players = list()
 
 /mob/living/advanced/player/setup_name()
 
-	if(real_name == DEFAULT_NAME)
-		real_name = "[gender == MALE ? FIRST_NAME_MALE : FIRST_NAME_FEMALE] [LAST_NAME]"
+	if(species == "human")//checks to make sure they're actually Human. Names are given elsewhere if not.
+		if(name == DEFAULT_NAME) //Give a human name
+			name = "[gender == MALE ? FIRST_NAME_MALE : FIRST_NAME_FEMALE] [LAST_NAME]"
+			real_name = name
+	if(species == "Elite")//forced here for names because I hate stuff.
+		name = "[gender == MALE ? FIRST_NAME_SANG : FIRST_NAME_SANG] [LAST_NAME_SANG]"
+		real_name = name
+	if(species == "Kigyar")//forced here for names because I hate stuff.
+		name = "[gender == MALE ? JACK : JACK]"
+		real_name = name
+	if(species == "unga")//forced here for names because I hate stuff.
+		name = "[gender == MALE ? UNGG : UNGG]"
+		real_name = name
 
 	name = SStext.check_duplicate_player_name(real_name,ckey_last)
 
