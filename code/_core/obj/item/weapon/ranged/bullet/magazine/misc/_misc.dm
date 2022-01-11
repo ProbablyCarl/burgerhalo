@@ -68,3 +68,42 @@
 
 /obj/item/weapon/ranged/bullet/magazine/misc/sentry/get_skill_spread(var/mob/living/L)
 	return 0
+
+//infinite, but really just an 'energy' version
+/obj/item/weapon/ranged/energy/unsc_sentry
+	name = "\improper Turret"
+	icon = 'icons/obj/item/weapons/ranged/laser/captain.dmi'
+
+	projectile = /obj/projectile/bullet/firearm/pistol
+	ranged_damage_type = /damagetype/ranged/bullet/smg_4mm
+
+	projectile_speed = TILE_SIZE - 1
+	shoot_delay = 1
+
+	automatic = TRUE
+
+	shoot_sounds = list('sound/weapons/223/shoot_mini.ogg')
+
+	charge_cost = 1
+
+	view_punch = 0
+
+	heat_per_shot = 0
+	heat_max = 0
+
+	size = SIZE_3
+
+	value = 0
+
+	battery = /obj/item/powercell/recharging
+
+	firing_pin = /obj/item/firing_pin/electronic
+
+	bullet_color = COLOR_BULLET
+
+
+/obj/item/weapon/ranged/energy/unsc_sentry/get_static_spread()
+	return 0
+
+/obj/item/weapon/ranged/energy/unsc_sentry/get_skill_spread(var/mob/living/L)
+	return 0

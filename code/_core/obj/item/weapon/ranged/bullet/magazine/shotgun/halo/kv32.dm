@@ -1,6 +1,6 @@
 /obj/item/weapon/ranged/bullet/magazine/shotgun/halo/kv32
 	name = "\improper KV-32 automatic shotgun"
-	desc = "A small gun, used by CQB ODSTs."
+	desc = "A spooky gun produced on backwater colonies."
 	desc_extended = "A very deadful weapon in arms of good soldier. Despite the small magazine and shitty accuracy - this shotgun have a very big firerate, which allows you to shoot 4 times in once."
 	icon = 'icons/obj/item/weapons/ranged/shotgun/kv32.dmi'
 	value = 1000
