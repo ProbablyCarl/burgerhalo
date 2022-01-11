@@ -82,6 +82,7 @@
 	iff_tag = "NanoTrasen"
 	loyalty_tag = "NanoTrasen"
 	stored_weapon = /obj/item/weapon/ranged/energy/unsc_sentry
+	ai = /ai/turret/special
 
 /mob/living/simple/turret/unsc/post_death()
 	icon_state = "dead"

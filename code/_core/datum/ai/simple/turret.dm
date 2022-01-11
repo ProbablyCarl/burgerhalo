@@ -68,6 +68,7 @@
 
 /ai/turret/deployable
 	var/mob/living/simple/turret/deployable/owner_as_turret
+	use_cone_vision = FALSE//360 degree scan.
 
 /ai/turret/deployable/New(var/mob/living/desired_owner)
 	. = ..()
@@ -87,3 +88,10 @@
 	B.charge_current = max(B.charge_current - AI_TICK,0)
 
 	return ..()
+
+/ai/turret/special
+	radius_find_enemy = VIEW_RANGE + ZOOM_RANGE
+	radius_find_enemy_noise = VIEW_RANGE + ZOOM_RANGE
+	true_sight = TRUE
+	use_cone_vision = FALSE//360 degree scan.
+	assistance = 1
