@@ -1,7 +1,7 @@
 /obj/item/weapon/ranged/bullet/pump/shotgun/halo/m45
 	name = "M45 Combat Shotgun"
 	desc = "Reliable, cheap, and strong."
-	desc_extended = "The UNSC's older model of the primary shotgun and one of the most effective close range infantry weapons used by colonies police and now - by insurrection. Has an inbuilt side mounted flashlight."
+	desc_extended = "The UNSC's older model primary shotgun. An effective close range infantry weapon used by colonial police and insurrectionists abroad."
 	icon = 'icons/obj/item/weapons/ranged/shotgun/m45.dmi'
 
 	shoot_delay = 2.5
