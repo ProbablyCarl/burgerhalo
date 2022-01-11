@@ -114,7 +114,7 @@
 
 /gamemode/horde/halo
 	name = "URF vs UNSC"
-	desc = "Fight off an group of insurrectionists or marines, while compliting objectives."
+	desc = "Fight off a group of insurrectionists in this wave based gamemode!"
 	enemy_types_to_spawn = list()
 	hidden = TRUE //temp
 	unsc_points = 100
