@@ -38,3 +38,8 @@
 	icon_state = "[initial(icon_state)]_dead"
 	update_sprite()
 
+
+/mob/living/simple/glockroach/nerevar
+	name = "Nerevar"
+	desc_extended = "That's Nerevar, the ship's telecomms defence roach."
+	immortal = TRUE //By the grace of gods and fate, I am Nerevar reborn.

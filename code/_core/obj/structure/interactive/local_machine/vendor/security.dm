@@ -300,6 +300,12 @@
 		/obj/item/weapon/melee/sword/bdagger
 	)
 
+//empty
+/obj/structure/interactive/vending/security/gundrobe/halo/cov/empty
+	name = "battery"
+	icon_state = "covendor"
+	stored_types = null
+
 /obj/structure/interactive/vending/security/ammo/halo/cov
 	name = "ammo vendor"
 	icon_state = "covammovendor"
@@ -308,3 +314,9 @@
 		/obj/item/magazine/halo/covenant/fuel,
 		/obj/item/magazine/halo/covenant/needler
 	)
+
+//empty
+/obj/structure/interactive/vending/security/ammo/halo/cov/empty
+	name = "battery"
+	icon_state = "covammovendor"
+	stored_types = null

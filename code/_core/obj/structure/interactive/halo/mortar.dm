@@ -45,5 +45,6 @@
 	for(var/i=1,i<=amount_multiplier,i++)
 		new/obj/effect/temp/target/(T)
 		new/obj/effect/falling_fireball(T)
+		play_sound('sound/effects/mortar_long_whistle.ogg',get_turf(src),range_min = VIEW_RANGE*0.5,range_max = VIEW_RANGE * 2)
 
 	return TRUE
