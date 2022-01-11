@@ -8,6 +8,9 @@
 	for(var/k in horde_maps)
 		options += k
 
+	for(var/l in firefight_maps)
+		options += l
+
 	return ..()
 
 

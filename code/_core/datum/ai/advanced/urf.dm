@@ -81,3 +81,9 @@
 			owner.do_say(pick(responses),language_to_use = language_to_use)
 
 	return .
+
+//for firefight, ripped from horde
+/ai/advanced/halo/urf/firefight
+	objective_delay = 10
+	target_distribution_x = list(0,16,16,32)
+	target_distribution_y = list(0,8,8,16,16,16,32,32,32,32,64,64,64)

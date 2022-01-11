@@ -1,8 +1,8 @@
-/gamemode/horde/
-	name = "URF vs UNSC vs Covenant"
-	desc = "Fight 20vs20vs20 on a medium sized map. Tickets are based on deaths."
+/gamemode/firefight/
+	name = "Firefight"
+	desc = "Defend your position at all costs!"
 
-	var/list/horde_targets = list()
+	var/list/firefight_targets = list()
 
 	var/list/tracked_enemies = list()
 
@@ -26,7 +26,7 @@
 
 	var/atom/list/priority_targets  = list()
 
-/*/gamemode/horde/update_objectives()
+/gamemode/firefight/update_objectives()
 
 	. = ..()
 
@@ -37,44 +37,44 @@
 		else
 			world.end(WORLD_END_NANOTRASEN_VICTORY)
 
-	return .*/
+	return .
 
-/*/gamemode/horde/proc/create_horde_mob(var/desired_loc)
+/gamemode/firefight/proc/create_firefight_mob(var/desired_loc)
 	var/mob/living/L = pickweight(enemy_types_to_spawn)
 	L = new L(desired_loc)
 	INITIALIZE(L)
 	FINALIZE(L)
 	GENERATE(L)
-	HOOK_ADD("post_death","horde_post_death",L,src,.proc/on_killed_enemy)
-	return L*/
+	HOOK_ADD("post_death","firefight_post_death",L,src,.proc/on_killed_enemy)
+	return L
 
-/gamemode/horde/New()
+/gamemode/firefight/New()
 
 	state = GAMEMODE_WAITING
 	round_time = 0
-	round_time_next = HORDE_DELAY_WAIT //Skip to gearing. Nothing to wait for.
+	round_time_next = FIREFIGHT_DELAY_WAIT //Skip to gearing. Nothing to wait for.
 	announce(name,"Starting new round...",desc)
 
-/*	if(spawn_on_markers)
-		for(var/k in horde_spawnpoints)
+	if(spawn_on_markers)
+		for(var/k in firefight_spawnpoints)
 			var/turf/T = k
-			create_horde_mob(T)*/
+			create_firefight_mob(T)
 
 	for(var/obj/structure/interactive/computer/console/remote_flight/O in world)
 		if(O.z != Z_LEVEL_MISSION)
 			continue
-		horde_targets += O
+		firefight_targets += O
 
 	return ..()
 
-/*/gamemode/horde/can_continue()
+/gamemode/firefight/can_continue()
 
 	if(length(SSbosses.living_bosses) <= 0)
 		return FALSE
 
-	return ..()*/
+	return ..()
 
-/*/gamemode/horde/proc/add_objectives()
+/gamemode/firefight/proc/add_objectives()
 
 	var/player_count = length(all_clients)
 
@@ -103,9 +103,9 @@
 
 	next_objective_update = world.time + 100
 
-	return TRUE*/
+	return TRUE
 
-/*/gamemode/horde/on_continue()
+/gamemode/firefight/on_continue()
 
 	if(!add_objective(/objective/kill_boss))
 		state = GAMEMODE_BREAK
@@ -115,9 +115,9 @@
 
 	points += 20
 
-	return ..()*/
+	return ..()
 
-/gamemode/horde/on_life()
+/gamemode/firefight/on_life()
 
 	switch(state)
 		if(GAMEMODE_WAITING)
@@ -134,7 +134,7 @@
 
 	return ..()
 
-/gamemode/horde/proc/on_waiting()
+/gamemode/firefight/proc/on_waiting()
 	var/time_to_display = round_time_next - round_time
 	set_status_display("mission","PREP\n[get_clock_time(time_to_display)]")
 	if(time_to_display >= 0)
@@ -142,7 +142,7 @@
 		return TRUE
 	state = GAMEMODE_GEARING
 	round_time = 0
-	round_time_next = HORDE_DELAY_GEARING
+	round_time_next = FIREFIGHT_DELAY_GEARING
 	SSshuttle.next_pod_launch = world.time + SECONDS_TO_DECISECONDS(30*10 + 10)
 	announce(
 		"Central Command Update",
@@ -151,10 +151,10 @@
 		ANNOUNCEMENT_STATION,
 		'sound/voice/announcement/landfall_crew_8_minutes.ogg'
 	)
-//	add_objectives()
+	add_objectives()
 	return TRUE
 
-/gamemode/horde/proc/on_gearing()
+/gamemode/firefight/proc/on_gearing()
 	var/time_to_display = round_time_next - round_time
 	set_status_display("mission","GEAR\n[get_clock_time(time_to_display)]")
 	if(time_to_display >= 0)
@@ -162,7 +162,7 @@
 		return TRUE
 	state = GAMEMODE_BOARDING
 	round_time = 0
-	round_time_next = HORDE_DELAY_BOARDING
+	round_time_next = FIREFIGHT_DELAY_BOARDING
 	announce(
 		"Central Command Update",
 		"Shuttle Boarding",
@@ -172,7 +172,7 @@
 	)
 	return TRUE
 
-/gamemode/horde/proc/on_boarding()
+/gamemode/firefight/proc/on_boarding()
 	var/time_to_display = round_time_next - round_time
 	set_status_display("mission","BRDN\n[get_clock_time(time_to_display)]")
 	if(time_to_display >= 0)
@@ -180,13 +180,13 @@
 		return TRUE
 	state = GAMEMODE_LAUNCHING
 	round_time = 0
-	round_time_next = HORDE_DELAY_LAUNCHING
+	round_time_next = FIREFIGHT_DELAY_LAUNCHING
 	announce("Central Command Mission Update","Mission is a Go","Shuttles are prepped and ready to depart into the Area of Operations. All crew are cleared to launch.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
 	allow_launch = TRUE
 	SSshuttle.next_pod_launch = world.time + SECONDS_TO_DECISECONDS(5)
 	return TRUE
 
-/gamemode/horde/proc/on_launching()
+/gamemode/firefight/proc/on_launching()
 	var/time_to_display = round_time_next - round_time
 	set_status_display("mission","LNCH\n[get_clock_time(time_to_display)]")
 	if(time_to_display >= 0)
@@ -198,29 +198,29 @@
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
 	announce("Central Command Mission Update","Count your people","We counting [unsc_points] UNSC soldiers down here right now, try to save as many as you can",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
-/*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
 		world.end(WORLD_END_COVENANT_VICTORY)
 	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
 		world.end(WORLD_END_NANOTRASEN_VICTORY)
 	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)*/
-//	for(var/objective/O in crew_active_objectives)
-//		O.on_gamemode_playable()
+		world.end(WORLD_END_SYNDICATE_VICTORY)
+	for(var/objective/O in crew_active_objectives)
+		O.on_gamemode_playable()
 	return TRUE
 
-/gamemode/horde/proc/on_fighting()
+/gamemode/firefight/proc/on_fighting()
 
 	if(unsc_points < urf_points && covenant_points < urf_points)
 		world.end(WORLD_END_SYNDICATE_VICTORY)
 
-/*	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
+	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
 		world.end(WORLD_END_COVENANT_VICTORY)
 	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
 		world.end(WORLD_END_NANOTRASEN_VICTORY)
 	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)*/
+		world.end(WORLD_END_SYNDICATE_VICTORY)
 
-/*	if(next_spawn_check > world.time)
+	if(next_spawn_check > world.time)
 		return TRUE
 
 	next_spawn_check = world.time + SECONDS_TO_DECISECONDS(1) //Incase a check fails.
@@ -236,14 +236,14 @@
 
 	wave_to_spawn = wave_we_want_to_spawn //Only spawn 4 in a group at a time.
 
-	var/obj/marker/map_node/spawn_node = find_horde_spawn()
+	var/obj/marker/map_node/spawn_node = find_firefight_spawn()
 	if(!spawn_node)
-		log_error("ERROR: Could not find a valid horde spawn!")
+		log_error("ERROR: Could not find a valid firefight spawn!")
 		return TRUE
 
-	var/obj/marker/map_node/target_node = find_horde_target()
+	var/obj/marker/map_node/target_node = find_firefight_target()
 	if(!target_node)
-		log_error("ERROR: Could not find a valid horde target!")
+		log_error("ERROR: Could not find a valid firefight target!")
 		return TRUE
 
 	var/obj/marker/map_node/list/found_path = spawn_node.find_path(target_node)
@@ -257,7 +257,7 @@
 	while(wave_to_spawn > 0)
 		wave_to_spawn--
 		CHECK_TICK(50,FPS_SERVER*5)
-		var/mob/living/L = create_horde_mob(T)
+		var/mob/living/L = create_firefight_mob(T)
 		L.ai.set_path(found_path)
 		for(var/k in priority_targets)
 			L.ai.obstacles[k] = TRUE
@@ -271,9 +271,9 @@
 			tracked_enemies -= k
 			continue
 		if(L.ai && !L.ai.current_path)
-			L.ai.set_path(found_path)*/
+			L.ai.set_path(found_path)
 
-/*/gamemode/horde/proc/get_wave_frequency()
+/gamemode/firefight/proc/get_wave_frequency()
 
 	var/player_count = length(all_clients)
 
@@ -289,7 +289,7 @@
 
 	return SECONDS_TO_DECISECONDS(60)
 
-/gamemode/horde/proc/get_wave_size()
+/gamemode/firefight/proc/get_wave_size()
 
 	var/player_count = length(all_clients)
 
@@ -303,18 +303,18 @@
 		if(30 to INFINITY)
 			return 6
 
-	return 4*/
+	return 4
 
 
 
-/*/gamemode/horde/proc/get_enemy_types_to_spawn()
-	return enemy_types_to_spawn*/
+/gamemode/firefight/proc/get_enemy_types_to_spawn()
+	return enemy_types_to_spawn
 
-/*/gamemode/horde/proc/on_killed_enemy(var/mob/living/L,var/args)
+/gamemode/firefight/proc/on_killed_enemy(var/mob/living/L,var/args)
 
 	for(var/k in SSholiday.holidays)
 		var/holiday/H = SSholiday.holidays[k]
-		H.horde_post_death(L)
+		H.firefight_post_death(L)
 
 	if(!(L in tracked_enemies))
 		return FALSE
@@ -324,18 +324,18 @@
 
 	points += 0.1
 
-	return TRUE*/
+	return TRUE
 
-/*/gamemode/horde/proc/get_enemies_to_spawn()
+/gamemode/firefight/proc/get_enemies_to_spawn()
 	. = enemies_to_spawn_base
 	if(enemies_to_spawn_per_player)
 		. += min(30,length(all_players))*enemies_to_spawn_per_player
 	if(enemies_to_spawn_per_minute)
 		. += DECISECONDS_TO_SECONDS(world.time)/(60*enemies_to_spawn_per_minute)
 	. = min(.,50)
-	return FLOOR(.,1)*/
+	return FLOOR(.,1)
 
-/*/gamemode/horde/proc/find_horde_target()
+/gamemode/firefight/proc/find_firefight_target()
 
 	var/picks_remaining = 3
 
@@ -353,8 +353,8 @@
 			chosen_target = get_turf(pick(priority_targets))
 			if(chosen_target.z != Z_LEVEL_MISSION)
 				continue
-		else if(length(horde_targets))
-			chosen_target = get_turf(pick(horde_targets))
+		else if(length(firefight_targets))
+			chosen_target = get_turf(pick(firefight_targets))
 			if(chosen_target.z != Z_LEVEL_MISSION)
 				continue
 		else
@@ -365,9 +365,9 @@
 			continue
 		return N_end
 
-	return null*/
+	return null
 
-/*/gamemode/horde/proc/find_horde_spawn()
+/gamemode/firefight/proc/find_firefight_spawn()
 
 	var/picks_remaining = 3
 
@@ -391,4 +391,4 @@
 			continue
 		return N_start
 
-	return null*/
+	return null

@@ -37,7 +37,10 @@
 	return TRUE
 
 /mob/living/advanced/player/covenant/proc/covenant_point_loss()
-	var/gamemode/horde/halo/penisshit = SSgamemode.active_gamemode
+	var/gamemode/horde/penisshit = SSgamemode.active_gamemode
+	var/gamemode/firefight/probablyshit = SSgamemode.active_gamemode
+	if(istype(probablyshit))
+		probablyshit.covenant_points -= 1
 	if(istype(penisshit))
 		penisshit.covenant_points -= 1
 
