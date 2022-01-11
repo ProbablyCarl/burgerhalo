@@ -45,8 +45,8 @@
 "aS" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "aT" = (/obj/structure/interactive/drop_pod,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "aU" = (/obj/decal/hazard/black{dir = 8; icon_state = "line"},/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
-"aV" = (/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
-"aW" = (/obj/structure/interactive/misc/halo/decor/machinery/tower,/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
+"aV" = (/turf/simulated/hazard/lava,/area/burgerstation/tax)
+"aW" = (/turf/simulated/floor/basalt,/area/burgerstation/tax)
 "aX" = (/obj/decal/hazard/black{dir = 4; icon_state = "line"},/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
 "aY" = (/obj/structure/interactive/chair{dir = 4},/obj/structure/interactive/lighting/fixture/tube/station{dir = 4},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "aZ" = (/turf/simulated/floor/tile/shuttle,/area/transit/dropship/alpha/station)
@@ -56,8 +56,8 @@
 "bd" = (/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "be" = (/obj/structure/interactive/misc/halo/signs/armory{dir = 1; icon_state = "armory"},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "bf" = (/obj/structure/interactive/status_display/global_display/drop_pod,/turf/simulated/wall/metal/reinforced,/area/burgerstation/armory)
-"bg" = (/turf/simulated/floor/chasm,/area/halo/exterior/jungle)
-"bh" = (/obj/structure/interactive/barricade{dir = 1},/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
+"bg" = (/turf/simulated/floor/chasm,/area/burgerstation/tax)
+"bh" = (/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "bi" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/plating,/area/burgerstation/maint)
 "bj" = (/turf/simulated/wall/metal/reinforced,/area/burgerstation/briefing)
 "bk" = (/obj/marker/spawning/window/reinforced,/turf/simulated/floor/plating,/area/burgerstation/briefing)
@@ -100,7 +100,7 @@
 "bV" = (/obj/structure/interactive/chair/stool/bar,/obj/marker/nt/odst,/turf/simulated/floor/tile,/area/burgerstation/cafe/kitchen)
 "bW" = (/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
 "bX" = (/obj/marker/spawning/window/reinforced,/turf/simulated/floor/plating,/area/burgerstation/cafe/kitchen)
-"bY" = (/turf/simulated/floor/basalt,/area/halo/exterior/jungle)
+"bY" = (/turf/simulated/wall/rock/indestructable,/area/burgerstation/tax)
 "bZ" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/dark,/area/burgerstation/armory/shooting_range)
 "ca" = (/obj/structure/interactive/misc/mirror/chargen{pixel_y = 25},/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/green,/area/burgerstation/cryo)
 "cb" = (/obj/structure/interactive/crate/trash,/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
@@ -108,13 +108,13 @@
 "cd" = (/mob/living/advanced/npc/dummy/armor_heavy{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/grey/single,/area/burgerstation/armory/shooting_range)
 "ce" = (/obj/structure/interactive/vending/soda/full,/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
 "cf" = (/obj/structure/interactive/status_display/global_display/drop_pod,/turf/simulated/wall/metal/reinforced,/area/burgerstation/armory/shooting_range)
-"cg" = (/turf/simulated/hazard/lava,/area/halo/exterior/jungle)
+"cg" = (/turf/simulated/floor/forerunner,/area/burgerstation/tax)
 "ch" = (/obj/decal/hazard{dir = 1},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "ci" = (/obj/decal/hazard{dir = 10},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "cj" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
-"ck" = (/obj/structure/interactive/barricade{dir = 1},/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
+"ck" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "cl" = (/obj/marker/map_node,/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/green,/area/burgerstation/cryo)
-"cm" = (/obj/marker/lobby,/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
+"cm" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "cn" = (/obj/structure/interactive/status_display/global_display/drop_pod,/turf/simulated/wall/metal/reinforced,/area/burgerstation/cafe/kitchen)
 "co" = (/obj/structure/interactive/computer/console{dir = 1; icon_state = "computer"},/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
 "cp" = (/obj/structure/interactive/door/airlock/shuttle,/turf/simulated/floor/tile/shuttle,/area/transit/dropship/alpha/station)
@@ -126,7 +126,7 @@
 "cv" = (/obj/marker/map_node,/turf/simulated/floor/tile/blue,/area/burgerstation/hanger)
 "cw" = (/obj/decal/hazard{dir = 6},/obj/structure/interactive/computer/console/remote_flight/alpha,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "cx" = (/obj/structure/interactive/status_display/global_display/alpha,/turf/simulated/wall/metal,/area/burgerstation/hanger)
-"cy" = (/obj/structure/interactive/status_display/global_display/drop_pod,/turf/simulated/wall/metal/reinforced,/area/burgerstation/engineering)
+"cy" = (/obj/structure/interactive/bed/sleeper/medical,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
 "cz" = (/obj/decal/hazard/corner{dir = 8},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "cA" = (/obj/decal/hazard/corner{dir = 4},/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "cB" = (/obj/structure/interactive/vending/security/ammo/halo/odst,/turf/simulated/floor/tile/command,/area/burgerstation/armory)
@@ -142,14 +142,14 @@
 "cL" = (/obj/structure/interactive/door/airlock/glass,/turf/simulated/floor/tile/command,/area/burgerstation/armory)
 "cM" = (/obj/marker/map_node,/turf/simulated/floor/tile/dark,/area/burgerstation/cryo)
 "cN" = (/obj/marker/nt/odst,/obj/structure/interactive/bed,/turf/simulated/floor/tile/green,/area/burgerstation/cryo)
-"cO" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
+"cO" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "cP" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "cQ" = (/mob/living/advanced/npc/halo/marine,/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "cR" = (/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
 "cS" = (/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
-"cT" = (/obj/structure/interactive/barricade,/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
-"cU" = (/obj/structure/smooth/table/reinforced,/obj/item/halo/mortar,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
-"cV" = (/turf/simulated/floor/forerunner,/area/halo/exterior/jungle)
+"cT" = (/obj/structure/interactive/misc/halo/decor/tanktrap,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"cU" = (/obj/structure/smooth/table/reinforced,/obj/item/supply_remote/crates/ammunition,/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
+"cV" = (/obj/structure/interactive/barricade{dir = 1},/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
 "cW" = (/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile/dark/single,/area/burgerstation/hanger)
 "cX" = (/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
 "cY" = (/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hanger)
@@ -161,22 +161,40 @@
 "de" = (/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
 "df" = (/obj/marker/map_node,/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
 "dg" = (/obj/marker/map_node,/turf/simulated/floor/tile,/area/burgerstation/cafe/kitchen)
-"dh" = (/turf/simulated/wall/rock/indestructable,/area/halo/exterior/jungle)
+"dh" = (/obj/structure/interactive/barricade{dir = 1},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
 "di" = (/obj/structure/interactive/misc/mirror/chargen{pixel_x = 25; pixel_y = -3},/obj/marker/map_node,/turf/simulated/floor/tile/command,/area/burgerstation/dressing)
 "dj" = (/obj/decal/hazard,/obj/marker/map_node,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "dk" = (/obj/marker/map_node,/mob/living/advanced/npc/halo/marine{dir = 8; icon_state = "directional"},/turf/simulated/floor/tile/dark,/area/burgerstation/hall)
-"dl" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"dl" = (/obj/structure/smooth/wall/sand,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
 "dm" = (/obj/structure/smooth/table/reinforced,/obj/structure/interactive/shop,/obj/item/grenade/landmine/proximity/explosive/halo,/turf/simulated/floor/tile/dark,/area/burgerstation/armory)
 "dn" = (/obj/structure/interactive/door/airlock{locked = 1},/turf/simulated/floor/tile/dark,/area/burgerstation/maint)
-"dp" = (/obj/structure/interactive/misc/halo/decor/tanktrap,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"dr" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{icon_state = "base_destroyed"},/turf/simulated/hazard/lava,/area/halo/exterior/jungle)
-"ds" = (/obj/structure/interactive/barricade,/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
-"du" = (/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"dv" = (/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/halo/exterior/jungle)
-"dw" = (/obj/structure/interactive/crate/covenant/tall,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"dx" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"dy" = (/obj/structure/interactive/vending/security/gundrobe/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
-"dC" = (/obj/structure/interactive/vending/security/ammo/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
+"do" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dp" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/obj/structure/smooth/wall/sand,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dq" = (/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dr" = (/obj/structure/interactive/crate/covenant,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dt" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"du" = (/obj/structure/interactive/vending/security/ammo/halo/cov/empty,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dv" = (/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dw" = (/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dx" = (/obj/structure/interactive/misc/halo/decor/machinery/tower,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dy" = (/obj/structure/interactive/misc/halo/decor/vehicles/spirit{icon_state = "base_destroyed"},/turf/simulated/hazard/lava,/area/burgerstation/tax)
+"dz" = (/obj/structure/interactive/bed/padded,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
+"dA" = (/obj/structure/smooth/table/glass,/obj/item/storage/kit/syndicate/filled,/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dB" = (/obj/item/soapstone/red,/turf/simulated/floor/tile/dark,/area/burgerstation/maint)
+"dC" = (/obj/marker/lobby,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dD" = (/obj/structure/smooth/table/glass,/obj/item/soapstone/blue,/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dE" = (/obj/structure/smooth/table/glass,/obj/item/supply_remote/barbecue,/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
+"dF" = (/obj/structure/smooth/table/glass,/obj/item/container/blood_pack/full/o_negative,/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dG" = (/obj/item/defib,/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
+"dH" = (/obj/structure/smooth/table/glass,/obj/item/cell_charger,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
+"dI" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/blue_baby,/area/burgerstation/engineering)
+"dJ" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dK" = (/obj/structure/interactive/barricade,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dL" = (/obj/structure/interactive/barricade,/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
+"dM" = (/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dN" = (/obj/marker/map_node,/turf/simulated/floor/basalt,/area/burgerstation/tax)
+"dO" = (/obj/structure/interactive/ground_ore_deposit/map/carbon,/obj/marker/map_node,/turf/simulated/floor/cave_dirt,/area/burgerstation/tax)
+"dP" = (/obj/marker/map_node,/turf/simulated/floor/plating/shuttle,/area/burgerstation/tax)
 "eq" = (/turf/simulated/wall/rock/indestructable,/area)
 "es" = (/turf/simulated/floor/stair{dir = 8; icon_state = "stair"},/area/burgerstation/briefing)
 "et" = (/obj/decal/hazard/black{dir = 8; icon_state = "line"},/turf/simulated/floor/tile/nanotrasen,/area/burgerstation/briefing)
@@ -212,13 +230,8 @@
 "fb" = (/obj/structure/interactive/misc/halo/decor/machinery/table{dir = 4; icon_state = "holotable"},/turf/simulated/floor/tile/dark,/area/burgerstation/briefing)
 "fc" = (/obj/structure/interactive/misc/halo/decor/machinery/table{dir = 8; icon_state = "holotable"},/turf/simulated/floor/tile/security,/area/burgerstation/briefing)
 "fe" = (/turf/simulated/wall/metal/reinforced,/area/burgerstation/engineering)
-"ff" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/tile/orange,/area/burgerstation/engineering)
-"fg" = (/obj/item/storage/heavy/trash_pile,/turf/simulated/floor/tile/orange,/area/burgerstation/engineering)
-"fh" = (/turf/simulated/floor/tile/orange,/area/burgerstation/engineering)
 "fi" = (/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
-"fj" = (/obj/item/storage/heavy/trash_pile,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
 "fZ" = (/obj/decal/hazard/corner{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
-"ht" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/orange,/area/burgerstation/engineering)
 "hF" = (/obj/decal/hazard{dir = 8},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/burgerstation/hanger)
 "iv" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/dark,/area/burgerstation/maint)
 "iY" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/plating,/area/burgerstation/maint)
@@ -226,11 +239,9 @@
 "me" = (/obj/structure/interactive/chair{dir = 8},/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "mJ" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/turf/simulated/floor/tile/command,/area/burgerstation/armory)
 "mM" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/command,/area/burgerstation/armory)
-"mZ" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
 "nN" = (/obj/structure/interactive/telecomms/station,/turf/simulated/floor/plating,/area/burgerstation/maint)
 "pn" = (/obj/structure/interactive/chair{dir = 4},/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/shuttle/blue,/area/transit/dropship/alpha/station)
 "pA" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 4},/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
-"rd" = (/obj/item/storage/heavy/trash_pile,/obj/structure/interactive/lighting/fixture/tube/station/stronger,/turf/simulated/floor/tile/dark,/area/burgerstation/engineering)
 "ss" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 1},/turf/simulated/floor/tile/green,/area/burgerstation/cafe/kitchen)
 "vJ" = (/turf/simulated/floor/tile/dark,/area/burgerstation/maint)
 "vN" = (/obj/structure/interactive/lighting/fixture/tube/station/stronger{dir = 8},/obj/structure/interactive/misc/mirror/chargen{pixel_y = -36},/turf/simulated/floor/tile/green,/area/burgerstation/cryo)
@@ -271,7 +282,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaP
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPexexexbiexexexexexexexexexexexexbiexexexexexexexexexeydedebAesetezcEezevewbAdedebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPexcGcGcGcGcGcGcGcGcGbvaPaPaPaPaPaPaPaPaPaPexaPaPexaPbjccbAbAbAaGeAcUeCaGbAbAbAkIbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPexcGbzcGbzcGbzcGbzcGIibvvJvJivvJaPcZivnNaPexexbiexaPbjeDbAbAbAbAbAbAbAbAbAbAbAdebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPiYcGcIcGcIcGcIcGcIcGvJaPvJvJvJvJdnvJvJvJaPaPaPaPaPaPbjeDbAbAeEeFbAeGbAeHeFbAbAdebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPiYcGcIcGcIcGcIcGcIcGvJaPvJvJvJvJdnvJvJdBaPaPaPaPaPaPbjeDbAbAeEeFbAeGbAeHeFbAbAdebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPexeIcJcKcJcKcJcKcJabaNabbfabababadadadadadadadadacacbjdebAbAeJeKbAeMbAeNeKbAbAdebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPexcGcJcJcJbDcJcJcJaNaecBcFcFcBcFadaiaiaiaiaicabradadaddebjbAeOePbAeQbAeOeRbAbjdebjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakakakakeSakbwakakakakakakabaecHalalcHaeadcNbFbFbFamajanadaoadccbAbAbAbAbAbAbAbAbAbAbAkIbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -284,18 +295,18 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapapaxaybmaZbnaZbmaZbnayaDcRakbddbbxbxbxbxcfbx
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaIaIaxaybmaZbnbCbmaZbnayaDaIbwbdbdbxbEbHINbHbHbIbHbxbdcSbybJbKbLbMWMbJbyapapapaTaTapaTaTapaTaTapapbobAbAbAbObObOcDbQbkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapdcauaypnaZbnaZbmaZmeayhFapakTubdbxbRbRbGbRbRbHbSbxbdbdbybTbUbUbUbVbWbXapapapdcapapapapapapapapapakbObAeZfabAbObObQbkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakHWapaxaybmaZbnaZbmaZbnayaDdcakbdbdbZbRbRbGbRbRbHbRbxbdbdcnpAbVbUdgbPcbbXapapapapapapapapapapdcapapakbObAfbfcbAdfbObQbkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcWaIaxblbmaZbnaZbmaZbnblaDaIbwbdbdbxbHbHImbHcdbHbHbxcXbdbycebNbNbWssbWbyapapapaTaTapaTaTapaTaTapapbobAbAbAbObObOcDbQbkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakcWaIaxblbmaZbnaZbmaZbnblaDaIbwbdbdbxbHbHImbHcdbHbHbxcXbdbycedEbNbWssbWbyapapapaTaTapaTaTapaTaTapapbobAbAbAbObObOcDbQbkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapapaxayaYaZbnbabmaZbcayaDcRakbddkbxbxbxbxcfbxbxbxbxdbbdbybybybycjbybycnTLapapaTaTapaTaTapaTaTapIfbwakctezbAbObAezctbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapcYaxaybmSlaZSlaZSlbnayaDapbobdbdbdbdbdbdYpbdbdbpbdbdbdbdbqbdaSdbbdbqboapapapaTaTapaTaTapaTaTapapapakbjcobsbsbscoaGbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapapaxayayaycpaKcpayayayaDapakTucqbdbdcqbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdakaQaQapaTaTapaTaTapaTaTapaQaQakbjbjbkbkbkbjbjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakRLdaaxcrcrcrbacsbacrcrcraDdaababcLbfabcLabadadadadadaOaOadadadadbdbdbdakakaQOWaTaTOWaTaTOWaTaTOWaQakakacacacacacacacacaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapapahchchcicucucvcwcxchfZapabaEaedmaFaeaEadcNcNcNcNamamajadaoadfefffefeakakakakakakakakakakakakakakaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakapapapdcczchchchcAdcapapapabatalalalalafadQTcMamamamcMajavVUadfgfhfhhtfgfhfhfhhtfhfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakakakakakakbwakakakakakakabmMcHalalcHmJadcNbFbFbFamajanadaHadfhfififhfififhfififgfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcJcJcJYgcJcJcJaNaecBcFcFcBcFadcCcCcCcCcCvNbradadadfhfecyfhfififgcyfefhfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcJcKcJcKcJcKcJabaNabbfabababadadadadadadadadaPaPfefhfefefgfififhfefefgfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcIcGcIcGcIcGcIcGexaPaPaPaPaPaPaPaPaPaPaPaPaPexexfffhfjrdfhfififhmZfjfgfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGdicGdicGdicGdicGexexexexexbiexexexexexexexbiexaPfefhfhfhfhfhfgfhfhfhfhfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakapapahchchcicucucvcwcxchfZapabaEaedmaFaeaEadcNcNcNcNamamajadaoadfedofefeakakakakakakakakakakakakakakaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakapapapdcczchchchcAdcapapapabatalalalalafadQTcMamamamcMajavVUaddqdqdqdtdqdqdqdqdtdqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakakakakakakakbwakakakakakakabmMcHalalcHmJadcNbFbFbFamajanadaHaddqfidzdFdGdHdFdzfidqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcJcJcJYgcJcJcJaNaecBcFcFcBcFadcCcCcCcCcCvNbradadaddqfifififififififidqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcJcKcJcKcJcKcJabaNabbfabababadadadadadadadadaPaPfedqfifififififififidqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcIcGcIcGcIcGcIcGexaPaPaPaPaPaPaPaPaPaPaPaPaPexexdodqcyfidDcyfidAcyfidqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGdicGdicGdicGdicGexexexexexbiexexexexexexexbiexaPfedqdqdqdIdqdqdqdqdIdqfeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacGcGcGcGcGcGcGcGcGexaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPfefefefefefefefefefefefeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPaPaPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -320,22 +331,22 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqcgbYbgbgbYbYbYdududududududududududubYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqcgbYbgbgbYbYbYdudududldldududududubYbYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqcgcgbYbgbYbYbYdudududydldududududlbYbYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqcgcgbYbYbYbYbYdldwdududpbhckdudldldubYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqcgcgcgbYbYdudldldudududxdvdudududududubYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgbYbYdududCdudldldudvdudududududldldhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgbYbYdududuaVaVaVdududududldudududldhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgcgbYbYduduaVaWaVdududpdldldududududhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgdrbYbYduducOdscmdudududududududududhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgcgbYbYdududldudududvdudududldldubYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgcgbYbYdududldldududvdududududlbYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYcgcgcgbYbYdudududpduducTdsdldududubYbYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYbYcgcgbYbYdudududududududldldudududubYdhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYbYcgcgbYbYdudldldudududududududududldudhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYbYbYcgcgbYbYdudldududududududldududldldhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqbYbYbYcgcgbYbYdududududududududldududududhcVcVcVcVcVeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaVaWbgbgaWaWaWbhbhbhbhbhbhbhdMbhbhbhaWaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaVaWbgbgaWaWaWbhbhbhckckbhbhbhbhbhaWaWaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaVaVaWbgaWaWaWbhbhdMcmckbhbhbhbhckaWdNaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaVaVaWaWaWaWaWckcObhbhcTcVdhdldpdpbhaWaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaVaVaVaWaWbhckckbhbhbhdrdvbhdMbhdlbhbhaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaWaWbhbhdubhckckbhdvbhbhbhbhbhckckbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaWaWbhbhbhbhckbhbhdlbhbhckcVdhdwckbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaVaWaWbhbhbhdMbhbhdlcTdOckdwdxdPbhbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVdyaWaWbhbhbhbhdCbhdlbhbhbhdJdKdwbhbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaVaWaWbhbhckbhbhbhdvbhbhbhckckbhaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaVaWaWbhbhckckbhbhdvbhdMbhdlckaWaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaVaVaVaWaWbhbhbhcTbhbhdLdKdpdldlbhaWaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaWaVaVaWaWbhbhbhdMbhbhbhckckbhbhbhdMaWbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaWaVaVaVaWbhckckbhbhbhbhbhbhbhbhbhckbhbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaWaWaVaVaWaWbhckbhbhbhbhbhbhckbhbhckckbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqaWaWaWaVaVaWaWbhbhbhbhbhbhbhdMckbhbhbhbhbYcgcgcgcgcgeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqeqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

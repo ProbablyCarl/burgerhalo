@@ -73,6 +73,19 @@
 	icon_state = "dead"
 	return ..()
 
+//mapped / spawned deployable turret for mapper / admin use.
+/mob/living/simple/turret/unsc
+	name = "deployed sentry"
+	desc = "Looks like the controls are locked out."
+	icon = 'icons/mob/living/simple/turret_deployable_2.dmi'
+	icon_state = "living"
+	iff_tag = "NanoTrasen"
+	loyalty_tag = "NanoTrasen"
+	stored_weapon = /obj/item/weapon/ranged/energy/unsc_sentry
+
+/mob/living/simple/turret/unsc/post_death()
+	icon_state = "dead"
+	return ..()
 
 /mob/living/simple/turret/deployable
 	name = "deployed sentry"
