@@ -2,6 +2,7 @@
 #define FIRST_NAME_MALE (pick(SStext.first_names_male))
 #define FIRST_NAME_FEMALE (pick(SStext.first_names_female))
 #define LAST_NAME (pick(SStext.last_names))
+#define S_LAST_NAME (rand(1111,9999))
 
 //cov
 #define FIRST_NAME_SANG (pick(SStext.first_sangheili))

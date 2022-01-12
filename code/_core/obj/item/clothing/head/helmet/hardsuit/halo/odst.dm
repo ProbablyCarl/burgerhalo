@@ -25,8 +25,6 @@
 
 	value = 200
 
-//	additional_clothing = list(/obj/item/clothing/glasses/nightvision)
-
 /obj/item/clothing/head/helmet/hardsuit/halo/odst/medic
 	name = "ODST medic helmet"
 	desc = "GET FUCKED COVIES!"

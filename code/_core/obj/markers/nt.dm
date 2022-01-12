@@ -47,3 +47,7 @@ var/global/list/all_nt_markers = list()
 /obj/marker/nt/odst_commander
 	name = "ODST commander"
 	spawn_type = /mob/living/advanced/player/nt/halo/odst/commander
+
+/obj/marker/nt/spartan_three
+	name = "S-III"
+	spawn_type = /mob/living/advanced/player/nt/halo/spartan
