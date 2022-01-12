@@ -64,7 +64,7 @@
 	attachment_undermount_offset_x = 23 - 12
 	attachment_undermount_offset_y = 12 - 13
 
-	firing_pin = /obj/item/firing_pin/electronic/iff/nanotrasen
+	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate
 
 /obj/item/weapon/ranged/bullet/magazine/shotgun/halo/kv32/get_base_spread()
 	return 0.3

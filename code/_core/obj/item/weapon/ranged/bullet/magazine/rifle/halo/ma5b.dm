@@ -85,3 +85,8 @@
 /obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/insurrection
 
 	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate
+
+/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/commando
+	name = "\improper MA5D Assault Rifle"
+	shoot_delay = 0.8
+	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate

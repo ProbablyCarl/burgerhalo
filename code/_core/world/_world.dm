@@ -152,6 +152,9 @@ var/global/world_state = STATE_STARTING
 		if(WORLD_END_DRAW)
 			nice_reason = "Draw"
 			announce("Server","Draw","No one managed to complete their objectives!")
+		if(WORLD_END_FIREFIGHT)
+			nice_reason = "Firefight Conclusion"
+			announce("Server","Firefight Conclusion","Reserves have been exhausted.")
 
 	play_sound_global('sound/round_end/130lc_110_mas.ogg',all_mobs_with_clients)
 

@@ -186,6 +186,72 @@
 
 
 
+/turf/unsimulated/generation/snow/firefight//for firefight only, as it spawns objectives and pod points
+	name = "EXTREME snow generation"
+	icon_state = "snow"
+
+/turf/unsimulated/generation/snow/firefight/generate(var/size = WORLD_SIZE)
+
+	var/noise = 0
+
+	var/instances = 4
+
+	for(var/i=1,i<=instances,i++) //Use sin/cosine?
+
+		var/used_x = WRAP(x + i*WORLD_SIZE*0.25,1,255)
+		var/used_y = WRAP(y + i*WORLD_SIZE*0.25,1,255)
+
+		var/seed_resolution = WORLD_SIZE * 0.5
+		var/x_seed = used_x / seed_resolution
+		if(x_seed > 1)
+			x_seed = 1 - (x_seed - 1)
+		var/y_seed = used_y / seed_resolution
+		if(y_seed > 1)
+			y_seed = 1 - (y_seed - 1)
+		var/found = text2num(rustg_noise_get_at_coordinates("[SSturfs.seeds[2] + i]","[x_seed]","[y_seed]"))
+		noise += found
+
+	noise = (noise/instances)
+
+	switch(noise) //Lower values means deeper.
+		if(-INFINITY to 0.1)
+			new /turf/simulated/wall/rock/snow(src)
+		if(0.1 to 0.4)
+			new /turf/simulated/floor/colored/snow(src)
+			if(prob(4))
+				new /obj/marker/generation/snow_grass(src)
+			else if(prob(2))
+				new /obj/marker/generation/plant/oxygen_fruit(src)
+		if(0.4 to 0.41)
+			new /turf/simulated/floor/colored/dirt/snow(src)
+		if(0.41 to 0.43)
+			new /turf/simulated/wall/rock/snow(src)
+		if(0.43 to 0.44)
+			new /turf/simulated/floor/colored/dirt/snow(src)
+		if(0.44 to 0.94)
+			new /turf/simulated/floor/colored/snow(src)
+			if(prob(1))
+				new /obj/marker/generation/plant/nitrogen_flower(src)
+			else if(prob(0.5))
+				new /obj/marker/generation/mob/snow_bear(src)
+			else if(prob(0.2))
+				new /obj/marker/objective_spawn(src)//sneaky
+			else if(prob(0.1))
+				new /obj/marker/drop_pod_location(src)//even better
+			else if(prob(1))
+				new /obj/marker/generation/snow_tree(src)
+			else if(prob(6))
+				new /obj/marker/generation/snow_grass(src)
+		if(0.94 to 0.95)
+			new /turf/simulated/floor/colored/dirt/snow(src)
+		if(0.95 to INFINITY)
+			new /turf/simulated/wall/rock/snow(src)
+
+	return ..()
+
+
+
+
 
 /turf/unsimulated/generation/jungle
 	name = "jungle generation"

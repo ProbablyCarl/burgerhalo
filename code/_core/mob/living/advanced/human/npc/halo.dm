@@ -43,6 +43,29 @@
 	dialogue_id = /dialogue/npc/soldier/second
 	var/loadout_to_use = /loadout/halo/urf_soldier
 
+/mob/living/advanced/npc/halo/urf/riflemen
+	ai = /ai/advanced/halo/urf/firefight
+
+/mob/living/advanced/npc/halo/urf/pointmen
+	loadout_to_use = /loadout/halo/urf_pointmen
+	ai = /ai/advanced/halo/urf/firefight
+
+/mob/living/advanced/npc/halo/urf/marksmen
+	loadout_to_use = /loadout/halo/urf_marksmen
+	ai = /ai/advanced/halo/urf/firefight
+
+/mob/living/advanced/npc/halo/urf/demolitions
+	loadout_to_use = /loadout/halo/urf_demolitions
+	ai = /ai/advanced/halo/urf/firefight
+
+/mob/living/advanced/npc/halo/urf/commando
+	loadout_to_use = /loadout/halo/urf_commando
+	ai = /ai/advanced/halo/urf/firefight
+
+/mob/living/advanced/npc/halo/urf/hmg
+	loadout_to_use = /loadout/halo/urf_hmg
+	ai = /ai/advanced/halo/urf/firefight
+
 /mob/living/advanced/npc/halo/urf/Initialize()
 
 	. = ..()

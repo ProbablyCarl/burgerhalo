@@ -663,6 +663,7 @@
 "mM" = (/obj/decal/hazard{dir = 10},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "mN" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior)
 "mO" = (/turf/simulated/wall/plastic/office/darker/indestructable,/area/halo/interior/geminus/mining)
+"mP" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "mQ" = (/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "mR" = (/obj/structure/interactive/lighting/fixture/bulb,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "mS" = (/turf/simulated/wall/plastic/office/darker,/area/halo/interior)
@@ -737,6 +738,7 @@
 "oj" = (/obj/decal/hazard{dir = 4},/obj/structure/interactive/lighting/fixture/floor/stronger,/turf/simulated/floor/plating,/area/halo/exterior/jungle)
 "ok" = (/obj/structure/smooth/table/wood,/obj/item/container/food/dynamic/chicken/cooked,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
 "ol" = (/obj/structure/smooth/table/wood,/obj/item/container/food/dynamic/meat/cooked_steak,/turf/simulated/floor/grass,/area/halo/exterior/jungle)
+"om" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 8},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "on" = (/turf/simulated/wall/brick/red/dark,/area/halo/interior)
 "oo" = (/obj/structure/interactive/door/airlock,/turf/simulated/floor/wood/rich,/area/halo/interior)
 "op" = (/obj/structure/smooth/table/rack/grey,/turf/simulated/floor/tile/dark,/area/halo/interior/geminus/car_storage)
@@ -1611,8 +1613,6 @@
 "Fd" = (/obj/structure/interactive/crate/engineering,/obj/item/deployable/mob/sentry,/obj/item/deployable/mob/sentry,/obj/item/magazine/minigun_46,/obj/item/magazine/minigun_46,/obj/item/powercell/industrial,/obj/item/powercell/industrial,/turf/simulated/floor/cave_dirt,/area/halo/exterior/jungle)
 "Fe" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "Ff" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 4; icon_state = "metal"},/turf/simulated/floor/colored/ash/dark,/area/halo/exterior/jungle)
-"Fg" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade,/mob/living/simple/turret/unsc{dir = 8},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
-"Fh" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 8},/mob/living/simple/turret/unsc{dir = 8},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "Fi" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/turf/simulated/floor/colored/sand/oasis,/area/halo/exterior/jungle)
 "Fj" = (/obj/structure/interactive/barricade{dir = 8},/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/mob/living/simple/turret/unsc{dir = 8},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
 "Fk" = (/obj/structure/interactive/barricade{dir = 1; icon_state = "metal"},/obj/structure/interactive/barricade{dir = 4; icon_state = "metal"},/mob/living/advanced/npc/halo/marine{dir = 1; icon_state = "directional"},/turf/simulated/floor/carpet/office,/area/halo/exterior/jungle)
@@ -1847,7 +1847,7 @@ mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabfLafaffLafasaf
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabfLafaffLfLfLaffLgKafafgIfLaddtdtdtdsdgacacacacacacafafbRafafafafafafafafafafafafafafafacacacacacafafafafafafafadaeaeaeadaCbBgWgXaCafafafafafgYafgYafbFadaeaeaeadacacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabfLfLafaffLgKgKgKgKfLfLfLfLadaeaeaeadafacacacacacacacacafafafafafafacacacacacacacacacacacacacacacacafasafafafafadaeaeaeadaCgTbggRaCbrafafafafafafafgZbFadaeaeaeadacacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabfLfLfLfLfLafaffLafaffLfLgCadaeaeaeadafafacacacacacacacafafafafafacacacacacacacacacacacacacacacacacafafafafafafadaeaeaeadaCaChaaCaCbrafasafbLafafafasbFadaeaeaeadacacacacacacacacacacacacacacacacacacab
-mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadfLfLfLfLfLfLgCafaffLfLfLadaeaeaeadafafFgafacacacacacacacafafafacacacacacacacacacacacacacacacacacafafafafafafadaehbaeadbFasafafafafbRafafaCaCbAaCaCbXadaeaeaeadacacacacacacacacacacacacacacacacacacab
+mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadfLfLfLfLfLfLgCafaffLfLfLadaeaeaeadafafmPafacacacacacacacafafafacacacacacacacacacacacacacacacacacafafafafafafadaehbaeadbFasafafafafbRafafaCaCbAaCaCbXadaeaeaeadacacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabaddefLfLfLfLfLfLfLfLfLfLfLadaeagaeadfLaffLfLacacacacacacacacacacacacacacacacacacacacacacacacacacafafafaffCafafadaeaeaeadbFafafbMbNbNhcbNbLaChdaUcgaSaCadcBaeaeadafacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadadadadadfLadadadadfLfLfLadaeaeaeadfLfLfLfLacacacacacacacacacacacacacacacacacacacacacacacacacacafafafafafasafadaeagaegQbFgYafbNhehfhfbNbRaCaRhgbgaRbjadaeagaeadafacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadadadadadadadadadadadadadadaeaeaeadaffLfLfLfLacacacacacacacacacacacacacacacacacacacacacacacacacacafafafacacafadaeaeaeadbFafgNhhhfhfhfbYafaCbHbhbfaRbjadaeaeaeadafafacacacacacacacacacacacacacacacacab
@@ -1872,7 +1872,7 @@ mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadhkhZiaiaibhZ
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadhkijiaikibiliaiaibhSimhkdeaeaeaeceingAfLafafhWiihWioipiqirhWiihWafafafafadaeaeaeadfLfLfLfLfLgCfLacacacacacacacacacacacacacacacacacacacacacacacacacacdsdtdtdtdsgDacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadhkhkisishkhkisishkithkhkadaebVbVbWiuiufLivafhWiwixiiiyiziiiAiBhWafafafafadaeagaeadfLfLfLfLfLfLfLacacacacacacacacacacacacacacacacacacacacacacacacacacdeaeaeaeadfLacacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadadiCiDiDiEadadiFadadadiGadaebViHiIadgiiJafafhWiKiLiiiiiiiiiMiwhWafasafafadaeaeaeadfLgCfLfLfLfLfLacacacacacacacacacacacacacacacacacacacacacacacacacfLadaeaeaeaddefLafacacacacacacacacacacacacacacacab
-mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadaeaeaegOaeaeaeaeaeaeaeaeaeaeaeaeadadiufLafafhWiwiiiNiNiNiNiiiwhWafafafafadaeaeaeadfLfLfLfLfLfLfLacacacacacacacacacacacacacacacacacacacacacacfLfLfLfLadaeaeaeadadFhacacacacacacacacacacacacacacacacab
+mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadaeaeaegOaeaeaeaeaeaeaeaeaeaeaeaeadadiufLafafhWiwiiiNiNiNiNiiiwhWafafafafadaeaeaeadfLfLfLfLfLfLfLacacacacacacacacacacacacacacacacacacacacacacfLfLfLfLadaeaeaeadadomacacacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadiOaeagaeaeaeaeagiPbVaeaeagaeaeaeadiQbWbkafhWhWhWiRhWhWhWhWiRhWhWhWiJafafadaegMaeadfLfLaffLgCfLfLfLfLacacacacacfLfLgCfLfLacacacacacacacacacacfLfLfLfLadaegMaeadadfLafafacacacacacacacacacacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadaeaeiOaeaeaeaeaeiPbVaeaeaeiSaeaeadadiFfLafFnhWgViTgiFcFdiuiTgVhWFoiJafafadaeaeaeadfLafaffLfLfLfLfLfLacfLfLfLfLfLfLafafafaffLacacacacacacacacfLgCfLadadaeaeaeadafafafafacacacacacacacacafacacacacacab
 mImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImImIabadadadadadadadbWbWbWbWadadadadadadadadfLfLafafiUafafafaffLfLfLfLiVafafafafadaeaeaeadfLgKgKgKgKaffLfLfLfLfLfLfLgKgKgKgKgKgKfLfLacacacacacacacacfLfLadadadaeagaeadfLfLafafacacafafafafafacafafacacacacab

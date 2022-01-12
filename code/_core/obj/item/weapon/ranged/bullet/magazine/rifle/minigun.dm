@@ -61,3 +61,6 @@
 	. = ..()
 	. += (heat_max - heat_current)*10
 	return .
+
+/obj/item/weapon/ranged/bullet/magazine/rifle/minigun/insurrection
+	firing_pin = /obj/item/firing_pin/electronic/iff/syndicate

@@ -372,6 +372,119 @@
 		/obj/item/weapon/melee/sword/rev_bayonet
 	)
 
+/loadout/halo/urf_pointmen
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/insurrection,
+		/obj/item/clothing/feet/shoes/halo/combat/urf,
+		/obj/item/clothing/feet/shoes/halo/combat/urf/left,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/head/helmet/halo/insurrection,
+		/obj/item/clothing/overwear/armor/halo/insurrection,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/weapon/ranged/bullet/magazine/shotgun/halo/kv32,
+		/obj/item/magazine/halo/kv32,
+		/obj/item/magazine/halo/kv32,
+		/obj/item/magazine/halo/kv32,
+		/obj/item/magazine/halo/kv32,
+		/obj/item/magazine/halo/kv32,
+		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/magnum_2,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/weapon/melee/sword/rev_bayonet
+	)
+
+/loadout/halo/urf_marksmen
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/insurrection,
+		/obj/item/clothing/feet/shoes/halo/combat/urf,
+		/obj/item/clothing/feet/shoes/halo/combat/urf/left,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/head/helmet/halo/insurrection,
+		/obj/item/clothing/overwear/armor/halo/insurrection,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m395/insurrection,
+		/obj/item/magazine/halo/m395,
+		/obj/item/magazine/halo/m395,
+		/obj/item/magazine/halo/m395,
+		/obj/item/magazine/halo/m395,
+		/obj/item/magazine/halo/m395,
+		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/magnum_2,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/weapon/melee/sword/rev_bayonet
+	)
+
+/loadout/halo/urf_demolitions
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/insurrection,
+		/obj/item/clothing/feet/shoes/halo/combat/urf,
+		/obj/item/clothing/feet/shoes/halo/combat/urf/left,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/head/helmet/halo/insurrection,
+		/obj/item/clothing/overwear/armor/halo/insurrection,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/m41,
+		/obj/item/weapon/ranged/bullet/magazine/smg/halo/m7/insurrection,
+		/obj/item/magazine/halo/m7,
+		/obj/item/magazine/halo/m7,
+		/obj/item/magazine/halo/m7,
+		/obj/item/weapon/melee/sword/rev_bayonet
+	)
+
+/loadout/halo/urf_commando
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/insurrection/soe,
+		/obj/item/clothing/feet/shoes/halo/combat/soe,
+		/obj/item/clothing/feet/shoes/halo/combat/soe/left,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/head/helmet/hardsuit/halo/soe/leader,
+		/obj/item/clothing/overwear/hardsuit/halo/soe/leader,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/commando,
+		/obj/item/magazine/halo/ma5b,
+		/obj/item/magazine/halo/ma5b,
+		/obj/item/magazine/halo/ma5b,
+		/obj/item/magazine/halo/ma5b,
+		/obj/item/magazine/halo/ma5b,
+		/obj/item/weapon/ranged/energy/halo/cov_pistol/insurrection,
+		/obj/item/weapon/melee/sword/rev_bayonet
+	)
+
+/loadout/halo/urf_hmg
+	spawning_items = list(
+		/obj/item/clothing/uniform/halo/insurrection,
+		/obj/item/clothing/feet/shoes/halo/combat/urf,
+		/obj/item/clothing/feet/shoes/halo/combat/urf/left,
+		/obj/item/clothing/hands/gloves/colored/padded/black,
+		/obj/item/clothing/hands/gloves/colored/padded/black/left,
+		/obj/item/clothing/head/helmet/halo/insurrection,
+		/obj/item/clothing/overwear/armor/halo/insurrection,
+		/obj/item/clothing/belt/storage/colored/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/storage/pouch/triple/black,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/minigun/insurrection,
+		/obj/item/magazine/minigun_46,
+		/obj/item/weapon/ranged/bullet/magazine/pistol/halo/magnum_2,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/magazine/halo/magnum_police,
+		/obj/item/weapon/melee/sword/rev_bayonet
+	)
+
 /loadout/syndicate/halo/soe/cqb
 	spawning_items = list(
 		/obj/item/clothing/overwear/hardsuit/halo/soe/cqb,
