@@ -8,10 +8,8 @@
 		/*/mob/living/advanced/npc/halo/urf/demolitions = 6,*/
 		/mob/living/advanced/npc/halo/urf/commando = 15
 		/*/mob/living/advanced/npc/halo/urf/hmg = 1*/)
-	hidden = FALSE
+	hidden = TRUE
 	unsc_points = 15
-	urf_points = 250
-	covenant_points = 250
 
 	enemies_to_spawn_base = 5
 	enemies_to_spawn_per_player = 2

@@ -16,9 +16,9 @@
 	var/enemies_to_spawn_per_player = 0.5
 	var/enemies_to_spawn_per_minute = 0.1
 
-	var/unsc_points = 0
-	var/covenant_points = 0
-	var/urf_points = 0
+	var/unsc_points = 15
+	var/covenant_points = 15
+	var/urf_points = 15
 
 	var/next_spawn_check = 0
 
@@ -36,8 +36,6 @@
 			SSvote.create_vote(/vote/continue_round)
 		else
 			world.end(WORLD_END_NANOTRASEN_VICTORY)
-
-	return .
 
 /gamemode/firefight/proc/create_firefight_mob(var/desired_loc)
 	var/mob/living/L = pickweight(enemy_types_to_spawn)
@@ -61,7 +59,9 @@
 			create_firefight_mob(T)
 
 	for(var/obj/structure/interactive/computer/console/remote_flight/O in world)
-		if(O.z != Z_LEVEL_MISSION)
+		var/turf/T = get_turf(O)
+		var/area/A = T.loc
+		if(A.flags_area & FLAGS_AREA_NO_DAMAGE)
 			continue
 		firefight_targets += O
 
@@ -197,31 +197,24 @@
 	for(var/k in all_fog)
 		var/obj/effect/fog_of_war/F = k
 		F.remove()
-	announce("Central Command Mission Update","Count your people","We counting [unsc_points] UNSC soldiers down here right now, try to save as many as you can",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
-	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
-		world.end(WORLD_END_COVENANT_VICTORY)
-	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
-		world.end(WORLD_END_NANOTRASEN_VICTORY)
-	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)
+	announce("Central Command Mission Update","Count your people","We're counting [unsc_points] reserves at the ready. Hold the line.",ANNOUNCEMENT_STATION,'sound/voice/announcement/landfall_crew_0_minutes.ogg')
 	for(var/objective/O in crew_active_objectives)
 		O.on_gamemode_playable()
 	return TRUE
 
 /gamemode/firefight/proc/on_fighting()
 
-	if(unsc_points < urf_points && covenant_points < urf_points)
-		world.end(WORLD_END_SYNDICATE_VICTORY)
-
-	if(length(all_nt_markers) <= 0 && length(all_antag_markers) <= 0 && length(all_covenant_markers) >= 0)
-		world.end(WORLD_END_COVENANT_VICTORY)
-	if(length(all_antag_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_nt_markers) >= 0)
-		world.end(WORLD_END_NANOTRASEN_VICTORY)
-	if(length(all_nt_markers) <= 0 && length(all_covenant_markers) <= 0 && length(all_antag_markers) >= 0)
-		world.end(WORLD_END_SYNDICATE_VICTORY)
-
 	if(next_spawn_check > world.time)
 		return TRUE
+
+	if(unsc_points <= 0)
+		world.end(WORLD_END_FIREFIGHT)
+
+	if(urf_points <= 0)
+		world.end(WORLD_END_FIREFIGHT)
+
+	if(covenant_points <= 0)
+		world.end(WORLD_END_FIREFIGHT)
 
 	next_spawn_check = world.time + SECONDS_TO_DECISECONDS(1) //Incase a check fails.
 
@@ -246,7 +239,7 @@
 		log_error("ERROR: Could not find a valid firefight target!")
 		return TRUE
 
-	var/obj/marker/map_node/list/found_path = spawn_node.find_path(target_node)
+	var/list/obj/marker/map_node/found_path = spawn_node.find_path(target_node)
 	if(!found_path)
 		log_error("ERROR: Could not find a valid path from [spawn_node.get_debug_name()] to [target_node.get_debug_name()]!")
 		return TRUE
@@ -272,6 +265,7 @@
 			continue
 		if(L.ai && !L.ai.current_path)
 			L.ai.set_path(found_path)
+
 
 /gamemode/firefight/proc/get_wave_frequency()
 
@@ -348,14 +342,15 @@
 		picks_remaining--
 		CHECK_TICK(50,FPS_SERVER*10)
 		var/turf/chosen_target
-
 		if(length(priority_targets))
 			chosen_target = get_turf(pick(priority_targets))
-			if(chosen_target.z != Z_LEVEL_MISSION)
+			var/area/A = chosen_target.loc
+			if(A.flags_area & FLAGS_AREA_NO_DAMAGE)
 				continue
 		else if(length(firefight_targets))
 			chosen_target = get_turf(pick(firefight_targets))
-			if(chosen_target.z != Z_LEVEL_MISSION)
+			var/area/A = chosen_target.loc
+			if(A.flags_area & FLAGS_AREA_NO_DAMAGE)
 				continue
 		else
 			return null
@@ -368,6 +363,9 @@
 	return null
 
 /gamemode/firefight/proc/find_firefight_spawn()
+
+	if(!length(all_syndicate_spawns))
+		return null
 
 	var/picks_remaining = 3
 

@@ -1,5 +1,5 @@
 /gamemode/horde/
-	name = "URF vs UNSC vs Covenant"
+	name = "TDM"
 	desc = "Fight 20vs20vs20 on a medium sized map. Tickets are based on deaths."
 
 	var/list/horde_targets = list()
@@ -10,7 +10,7 @@
 
 	var/list/mob/living/enemy_types_to_spawn = list()
 
-	hidden = TRUE
+	hidden = FALSE
 
 	var/enemies_to_spawn_base = 4
 	var/enemies_to_spawn_per_player = 0.5

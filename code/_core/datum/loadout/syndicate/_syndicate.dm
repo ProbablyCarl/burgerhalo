@@ -454,7 +454,7 @@
 		/obj/item/clothing/belt/storage/colored/black,
 		/obj/item/storage/pouch/triple/black,
 		/obj/item/storage/pouch/triple/black,
-		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/insurrection,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/commando,
 		/obj/item/magazine/halo/ma5b,
 		/obj/item/magazine/halo/ma5b,
 		/obj/item/magazine/halo/ma5b,
