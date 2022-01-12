@@ -4,6 +4,7 @@ var/global/list/world_spawnpoints = list()
 var/global/list/mob_spawnpoints = list()
 var/global/list/chargen_spawnpoints = list()
 var/global/list/horde_spawnpoints = list()
+var/global/list/firefight_spawnpoints = list()
 
 /obj/marker/spawnpoint
 	name = "GENERATEPOINT"
@@ -42,3 +43,10 @@ var/global/list/horde_spawnpoints = list()
 
 /obj/marker/spawnpoint/horde/New()
 	horde_spawnpoints += get_turf(src)
+
+/obj/marker/spawnpoint/firefight
+	name = "firefight mob spawnpoint"
+	desc = "This is where firefight mobs spawn."
+
+/obj/marker/spawnpoint/firefight/New()
+	firefight_spawnpoints += get_turf(src)

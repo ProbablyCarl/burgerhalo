@@ -18,8 +18,8 @@
 
 	var/gamemode/G = SSgamemode.active_gamemode
 
-	if(istype(G,/gamemode/horde))
-		var/gamemode/horde/H = G
+	if(istype(G,/gamemode/firefight))
+		var/gamemode/firefight/H = G
 		H.priority_targets |= defend
 
 	return ..()

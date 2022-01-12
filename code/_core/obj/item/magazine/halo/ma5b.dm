@@ -8,7 +8,8 @@
 
 	weapon_whitelist = list(
 		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b = TRUE,
-		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/insurrection = TRUE
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/insurrection = TRUE,
+		/obj/item/weapon/ranged/bullet/magazine/rifle/halo/ma5b/commando = TRUE
 	)
 
 	ammo = /obj/item/bullet_cartridge/revolver_762
