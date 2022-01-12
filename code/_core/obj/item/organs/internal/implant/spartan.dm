@@ -1,7 +1,7 @@
 /obj/item/organ/internal/implant/torso/spartan
 	name = "spartan implant cluster"
 	desc = "Does various things. Spooky."
-	desc_extended = "A special implant that prevents the user from overdosing on chemicals by purging it from their bloodstream."
+	desc_extended = "Monitors the Spartan's body and broadcasts combat updates."
 	var/next_alert = 0
 
 	has_life = TRUE
