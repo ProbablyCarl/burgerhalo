@@ -7,7 +7,8 @@
 
 	muzzleflash_effect = /obj/effect/temp/muzzleflash/laser
 
-	collision_bullet_flags = FLAG_COLLISION_BULLET_LIGHT
+//	collision_bullet_flags = FLAG_COLLISION_BULLET_LIGHT
+	collision_bullet_flags = FLAG_COLLISION_BULLET_SOLID//temp
 
 	plane = PLANE_EFFECT_LIGHTING
 

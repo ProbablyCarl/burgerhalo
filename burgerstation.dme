@@ -470,7 +470,6 @@
 #include "code\_core\datum\enchantment\_enchantment.dm"
 #include "code\_core\datum\enchantment\enchantment_types.dm"
 #include "code\_core\datum\event\_event.dm"
-#include "code\_core\datum\event\economy_dump.dm"
 #include "code\_core\datum\experience\_experience.dm"
 #include "code\_core\datum\experience\attributes.dm"
 #include "code\_core\datum\experience\skills.dm"
