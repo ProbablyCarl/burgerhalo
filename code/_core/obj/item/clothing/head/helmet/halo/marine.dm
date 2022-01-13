@@ -45,3 +45,9 @@
 	desc = "Military. In space!"
 	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
 
+/obj/item/clothing/head/helmet/halo/marine/riley
+	name = "CH251 Riley Helmet"
+	icon = 'icons/obj/item/clothing/hats/riley_marine.dmi'
+	desc = "What the fuck?!"
+	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+
