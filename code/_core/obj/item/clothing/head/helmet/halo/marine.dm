@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet/halo/marine
-	name = "Olive Camo CH251 Helmet"
+	name = "CH251 Helmet"
 	icon = 'icons/obj/item/clothing/hats/marine.dmi'
 	desc = "Military. In space!"
 	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
@@ -24,3 +24,24 @@
 	size = SIZE_3
 
 	value = 100
+
+/obj/item/clothing/head/helmet/halo/marine/sl
+	name = "CH251 SL Helmet"
+	icon = 'icons/obj/item/clothing/hats/marine_sl.dmi'
+	desc = "Military. In space!"
+	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+
+
+/obj/item/clothing/head/helmet/halo/marine/engineer
+	name = "CH251 Engineer Helmet"
+	icon = 'icons/obj/item/clothing/hats/marine_engineer.dmi'
+	desc = "Military. In space!"
+	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+
+
+/obj/item/clothing/head/helmet/halo/marine/medic
+	name = "CH251 Medic Helmet"
+	icon = 'icons/obj/item/clothing/hats/marine_medic.dmi'
+	desc = "Military. In space!"
+	desc_extended = "The standard issue combat helmet worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+
