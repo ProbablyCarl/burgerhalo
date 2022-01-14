@@ -263,7 +263,8 @@
 		/obj/item/clothing/head/helmet/hardsuit/halo/odst/commander,
 		/obj/item/clothing/overwear/hardsuit/halo/odst/commander,
 		/obj/item/clothing/belt/storage/colored/black,
-		/obj/item/weapon/melee/sword/sabre
+		/obj/item/weapon/melee/sword/sabre,
+		/obj/item/halo/mortar,
 	)
 
 /loadout/nt/halo/odst/rifleman
@@ -304,7 +305,7 @@
 		/obj/item/magazine/halo/br55,
 		/obj/item/magazine/halo/br55,
 		/obj/item/grenade/timed/explosive/halo,
-		/obj/item/halo/mortar,
+//		/obj/item/halo/mortar,
 		/obj/item/supply_remote/crates/ammunition,
 		/obj/item/supply_remote/crates/ammunition,
 		/obj/item/supply_remote/crates/ammunition,

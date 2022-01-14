@@ -95,3 +95,6 @@
 	true_sight = TRUE
 	use_cone_vision = FALSE//360 degree scan.
 	assistance = 1
+
+/ai/turret/special/lobby//what do you think this is for?
+	active = TRUE
