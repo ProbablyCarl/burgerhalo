@@ -85,3 +85,7 @@
 			owner.do_say(pick(responses),language_to_use = language_to_use)
 
 	return .
+
+
+/ai/advanced/nanotrasen/lobby
+	active = TRUE

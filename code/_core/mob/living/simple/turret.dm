@@ -88,6 +88,9 @@
 	icon_state = "dead"
 	return ..()
 
+/mob/living/simple/turret/unsc/lobby//what do you think this is for?
+	ai = /ai/turret/special/lobby
+
 /mob/living/simple/turret/deployable
 	name = "deployed sentry"
 	icon = 'icons/mob/living/simple/turret_deployable_2.dmi'

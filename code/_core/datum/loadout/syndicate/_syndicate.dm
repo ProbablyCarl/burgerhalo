@@ -572,7 +572,7 @@
 		/obj/item/storage/ammo/buckshot,
 		/obj/item/storage/ammo/buckshot,
 		/obj/item/grenade/timed/explosive/halo,
-		/obj/item/halo/mortar,
+//		/obj/item/halo/mortar,
 		/obj/item/supply_remote/crates/ammunition,
 		/obj/item/supply_remote/crates/ammunition,
 		/obj/item/supply_remote/crates/ammunition,
@@ -642,5 +642,6 @@
 		/obj/item/clothing/head/helmet/halo/insurrection/commander,
 		/obj/item/clothing/overwear/hardsuit/halo/soe/commander,
 		/obj/item/clothing/belt/storage/colored/black,
-		/obj/item/weapon/melee/sword/curvedsword
+		/obj/item/weapon/melee/sword/curvedsword,
+		/obj/item/halo/mortar,
 	)

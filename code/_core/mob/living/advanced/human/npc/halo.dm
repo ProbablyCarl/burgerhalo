@@ -8,6 +8,9 @@
 	dialogue_id = /dialogue/npc/soldier/
 	var/loadout_to_use = /loadout/halo/unsc_soldier
 
+/mob/living/advanced/npc/halo/marine/lobby
+	ai = /ai/advanced/nanotrasen/lobby
+
 /mob/living/advanced/npc/halo/marine/Initialize()
 
 	. = ..()
@@ -107,6 +110,9 @@
 
 	var/loadout_to_use = /loadout/nt/halo/covenant/unggoyminor
 
+/mob/living/advanced/npc/halo/unggoy/lobby
+	ai = /ai/advanced/halo/unggoy/lobby
+
 /mob/living/advanced/npc/halo/unggoy/Initialize()
 
 	. = ..()
@@ -158,6 +164,9 @@
 /mob/living/advanced/npc/halo/kigyar/ranged
 	icon_state = "halo_kigyar1"
 	loadout_to_use = /loadout/nt/halo/covenant/kigyar_ranged
+
+/mob/living/advanced/npc/halo/kigyar/ranged/lobby
+	ai = /ai/advanced/halo/kigyar/lobby
 
 /mob/living/advanced/npc/halo/elite
 	name = "Elite Minor"

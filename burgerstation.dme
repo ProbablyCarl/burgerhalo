@@ -1262,6 +1262,7 @@
 #include "code\_core\obj\item\container\food\dynamic\fish.dm"
 #include "code\_core\obj\item\container\food\dynamic\meat.dm"
 #include "code\_core\obj\item\container\food\package\_package.dm"
+#include "code\_core\obj\item\container\food\package\halo.dm"
 #include "code\_core\obj\item\container\food\package\junk.dm"
 #include "code\_core\obj\item\container\food\sandwich\_sandwich.dm"
 #include "code\_core\obj\item\container\medicine\_medicine.dm"
